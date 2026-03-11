@@ -4,9 +4,9 @@ Struktur global repositori:
 
 - `README.md`
 - `docs/`
-- `shelves/`
+- `topics/`
 - `assets/`
 
 Detail aturan lokal berada di:
-- `shelves/<rak>/docs/`
-- `shelves/<rak>/<book>/docs/`
+- `topics/<topic>/docs/`
+- `topics/<topic>/<module>/docs/`

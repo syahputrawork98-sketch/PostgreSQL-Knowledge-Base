@@ -1,17 +1,22 @@
 # PostgreSQL Knowledge Base
 
-> Perpustakaan pengetahuan PostgreSQL yang terstruktur seperti perpustakaan nyata: **Perpustakaan -> Rak -> Buku**
+> Basis pengetahuan PostgreSQL yang disusun untuk belajar bertahap: **Knowledge Base -> Topic -> Module**
 
 ## Tentang Proyek Ini
 
-**PostgreSQL Knowledge Base** adalah repositori yang dirancang sebagai perpustakaan pengetahuan tentang PostgreSQL.
+**PostgreSQL Knowledge Base** adalah repositori yang dirancang untuk memecah pengetahuan PostgreSQL menjadi unit belajar kecil yang lebih mudah dipahami.
 
-Alih-alih menyimpan catatan secara acak atau tersebar, repositori ini mengorganisasikan pengetahuan PostgreSQL dalam struktur yang jelas dan sistematis.
+Alih-alih membaca satu dokumentasi besar dari awal sampai akhir, repositori ini mengelompokkan materi ke dalam struktur yang jelas dan sistematis.
 
-Struktur utama repositori ini mengikuti konsep perpustakaan:
+Struktur operasional repositori ini adalah:
+- **Knowledge Base** -> seluruh repositori
+- **Topic** -> kelompok topik utama PostgreSQL
+- **Module** -> unit belajar kecil yang fokus pada satu topik
+
+Sebagai analogi pembelajaran, struktur ini juga bisa dibayangkan seperti perpustakaan:
 - **Perpustakaan** -> seluruh repositori
-- **Rak** -> kategori utama topik PostgreSQL
-- **Buku** -> panduan atau dokumentasi tentang satu topik tertentu
+- **Rak** -> kelompok topik
+- **Buku kecil** -> unit belajar kecil
 
 Pendekatan ini membuat pengetahuan lebih mudah:
 - dipelajari
@@ -26,17 +31,25 @@ Pendekatan ini membuat pengetahuan lebih mudah:
 Repositori ini dibangun menggunakan model berikut:
 
 ```text
+Knowledge Base
+`-- Topic
+    `-- Module
+```
+
+Sebagai metafora pembelajaran:
+
+```text
 Perpustakaan
 `-- Rak
-    `-- Buku
+    `-- Buku kecil
 ```
 
 Implementasi di dalam repositori:
 
 ```text
-Repository (Library)
-`-- Shelf (Folder Rak)
-    `-- Book (Folder Buku)
+Repository (Knowledge Base)
+`-- Topic (Folder Topic)
+    `-- Module (Folder Module)
         |-- README.md
         |-- docs/
         `-- CHANGELOG.md
@@ -52,11 +65,11 @@ Struktur utama repositori ini adalah sebagai berikut:
 postgresql-knowledge-base/
 |-- README.md
 |-- docs/
-|-- shelves/
+|-- topics/
 |   |-- 01_fundamentals/
 |   |   |-- README.md
 |   |   |-- docs/
-|   |   `-- book-01-.../
+|   |   `-- module-01-.../
 |   |       |-- README.md
 |   |       |-- docs/
 |   |       |-- CHANGELOG.md
@@ -80,12 +93,12 @@ postgresql-knowledge-base/
 Repositori ini menggunakan **3 level folder `docs`** agar aturan tidak saling bertabrakan:
 
 1. `docs/` di root: aturan dan penjelasan level repositori.
-2. `shelves/<rak>/docs/`: aturan dan penjelasan level rak.
-3. `shelves/<rak>/<book>/docs/`: aturan dan penjelasan level buku.
+2. `topics/<topic>/docs/`: aturan dan penjelasan level topic.
+3. `topics/<topic>/<module>/docs/`: aturan dan penjelasan level module.
 
 ### 1) Root `docs/`
 
-Root `docs` hanya membahas hal dalam scope root (global repositori), bukan aturan detail rak atau buku.
+Root `docs` hanya membahas hal dalam scope root, bukan aturan detail topic atau module.
 
 Contoh isi:
 
@@ -97,107 +110,107 @@ docs/
 `-- contribution-guidelines.md
 ```
 
-### 2) Rack `docs/`
+### 2) Topic `docs/`
 
-Setiap rak wajib punya folder `docs` untuk aturan di scope rak.
+Setiap topic wajib punya folder `docs` untuk aturan di scope topic.
 
 Contoh:
 
 ```text
-shelves/03_indexing/docs/
-|-- rack-scope.md
-|-- rack-structure-rules.md
-`-- rack-writing-guidelines.md
+topics/03_indexing/docs/
+|-- topic-scope.md
+|-- topic-structure-rules.md
+`-- topic-writing-guidelines.md
 ```
 
 Cakupan utamanya:
-- apa saja yang wajib ada di folder rak
-- cara menulis `README.md` rak
-- cara menyusun katalog dan urutan baca buku di rak tersebut
+- apa saja yang wajib ada di folder topic
+- cara menulis `README.md` topic
+- cara menyusun katalog dan urutan baca module di topic tersebut
 
-### 3) Book `docs/`
+### 3) Module `docs/`
 
-Setiap buku wajib punya folder `docs` untuk aturan di scope buku.
+Setiap module wajib punya folder `docs` untuk aturan di scope module.
 
 Contoh:
 
 ```text
-shelves/03_indexing/book-01-btree-index/docs/
-|-- book-scope.md
+topics/03_indexing/module-01-btree-index/docs/
+|-- module-scope.md
 |-- writing-guidelines.md
 `-- contribution-guidelines.md
 ```
 
 Cakupan utamanya:
-- aturan penulisan buku
-- aturan kontribusi buku
-- penjelasan tambahan yang spesifik untuk buku tersebut
+- aturan penulisan module
+- aturan kontribusi module
+- penjelasan tambahan yang spesifik untuk module tersebut
 
 ---
 
-## Struktur Rak
+## Struktur Topic
 
-Setiap **rak** adalah folder yang berisi kumpulan buku dengan topik yang sama.
+Setiap **topic** adalah folder yang berisi kumpulan module dengan topik yang sama.
 
-Contoh rak:
+Contoh topic:
 
 ```text
-shelves/03_indexing/
+topics/03_indexing/
 ```
 
-Struktur rak:
+Struktur topic:
 
 ```text
 03_indexing/
 |-- README.md
 |-- docs/
-|-- book-01-btree-index/
-|-- book-02-gin-index/
-|-- book-03-gist-index/
-`-- book-04-partial-index/
+|-- module-01-btree-index/
+|-- module-02-gin-index/
+|-- module-03-gist-index/
+`-- module-04-partial-index/
 ```
 
-### README Rak
+### README Topic
 
-README pada rak berfungsi sebagai:
+README pada topic berfungsi sebagai:
 - pengantar topik
-- katalog buku pada rak tersebut
-- urutan membaca buku
+- katalog module pada topic tersebut
+- urutan membaca module
 
-Folder `docs` pada rak berfungsi sebagai aturan lokal rak dan tidak mengatur detail isi buku.
+Folder `docs` pada topic berfungsi sebagai aturan lokal topic dan tidak mengatur detail isi module.
 
 ---
 
-## Struktur Buku
+## Struktur Module
 
-Setiap **buku** berada di dalam folder sendiri.
+Setiap **module** berada di dalam folder sendiri.
 
 Contoh:
 
 ```text
-book-01-btree-index/
+module-01-btree-index/
 ```
 
-Struktur buku:
+Struktur module:
 
 ```text
-book-01-btree-index/
+module-01-btree-index/
 |-- README.md
 |-- docs/
 |-- CHANGELOG.md
 `-- examples/
 ```
 
-### README Buku
+### README Module
 
-README pada buku berisi isi utama buku tersebut, seperti:
+README pada module berisi isi utama module tersebut, seperti:
 - penjelasan konsep
 - sintaks SQL
 - contoh penggunaan
 - best practices
 - kesalahan umum
 
-Folder `docs` pada buku menyimpan aturan kontribusi dan penulisan yang berlaku untuk buku itu.
+Folder `docs` pada module menyimpan aturan kontribusi dan penulisan yang berlaku untuk module itu.
 
 ---
 
@@ -206,27 +219,27 @@ Folder `docs` pada buku menyimpan aturan kontribusi dan penulisan yang berlaku u
 Agar aturan tidak saling bertabrakan, prinsipnya adalah:
 
 1. Aturan hanya berlaku untuk scope tempat aturan tersebut ditulis.
-2. Root tidak mengatur detail rak/buku.
-3. Rak tidak mengatur detail internal buku.
-4. Buku bebas memiliki aturan penulisan sendiri selama tidak melanggar aturan global root.
+2. Root tidak mengatur detail topic/module.
+3. Topic tidak mengatur detail internal module.
+4. Module bebas memiliki aturan penulisan sendiri selama tidak melanggar aturan global root.
 
 Jika terjadi irisan, gunakan aturan yang paling dekat dengan konteks kerja:
-- kerja di buku -> ikuti aturan buku
-- kerja di rak -> ikuti aturan rak
+- kerja di module -> ikuti aturan module
+- kerja di topic -> ikuti aturan topic
 - kerja di root -> ikuti aturan root
 
 ---
 
-## Log History Buku
+## Log History Module
 
-Setiap buku memiliki **riwayat perubahan** yang disimpan dalam file `CHANGELOG.md`.
+Setiap module memiliki **riwayat perubahan** yang disimpan dalam file `CHANGELOG.md`.
 
 Contoh isi:
 
 ```text
 Version: 1.0.0
-Shelf: 03
-Book: 01
+Topic: 03
+Module: 01
 Title: B-Tree Index
 
 Perubahan:
@@ -249,11 +262,11 @@ Perubahan:
 
 ## Sistem Penomoran
 
-Untuk menjaga konsistensi perpustakaan, sistem penomoran digunakan.
+Untuk menjaga konsistensi repositori, sistem penomoran digunakan.
 
-### Rak
+### Topic
 
-Rak menggunakan format:
+Topic menggunakan format:
 
 ```text
 01
@@ -269,22 +282,22 @@ Contoh:
 03_indexing
 ```
 
-### Buku
+### Module
 
-Buku menggunakan format:
+Module menggunakan format:
 
 ```text
-book-01
-book-02
-book-03
+module-01
+module-02
+module-03
 ```
 
 Contoh:
 
 ```text
-book-01-btree-index
-book-02-gin-index
-book-03-partial-index
+module-01-btree-index
+module-02-gin-index
+module-03-partial-index
 ```
 
 ---
@@ -292,30 +305,60 @@ book-03-partial-index
 ## Tujuan Repositori
 
 Repositori ini bertujuan untuk menjadi:
-- perpustakaan pengetahuan PostgreSQL
-- referensi PostgreSQL yang terstruktur
-- sumber pembelajaran PostgreSQL
-- dokumentasi praktik terbaik PostgreSQL
-- kumpulan studi kasus PostgreSQL
+- basis pengetahuan PostgreSQL yang terstruktur
+- sumber belajar PostgreSQL yang lebih mudah dicerna
+- referensi praktik terbaik PostgreSQL
+- kumpulan unit belajar kecil yang fokus
+- fondasi pembelajaran PostgreSQL jangka panjang
 
 ---
 
-## Prinsip Penulisan Buku
+## Prinsip Penulisan Module
 
-Tidak ada template tunggal yang dipaksakan untuk semua buku.
+Tidak ada template tunggal yang dipaksakan untuk semua module.
 
-Setiap buku mendefinisikan aturan penulisan dan kontribusinya sendiri di folder `docs` buku masing-masing.
+Setiap module mendefinisikan aturan penulisan dan kontribusinya sendiri di folder `docs` module masing-masing.
+
+---
+
+## Prinsip Evolusi Topic Dan Module
+
+Struktur topic dan module di repositori ini bersifat hidup.
+
+Artinya:
+- jumlah module pada suatu topic tidak dianggap final secara kaku
+- module dapat dipecah, digabung, dipindah, atau diurutkan ulang
+- perubahan dilakukan jika pemetaan dari sumber resmi PostgreSQL menunjukkan struktur yang lebih tepat
+- perubahan juga dapat dilakukan jika pengalaman belajar menunjukkan bahwa struktur saat ini terlalu besar, terlalu kecil, atau kurang jelas
+
+Tujuan prinsip ini adalah menjaga repositori tetap:
+- akurat terhadap sumber utama
+- utuh sebagai jalur belajar
+- nyaman dipelajari manusia
+- mudah dipahami AI
+
+## Dua Mode Pemetaan Topic
+
+Repositori ini menggunakan dua pendekatan pemetaan topic:
+
+1. `Foundational topics` menggunakan **pedagogical mapping**
+   Topic seperti `01_fundamentals` dan `02_queries` disusun terutama untuk kenyamanan belajar manusia. Struktur module pada topic ini boleh lebih bebas dari struktur dokumentasi resmi selama jalur belajarnya lebih jelas.
+
+2. `Technical topics` menggunakan **source-aligned mapping**
+   Topic seperti `03_indexing`, `04_performance`, `05_transactions`, dan topic teknis lain setelahnya boleh disusun lebih dekat ke struktur dokumentasi resmi PostgreSQL agar lebih mudah ditelusuri, diverifikasi, dan dipahami oleh AI maupun manusia.
+
+Kedua mode ini sama-sama sah. Yang penting adalah alasan pemetaannya jelas dan tetap menjaga kualitas jalur belajar.
 
 ---
 
 ## Visi Jangka Panjang
 
-Repositori ini dirancang untuk berkembang menjadi **perpustakaan PostgreSQL yang lengkap dan terstruktur**.
+Repositori ini dirancang untuk berkembang menjadi basis pengetahuan PostgreSQL yang lengkap, terstruktur, dan nyaman dipelajari.
 
 Tujuan akhirnya adalah membuat sistem dokumentasi yang:
 - mudah dipelajari oleh pemula
 - berguna bagi praktisi
-- terorganisasi seperti perpustakaan nyata
+- terorganisasi dengan jelas
 - dapat berkembang dalam jangka panjang
 
 ---
@@ -324,10 +367,10 @@ Tujuan akhirnya adalah membuat sistem dokumentasi yang:
 
 Repositori ini sedang dalam tahap pembangunan awal.
 
-Struktur perpustakaan sedang disusun dan buku-buku akan ditambahkan secara bertahap.
+Struktur pembelajaran sedang disusun dan module akan ditambahkan secara bertahap.
 
 ---
 
 ## Prinsip Utama
 
-> Pengetahuan PostgreSQL harus disusun seperti perpustakaan, bukan seperti kumpulan catatan yang tersebar.
+> Pengetahuan PostgreSQL harus disusun sebagai unit belajar yang jelas, bukan seperti kumpulan catatan yang tersebar.

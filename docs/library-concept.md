@@ -1,10 +1,18 @@
 # Library Concept
 
-PostgreSQL Knowledge Base menggunakan konsep:
+PostgreSQL Knowledge Base menggunakan dua lapisan konsep:
 
-Perpustakaan -> Rak -> Buku
+## Istilah Operasional
+
+Knowledge Base -> Topic -> Module
 
 Implementasi:
-- Repositori = Perpustakaan
-- Folder `shelves/` = kumpulan Rak
-- Folder `book-*` = Buku
+- Repositori = Knowledge Base
+- Folder `topics/` = kumpulan Topic
+- Folder `module-*` = Module
+
+## Metafora Pembelajaran
+
+Perpustakaan -> Rak -> Buku kecil
+
+Metafora ini hanya digunakan untuk membantu memahami struktur, bukan sebagai istilah operasional utama.

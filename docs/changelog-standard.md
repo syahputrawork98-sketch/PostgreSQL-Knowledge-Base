@@ -1,13 +1,13 @@
 # Changelog Standard (Global)
 
-Setiap buku wajib memiliki CHANGELOG.md.
+Setiap module wajib memiliki `CHANGELOG.md`.
 
 ## Format Minimum
 
 - Version
 - Date
-- Shelf
-- Book
+- Topic
+- Module
 - Title
 - Perubahan
 
