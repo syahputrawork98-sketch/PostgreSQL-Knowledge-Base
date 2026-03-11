@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="540" viewBox="0 0 960 540" role="img" aria-labelledby="title desc">
+  <title id="title">Struktur schema dan table</title>
+  <desc id="desc">Diagram sederhana yang menunjukkan database berisi schema, schema berisi table, table berisi column dan row.</desc>
+  <style>
+    .bg { fill: #f6f3ea; }
+    .database { fill: #18324b; }
+    .schema { fill: #e6f2ea; stroke: #357356; stroke-width: 2.5; }
+    .table { fill: #fffdf9; stroke: #ba8130; stroke-width: 2.5; }
+    .column { fill: #edf3fb; stroke: #55708a; stroke-width: 1.5; }
+    .row { fill: #fff2d9; stroke: #c29443; stroke-width: 1.5; }
+    .title { fill: #ffffff; font-family: Segoe UI, Arial, sans-serif; font-size: 24px; font-weight: 700; }
+    .head { fill: #1b2733; font-family: Segoe UI, Arial, sans-serif; font-size: 20px; font-weight: 700; }
+    .body { fill: #1b2733; font-family: Segoe UI, Arial, sans-serif; font-size: 16px; }
+    .small { fill: #526172; font-family: Segoe UI, Arial, sans-serif; font-size: 14px; }
+    .line { stroke: #8b6a2b; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+  </style>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="8" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#8b6a2b"/>
+    </marker>
+  </defs>
+
+  <rect class="bg" width="960" height="540" rx="20"/>
+  <rect class="database" x="40" y="40" width="880" height="460" rx="24"/>
+  <text class="title" x="75" y="82">Database: school_db</text>
+  <text class="small" x="75" y="110" fill="#d7e2ec">Di dalam database terdapat schema dan object lain</text>
+
+  <rect class="schema" x="90" y="150" width="250" height="250" rx="20"/>
+  <text class="head" x="120" y="190">Schema</text>
+  <text class="body" x="120" y="220">public</text>
+  <text class="small" x="120" y="255">Ruang pengelompokan object</text>
+
+  <rect class="table" x="390" y="130" width="270" height="290" rx="20"/>
+  <text class="head" x="420" y="170">Table</text>
+  <text class="body" x="420" y="200">students</text>
+  <text class="small" x="420" y="230">Tempat data benar-benar disimpan</text>
+
+  <rect class="column" x="430" y="255" width="190" height="40" rx="10"/>
+  <text class="body" x="450" y="281">student_id</text>
+  <rect class="column" x="430" y="305" width="190" height="40" rx="10"/>
+  <text class="body" x="450" y="331">full_name</text>
+  <rect class="column" x="430" y="355" width="190" height="40" rx="10"/>
+  <text class="body" x="450" y="381">birth_date</text>
+
+  <rect class="row" x="710" y="185" width="170" height="70" rx="16"/>
+  <text class="head" x="760" y="220">Row</text>
+  <text class="small" x="735" y="242">1 | Alya Putri | ...</text>
+
+  <rect class="row" x="710" y="285" width="170" height="70" rx="16"/>
+  <text class="head" x="760" y="320">Row</text>
+  <text class="small" x="733" y="342">2 | Bima Saputra | ...</text>
+
+  <path class="line" d="M340 250 C365 250, 365 250, 390 250"/>
+  <path class="line" d="M660 220 C685 220, 685 220, 710 220"/>
+  <path class="line" d="M660 320 C685 320, 685 320, 710 320"/>
+
+  <text class="small" x="365" y="238">berisi table</text>
+  <text class="small" x="664" y="205">berisi data</text>
+  <text class="small" x="665" y="305">dalam row</text>
+  <text class="small" x="423" y="445">Column menentukan struktur, row menyimpan record aktual.</text>
+</svg>

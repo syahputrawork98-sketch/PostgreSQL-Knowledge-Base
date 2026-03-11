@@ -29,6 +29,17 @@ Contoh database:
 
 Artinya, database adalah konteks kerja utama tempat object-object lain nantinya dibuat.
 
+## Analogi Ringan
+
+Cara sederhana untuk membayangkan `database` adalah seperti satu gedung kerja dengan tujuan tertentu.
+
+- PostgreSQL server seperti kawasan yang memiliki banyak gedung
+- satu `database` seperti satu gedung aktif
+- di dalam gedung itu ada beberapa ruangan kerja
+- ruangan kerja itu nanti bisa dibayangkan sebagai `schema`
+
+Dengan analogi ini, kita lebih mudah memahami bahwa saat terhubung ke PostgreSQL, kita tidak berjalan bebas ke semua tempat sekaligus. Kita sedang masuk ke satu gedung tertentu, lalu bekerja di dalam konteks gedung itu.
+
 ## Posisi Database Dalam Struktur PostgreSQL
 
 Cara berpikir sederhananya seperti ini:
@@ -45,6 +56,12 @@ Ringkasnya:
 - server mengelola banyak database
 - database mengelola banyak schema
 - schema mengelola banyak table dan object lain
+
+## Diagram Posisi Database
+
+![Diagram posisi database dalam PostgreSQL](assets/database-position-overview.svg)
+
+Diagram ini membantu menunjukkan bahwa `database` berada di tengah antara `server` dan object-object yang lebih detail seperti `schema` dan `table`.
 
 ## Beda Database, Schema, Dan Table
 
@@ -188,6 +205,8 @@ SELECT current_database();
 Lihat folder `examples/` untuk latihan singkat membuat, mengecek, dan memahami konteks database aktif.
 
 Jalankan contoh secara bertahap agar hubungan antara server, database, dan object di dalamnya terasa lebih jelas.
+
+Jika perlu, lihat kembali diagram pada bagian awal agar konteks `server -> database -> schema -> table` tetap konsisten saat membaca contoh.
 
 ## Ringkasan
 

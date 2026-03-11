@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">Kesalahan umum pemula PostgreSQL</title>
+  <desc id="desc">Infografik ringan yang merangkum beberapa kesalahan umum pemula saat belajar PostgreSQL fundamentals.</desc>
+  <style>
+    .bg { fill: #f7f2ea; }
+    .header { fill: #18324b; }
+    .cardA { fill: #fff3d9; stroke: #c49033; stroke-width: 2; }
+    .cardB { fill: #eef4fb; stroke: #58728b; stroke-width: 2; }
+    .cardC { fill: #e8f4ea; stroke: #427959; stroke-width: 2; }
+    .title { fill: #ffffff; font-family: Segoe UI, Arial, sans-serif; font-size: 24px; font-weight: 700; }
+    .head { fill: #1c2833; font-family: Segoe UI, Arial, sans-serif; font-size: 18px; font-weight: 700; }
+    .body { fill: #1c2833; font-family: Segoe UI, Arial, sans-serif; font-size: 14px; }
+    .small { fill: #536273; font-family: Segoe UI, Arial, sans-serif; font-size: 14px; }
+  </style>
+
+  <rect class="bg" width="960" height="560" rx="20"/>
+  <rect class="header" x="40" y="30" width="880" height="80" rx="18"/>
+  <text class="title" x="70" y="78">Kesalahan Umum Pemula PostgreSQL</text>
+  <text class="small" x="70" y="100" fill="#d7e3ee">Ringkasan jebakan yang paling sering muncul di tahap fundamentals</text>
+
+  <rect class="cardA" x="60" y="140" width="260" height="130" rx="18"/>
+  <text class="head" x="85" y="180">Salah Paham Object</text>
+  <text class="body" x="85" y="210">Database, schema, dan table</text>
+  <text class="body" x="85" y="232">sering tercampur di kepala.</text>
+
+  <rect class="cardB" x="350" y="140" width="260" height="130" rx="18"/>
+  <text class="head" x="375" y="180">Semua Jadi TEXT</text>
+  <text class="body" x="375" y="210">Tipe data dipilih asal mudah,</text>
+  <text class="body" x="375" y="232">bukan sesuai arti nilai.</text>
+
+  <rect class="cardC" x="640" y="140" width="260" height="130" rx="18"/>
+  <text class="head" x="665" y="180">DEFAULT Disalahpahami</text>
+  <text class="body" x="665" y="210">Nilai bawaan dianggap cukup</text>
+  <text class="body" x="665" y="232">menggantikan constraint.</text>
+
+  <rect class="cardB" x="60" y="320" width="260" height="130" rx="18"/>
+  <text class="head" x="94" y="360">UPDATE Tanpa WHERE</text>
+  <text class="body" x="85" y="390">Semua row bisa berubah tanpa</text>
+  <text class="body" x="85" y="412">disengaja.</text>
+
+  <rect class="cardC" x="350" y="320" width="260" height="130" rx="18"/>
+  <text class="head" x="386" y="360">DELETE Tanpa WHERE</text>
+  <text class="body" x="375" y="390">Semua row bisa terhapus jika</text>
+  <text class="body" x="375" y="412">query dijalankan ceroboh.</text>
+
+  <rect class="cardA" x="640" y="320" width="260" height="130" rx="18"/>
+  <text class="head" x="678" y="360">Tidak Verifikasi Hasil</text>
+  <text class="body" x="665" y="390">Perubahan salah sering baru</text>
+  <text class="body" x="665" y="412">disadari terlambat.</text>
+</svg>

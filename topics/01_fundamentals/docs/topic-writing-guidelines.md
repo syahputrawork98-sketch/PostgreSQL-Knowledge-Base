@@ -10,3 +10,9 @@ Gaya penulisan:
 - sederhana dan ramah pemula
 - istilah teknis konsisten
 - tidak masuk terlalu dalam ke detail isi tiap module
+
+Panduan analogi dan visual:
+- gunakan analogi hanya jika benar-benar membantu konsep abstrak menjadi lebih mudah dipahami
+- gunakan SVG atau diagram bila relasi object, hirarki, atau alur proses lebih jelas secara visual
+- jangan memaksa semua module memiliki analogi atau SVG; pilih berdasarkan nilai pedagogisnya
+- untuk module yang sangat konseptual di fundamentals, analogi dan visual sangat disarankan

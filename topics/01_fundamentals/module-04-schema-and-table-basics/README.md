@@ -54,6 +54,18 @@ Artinya:
 - schema: `public`
 - table: `students`
 
+## Analogi Inti
+
+Cara sederhana untuk membayangkan struktur ini adalah seperti ruang arsip:
+
+- `database` seperti satu pusat arsip
+- `schema` seperti ruangan atau zona di dalam pusat arsip
+- `table` seperti lemari data
+- `column` seperti label field pada formulir
+- `row` seperti satu lembar formulir yang sudah terisi
+
+Analogi ini membantu membedakan bahwa `schema` bukan tempat menyimpan data langsung. Data tetap disimpan di `table`, sedangkan `schema` membantu mengelompokkan table dan object lain.
+
 ## Apa Itu Table
 
 `table` adalah object utama untuk menyimpan data secara terstruktur.
@@ -124,6 +136,12 @@ FROM public.students;
 ```
 
 Di sini `public.students` menunjukkan bahwa table `students` berada di schema `public`.
+
+## Diagram Struktur Schema Dan Table
+
+![Diagram struktur schema dan table](assets/schema-table-structure.svg)
+
+Diagram ini menunjukkan bagaimana `database`, `schema`, `table`, `column`, dan `row` tersusun dari level yang lebih besar ke level yang lebih detail.
 
 ## Membuat Table Sederhana
 
@@ -204,6 +222,8 @@ Jalankan contoh secara bertahap agar pembaca bisa melihat bahwa:
 - table dibuat di schema tertentu
 - table berisi column
 - data masuk sebagai row
+
+Kalau perlu, lihat kembali diagram pada bagian awal agar pembaca tetap melihat struktur besar sebelum fokus ke contoh SQL.
 
 ## Ringkasan
 

@@ -7,3 +7,5 @@ Pedoman penulisan module ini:
 3. Gunakan contoh SQL pendek yang menonjolkan struktur object.
 4. Hindari terlalu cepat masuk ke desain data lanjutan.
 5. Tambahkan kesalahan umum pemula saat membahas struktur object.
+6. Gunakan analogi singkat bila itu membantu membedakan level object.
+7. Sertakan minimal satu SVG atau diagram yang memperjelas struktur schema dan table.

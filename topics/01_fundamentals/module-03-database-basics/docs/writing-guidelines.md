@@ -7,3 +7,5 @@ Pedoman penulisan module ini:
 3. Gunakan contoh SQL atau command yang pendek dan aman untuk pemula.
 4. Tambahkan peringatan saat membahas operasi yang bersifat destruktif.
 5. Jaga materi tetap di level fundamentals, tidak masuk ke administrasi mendalam.
+6. Gunakan analogi ringan bila membantu menjelaskan konteks database.
+7. Sertakan minimal satu SVG atau diagram untuk memperjelas posisi database dalam struktur PostgreSQL.

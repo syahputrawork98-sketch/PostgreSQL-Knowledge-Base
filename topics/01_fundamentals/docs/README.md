@@ -8,6 +8,7 @@ Folder ini menyimpan aturan level topic `01_fundamentals`.
 - pedoman penulisan README topic
 - aturan katalog dan urutan baca
 - aturan kontribusi level topic
+- panduan analogi dan aset visual untuk module fundamentals
 
 ## Batas Scope
 

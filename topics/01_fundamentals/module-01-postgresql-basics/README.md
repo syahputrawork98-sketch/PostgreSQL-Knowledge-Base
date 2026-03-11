@@ -58,6 +58,25 @@ Kalau diibaratkan:
 - `row` seperti satu lembar data
 - `column` seperti field pada formulir
 
+## Analogi Inti
+
+Kalau ingin membayangkan PostgreSQL dengan cara yang sederhana, gunakan analogi perpustakaan administrasi:
+
+- PostgreSQL server seperti sistem gedung utama
+- `database` seperti satu gedung arsip dengan tujuan tertentu
+- `schema` seperti ruangan yang membagi isi arsip
+- `table` seperti lemari formulir
+- `row` seperti satu lembar formulir terisi
+- `column` seperti label field pada formulir
+
+Analogi ini tidak sempurna, tetapi cukup membantu untuk membedakan level object sebelum masuk ke syntax SQL.
+
+## Diagram Gambaran Dasar
+
+![Diagram gambaran dasar PostgreSQL](assets/postgresql-basics-overview.svg)
+
+Diagram ini menunjukkan hubungan paling dasar antara server PostgreSQL, database, schema, table, column, dan row.
+
 ## PostgreSQL Sebagai Database Relasional
 
 Database relasional menyimpan data ke dalam tabel yang punya struktur jelas. Setiap tabel biasanya mewakili satu entitas, misalnya:
@@ -171,6 +190,8 @@ Kesalahan yang sering terjadi:
 Lihat contoh SQL di folder `examples/` untuk latihan pembuka yang sangat sederhana.
 
 Mulailah dengan membaca alurnya, lalu jalankan perintah satu per satu agar terlihat hubungan antara struktur tabel dan operasi CRUD dasar.
+
+Jika perlu, lihat kembali diagram pada bagian awal agar hubungan antar object tetap terasa jelas saat membaca contoh SQL.
 
 ## Ringkasan
 

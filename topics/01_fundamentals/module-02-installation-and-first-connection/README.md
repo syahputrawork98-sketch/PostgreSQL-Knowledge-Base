@@ -64,6 +64,17 @@ Pada setup lokal sederhana, nilai yang sering dipakai adalah:
 
 Nilai ini bisa berbeda pada mesin atau lingkungan tertentu, jadi pembaca harus terbiasa melihat konfigurasi nyata yang dipakai di sistemnya.
 
+## Analogi Ringan Untuk Koneksi
+
+Cara sederhana untuk membayangkan koneksi awal adalah seperti masuk ke sebuah gedung yang punya alamat dan aturan akses:
+
+- `host` seperti alamat gedung yang dituju
+- `port` seperti pintu masuk yang dipakai
+- `username` dan `password` seperti identitas akses
+- nama `database` seperti ruangan kerja tujuan setelah kita berhasil masuk
+
+Analogi ini membantu menjelaskan bahwa koneksi gagal tidak selalu berarti PostgreSQL rusak. Bisa jadi alamatnya salah, pintunya salah, identitasnya salah, atau ruangan yang dituju memang belum ada.
+
 ## Mengecek Apakah PostgreSQL Sudah Terpasang
 
 Salah satu pengecekan awal yang paling berguna adalah memastikan client `psql` tersedia.
