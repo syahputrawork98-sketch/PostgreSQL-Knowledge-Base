@@ -16,11 +16,13 @@ Penyimpanan pengetahuan mengikuti struktur 8-Rak (Anatomy s/d Matrix Intersectio
 
 ## 🎖️ 3. Gold Standard Requirements (PPM V4)
 Setiap `README.md` materi wajib berisi:
-1. Source Link (Official PostgreSQL Documentation).
-2. Dual Definition (Relational Theory & SQL Implementation).
-3. Mermaid Diagram (ERD / Query Execution Flow).
-4. Under-the-hood Mechanics (MVCC, WAL, & Vacuuming).
-5. Practical Lab (examples/).
+1. **Source Link**: Referensi sumber primer (Official Docs).
+2. **Brief & Detailed Explanation**: Penjelasan singkat diikuti penjelasan mendalam.
+3. **Analogy**: Penggunaan analogi untuk mempermudah pamahaman.
+4. **Mermaid Diagram**: Visualisasi (Flowchart, Sequence, ERD, dll).
+5. **Under-the-hood Mechanics**: Mekanisme internal (Bagaimana ia bekerja di level rendah).
+6. **Practical Lab**: Contoh kode yang bisa dijalankan (examples/).
+7. **Pitfalls & Anti-Patterns**: Jebakan umum dan praktik buruk.
 
 ## 🤖 4. AI Persona & Expertise
 - **Role**: PostgreSQL Database Administrator (DBA).
