@@ -43,6 +43,12 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 ## Catatan Refinement (Batch 3)
 Setelah Batch 2, Rak 01 diperjelas agar menampung materi non-teknis/fondasi konseptual seperti sejarah PostgreSQL, asal-usul POSTGRES, filosofi, analogi, dan evolusi PostgreSQL. Perubahan dilakukan sebagai batch refinement kecil karena struktur masih skeleton.
 
+## Catatan Standarisasi (Batch 4)
+- Standar penulisan materi resmi dikunci (Struktur Rak -> Buku -> Bab -> Sub-bab).
+- Sub-bab menjadi heading di dalam file Bab secara default.
+- Glosarium ditempatkan di `materi/00-index-dan-jalur-belajar/02-glosarium-istilah-postgresql/`.
+- Peta relasi materi ditempatkan di `materi/00-index-dan-jalur-belajar/03-peta-relasi-materi-postgresql.md`.
+
 ---
 *Diputuskan pada: 2026-05-16*
 *Oleh: Room Chat 00 & Syah (Owner)*
