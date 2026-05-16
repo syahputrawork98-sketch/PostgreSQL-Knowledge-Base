@@ -1,21 +1,30 @@
-# Pusat Materi PostgreSQL
+# Perpustakaan Materi PostgreSQL
 
-Selamat datang di folder **materi**. Folder ini adalah jantung dari PostgreSQL Living Knowledge Base, tempat semua pengetahuan, tutorial, dan referensi PostgreSQL disimpan dan diorganisir.
+Selamat datang di folder **materi**, perpustakaan utama **PostgreSQL Living Knowledge Base**. Folder ini dirancang sebagai pustaka pengetahuan komprehensif yang mencakup spektrum luas PostgreSQL, mulai dari Level 0 hingga Level 9 (Expert).
 
-### Struktur Materi
-Materi diorganisir menggunakan pola:
-**Rak** (Folder Utama) → **Buku** (Kategori Topik) → **Bab** (Detail Materi).
+### Struktur Rak (Domain Ilmu)
+Materi disusun dalam bentuk **Rak**, di mana setiap rak mewakili domain ilmu atau spesialisasi tertentu dalam ekosistem PostgreSQL.
 
-### Daftar Rak Utama:
+1.  **[00 - Index dan Jalur Belajar](./00-index-dan-jalur-belajar/)**: Pusat navigasi dan panduan belajar lintas level.
+2.  **[01 - Fondasi PostgreSQL](./01-fondasi-postgresql/)**: Dasar-dasar RDBMS dan pengenalan PostgreSQL.
+3.  **[02 - SQL dan Querying](./02-sql-dan-querying/)**: Penguasaan bahasa SQL untuk manipulasi data.
+4.  **[03 - Desain Data dan Schema](./03-desain-data-dan-schema/)**: Prinsip perancangan dan integritas data.
+5.  **[04 - PostgreSQL untuk Aplikasi](./04-postgresql-untuk-aplikasi/)**: Integrasi database dengan pengembangan software.
+6.  **[05 - Fitur PostgreSQL Lanjutan](./05-fitur-postgresql-lanjutan/)**: Fitur modern seperti JSONB, FTS, dan Window Functions.
+7.  **[06 - Transaksi, Concurrency, dan MVCC](./06-transaksi-concurrency-dan-mvcc/)**: Manajemen transaksi dan isolasi user.
+8.  **[07 - Indexing, Query Planner, dan Performance](./07-indexing-query-planner-dan-performance/)**: Optimasi query dan pemahaman engine.
+9.  **[08 - Administrasi DBA dan Operasional](./08-administrasi-dba-dan-operasional/)**: Pengelolaan server dan operasional harian.
+10. **[09 - Backup, Recovery, Replication, dan HA](./09-backup-recovery-replication-dan-ha/)**: Strategi ketersediaan tinggi dan pemulihan data.
+11. **[10 - Security, Role Permission, dan Governance](./10-security-role-permission-dan-governance/)**: Keamanan dan tata kelola akses.
+12. **[11 - Arsitektur dan Internals PostgreSQL](./11-arsitektur-dan-internals-postgresql/)**: Bedah mekanisme internal mesin PostgreSQL.
+13. **[12 - Troubleshooting dan Debugging](./12-troubleshooting-dan-debugging/)**: Diagnosa masalah dan penanganan error.
+14. **[13 - Studi Kasus dan Praktik Project](./13-studi-kasus-dan-praktik-project/)**: Implementasi nyata pada berbagai skenario.
+15. **[14 - Interview, Tes Teknis, dan Konsultasi](./14-interview-tes-teknis-dan-konsultasi/)**: Karir dan skenario konsultasi ahli.
+16. **[15 - Referensi Cepat dan Cheatsheet](./15-referensi-cepat-dan-cheatsheet/)**: Ringkasan perintah untuk akses cepat.
+17. **[16 - Version Updates dan Release Notes](./16-version-updates-dan-release-notes/)**: Dokumentasi perkembangan versi terbaru.
 
-1. **[00 - Peta Belajar](./00-peta-belajar/)**: Panduan alur belajar (roadmap) PostgreSQL.
-2. **[01 - Tutorial Dasar](./01-tutorial-dasar/)**: Langkah awal memulai, instalasi, dan koneksi.
-3. **[02 - SQL Dasar](./02-sql-dasar/)**: Penguasaan sintaks SELECT, manipulasi data (DML), dan JOIN.
-4. **[03 - Desain Database](./03-desain-database/)**: Prinsip skema, relasi, dan normalisasi.
-5. **[04 - Konsep Mendalam](./04-konsep-mendalam/)**: Transaksi (ACID), Indexing, dan optimasi performa.
-6. **[05 - Praktik Project](./05-praktik-project/)**: Implementasi PostgreSQL pada skenario aplikasi nyata.
-7. **[06 - Interview Preparation](./06-interview-preparation/)**: Persiapan pertanyaan konsep dan skenario praktis.
-8. **[07 - Version Updates](./07-version-updates/)**: Catatan fitur baru pada tiap rilis utama PostgreSQL.
+### Jalur Belajar
+Untuk navigasi jalur belajar yang disarankan (misalnya untuk Backend Developer atau DBA), silakan kunjungi rak **[00 - Index dan Jalur Belajar](./00-index-dan-jalur-belajar/)**.
 
 ---
-*Status: SKELETON (Kerangka dasar telah dibuat, pengisian materi detail akan dilakukan secara bertahap).*
+*Catatan: Pengerjaan isi saat ini difokuskan pada Level 0 hingga Level 4. Rak Level 5 ke atas disiapkan sebagai kerangka pengembangan masa depan.*

@@ -1,8 +1,8 @@
 # Status Saat Ini
 
-- **Fase**: Inisialisasi Kerangka Materi (Batch 1).
-- **Kondisi**: Struktur rak, buku, dan bab awal telah berhasil dibangun.
+- **Fase**: Batch 2 - Expert-Scale Materi Structure.
+- **Kondisi**: Struktur 17 rak (00-16) telah berhasil dibangun sebagai fondasi perpustakaan expert.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
-- **Fokus Utama**: Menjaga kebersihan struktur Rak -> Buku -> Bab.
-- **Client/Server**: Belum dikerjakan (Placeholder).
+- **Fokus Utama**: Merapikan struktur materi dari Level 0 hingga Level 9.
+- **Client/Server**: Tetap HOLD.
 - **Source of Truth**: GitHub.
