@@ -1,18 +1,27 @@
 # PostgreSQL untuk Aplikasi
 
 Status: SKELETON
+Level: Level 3 - Level 4
+Peran: Integrasi database dengan aplikasi dan best practices development.
+Target: Backend Developer yang menghubungkan aplikasi ke PostgreSQL.
 
-Peran rak ini:
-Integrasi database dengan aplikasi dan best practices development.
+## 1. Tujuan Rak
 
-Target level:
-Level 3 - Level 4
+## 2. Untuk Siapa Rak Ini?
 
-Rencana isi:
-- Connectivity (Drivers)
-- Migrations & Seeding
-- ORM vs Raw SQL
+## 3. Prasyarat
 
+## 4. Daftar Buku
 
-Catatan:
-Pada batch ini belum perlu membuat semua buku dan bab detail.
+| No | Buku | Status | Fokus |
+|---|---|---|---|
+| | | | |
+
+## 5. Jalur Belajar yang Disarankan
+
+## 6. Output yang Diharapkan
+
+## 7. Catatan Scope
+
+## 8. Referensi Utama
+

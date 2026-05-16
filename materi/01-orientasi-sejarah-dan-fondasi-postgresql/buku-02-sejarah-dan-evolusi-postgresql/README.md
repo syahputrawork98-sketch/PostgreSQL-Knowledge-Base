@@ -1,14 +1,28 @@
 # Sejarah dan Evolusi PostgreSQL
 
 Status: SKELETON
+Rak: Orientasi, Sejarah, dan Fondasi PostgreSQL
+Level: Level 0 - Level 1
+Tipe Materi: Tutorial
+Target: Mempelajari Sejarah dan Evolusi PostgreSQL
 
-Tujuan buku:
-- Menelusuri jejak langkah PostgreSQL dari proyek POSTGRES hingga saat ini.
+## 1. Tujuan Buku
 
-Daftar bab:
-- [bab-01-asal-usul-postgres.md](bab-01-asal-usul-postgres.md)
-- [bab-02-dari-postgres-ke-postgresql.md](bab-02-dari-postgres-ke-postgresql.md)
-- [bab-03-evolusi-postgresql-dari-waktu-ke-waktu.md](bab-03-evolusi-postgresql-dari-waktu-ke-waktu.md)
+## 2. Hasil Belajar
 
-Catatan:
-Materi detail akan ditulis pada batch pengisian materi.
+## 3. Prasyarat
+
+## 4. Daftar Bab
+
+| No | Bab | Status | Tipe | Ringkasan |
+|---|---|---|---|---|
+| | | | | |
+
+## 5. Urutan Belajar
+
+## 6. Koneksi ke Project Nyata
+
+## 7. Batasan Buku
+
+## 8. Referensi Utama
+

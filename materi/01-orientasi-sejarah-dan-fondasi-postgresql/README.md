@@ -1,20 +1,27 @@
-# 01 - Orientasi, Sejarah, dan Fondasi PostgreSQL
+# Orientasi, Sejarah, dan Fondasi PostgreSQL
 
 Status: SKELETON
+Level: Level 0 - Level 1
+Peran: Pintu masuk utama untuk memahami filosofi dan sejarah PostgreSQL.
+Target: Pemula yang baru mengenal PostgreSQL.
 
-Rak ini adalah pintu masuk utama PostgreSQL Living Knowledge Base sebelum masuk ke aspek teknis SQL dan praktik. Di sini, kita akan mengeksplorasi mengapa PostgreSQL ada, bagaimana sejarahnya, serta filosofi yang menjadikannya salah satu database terbaik di dunia.
+## 1. Tujuan Rak
 
-Peran rak ini:
-Rak ini mencakup orientasi PostgreSQL, sejarah dan asal-usulnya dari proyek POSTGRES di Berkeley, evolusi fitur dari waktu ke waktu, filosofi relational database, analogi untuk pemula, serta fondasi konseptual database seperti integritas data dan constraints.
+## 2. Untuk Siapa Rak Ini?
 
-Target level:
-Level 0 - Level 1
+## 3. Prasyarat
 
-Rencana isi:
-- **Buku 01**: Orientasi PostgreSQL
-- **Buku 02**: Sejarah dan Evolusi PostgreSQL
-- **Buku 03**: Filosofi dan Mental Model PostgreSQL
-- **Buku 04**: Fondasi Konsep Database
+## 4. Daftar Buku
 
-Catatan:
-Pada batch ini belum perlu membuat semua buku dan bab detail.
+| No | Buku | Status | Fokus |
+|---|---|---|---|
+| | | | |
+
+## 5. Jalur Belajar yang Disarankan
+
+## 6. Output yang Diharapkan
+
+## 7. Catatan Scope
+
+## 8. Referensi Utama
+

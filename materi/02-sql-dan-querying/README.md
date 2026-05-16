@@ -1,18 +1,27 @@
 # SQL dan Querying
 
 Status: SKELETON
+Level: Level 1 - Level 2
+Peran: Fokus pada penguasaan bahasa SQL untuk manipulasi dan pengambilan data.
+Target: Developer yang ingin mahir menulis query PostgreSQL.
 
-Peran rak ini:
-Fokus pada penguasaan bahasa SQL untuk manipulasi dan pengambilan data.
+## 1. Tujuan Rak
 
-Target level:
-Level 1 - Level 2
+## 2. Untuk Siapa Rak Ini?
 
-Rencana isi:
-- DQL (SELECT)
-- DML (INSERT/UPDATE/DELETE)
-- Subqueries & Aggregation
+## 3. Prasyarat
 
+## 4. Daftar Buku
 
-Catatan:
-Pada batch ini belum perlu membuat semua buku dan bab detail.
+| No | Buku | Status | Fokus |
+|---|---|---|---|
+| | | | |
+
+## 5. Jalur Belajar yang Disarankan
+
+## 6. Output yang Diharapkan
+
+## 7. Catatan Scope
+
+## 8. Referensi Utama
+

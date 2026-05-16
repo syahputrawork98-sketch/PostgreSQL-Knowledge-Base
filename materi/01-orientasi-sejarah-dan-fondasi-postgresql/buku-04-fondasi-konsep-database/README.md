@@ -1,14 +1,28 @@
 # Fondasi Konsep Database
 
 Status: SKELETON
+Rak: Orientasi, Sejarah, dan Fondasi PostgreSQL
+Level: Level 0 - Level 1
+Tipe Materi: Tutorial
+Target: Mempelajari Fondasi Konsep Database
 
-Tujuan buku:
-- Dasar-dasar objek database dan aturan dasar yang harus dipahami.
+## 1. Tujuan Buku
 
-Daftar bab:
-- [bab-01-database-table-row-dan-column.md](bab-01-database-table-row-dan-column.md)
-- [bab-02-schema-dan-relasi.md](bab-02-schema-dan-relasi.md)
-- [bab-03-data-integrity-dan-constraint.md](bab-03-data-integrity-dan-constraint.md)
+## 2. Hasil Belajar
 
-Catatan:
-Materi detail akan ditulis pada batch pengisian materi.
+## 3. Prasyarat
+
+## 4. Daftar Bab
+
+| No | Bab | Status | Tipe | Ringkasan |
+|---|---|---|---|---|
+| | | | | |
+
+## 5. Urutan Belajar
+
+## 6. Koneksi ke Project Nyata
+
+## 7. Batasan Buku
+
+## 8. Referensi Utama
+

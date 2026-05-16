@@ -1,14 +1,28 @@
 # Filosofi dan Mental Model PostgreSQL
 
 Status: SKELETON
+Rak: Orientasi, Sejarah, dan Fondasi PostgreSQL
+Level: Level 0 - Level 1
+Tipe Materi: Tutorial
+Target: Mempelajari Filosofi dan Mental Model PostgreSQL
 
-Tujuan buku:
-- Membangun pemahaman konseptual dan filosofis tentang cara kerja PostgreSQL.
+## 1. Tujuan Buku
 
-Daftar bab:
-- [bab-01-filosofi-relational-database.md](bab-01-filosofi-relational-database.md)
-- [bab-02-postgresql-sebagai-penjaga-integritas-data.md](bab-02-postgresql-sebagai-penjaga-integritas-data.md)
-- [bab-03-analogi-postgresql-untuk-pemula.md](bab-03-analogi-postgresql-untuk-pemula.md)
+## 2. Hasil Belajar
 
-Catatan:
-Materi detail akan ditulis pada batch pengisian materi.
+## 3. Prasyarat
+
+## 4. Daftar Bab
+
+| No | Bab | Status | Tipe | Ringkasan |
+|---|---|---|---|---|
+| | | | | |
+
+## 5. Urutan Belajar
+
+## 6. Koneksi ke Project Nyata
+
+## 7. Batasan Buku
+
+## 8. Referensi Utama
+
