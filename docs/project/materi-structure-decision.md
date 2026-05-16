@@ -16,7 +16,7 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 | No | Nama Rak | Fokus Utama | Target Level |
 |---|---|---|---|
 | 00 | Index dan Jalur Belajar | Navigasi & Roadmap | Lintas Level |
-| 01 | Fondasi PostgreSQL | Pengenalan & Konsep Dasar | L0 - L1 |
+| 01 | Orientasi, Sejarah, dan Fondasi PostgreSQL | Orientasi, sejarah, filosofi, dan fondasi awal | L0 - L1 |
 | 02 | SQL dan Querying | Bahasa SQL & DML/DQL | L1 - L2 |
 | 03 | Desain Data dan Schema | Modeling & Integritas | L2 - L3 |
 | 04 | PostgreSQL untuk Aplikasi | Dev Workflow & ORM | L3 - L4 |
@@ -39,6 +39,9 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 - **Fase C**: Pengisian konten mendalam untuk Level 5-6.
 - **Fase D**: Pengisian materi DBA/Ops untuk Level 7-8.
 - **Fase E**: Materi Internals dan Konsultasi Level 9.
+
+## Catatan Refinement (Batch 3)
+Setelah Batch 2, Rak 01 diperjelas agar menampung materi non-teknis/fondasi konseptual seperti sejarah PostgreSQL, asal-usul POSTGRES, filosofi, analogi, dan evolusi PostgreSQL. Perubahan dilakukan sebagai batch refinement kecil karena struktur masih skeleton.
 
 ---
 *Diputuskan pada: 2026-05-16*

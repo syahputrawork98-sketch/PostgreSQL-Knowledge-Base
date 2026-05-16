@@ -6,7 +6,7 @@ Selamat datang di folder **materi**, perpustakaan utama **PostgreSQL Living Know
 Materi disusun dalam bentuk **Rak**, di mana setiap rak mewakili domain ilmu atau spesialisasi tertentu dalam ekosistem PostgreSQL.
 
 1.  **[00 - Index dan Jalur Belajar](./00-index-dan-jalur-belajar/)**: Pusat navigasi dan panduan belajar lintas level.
-2.  **[01 - Fondasi PostgreSQL](./01-fondasi-postgresql/)**: Dasar-dasar RDBMS dan pengenalan PostgreSQL.
+2.  **[01 - Orientasi, Sejarah, dan Fondasi PostgreSQL](./01-orientasi-sejarah-dan-fondasi-postgresql/)**: Pintu masuk PostgreSQL yang membahas orientasi, sejarah, filosofi, analogi, dan fondasi awal database.
 3.  **[02 - SQL dan Querying](./02-sql-dan-querying/)**: Penguasaan bahasa SQL untuk manipulasi data.
 4.  **[03 - Desain Data dan Schema](./03-desain-data-dan-schema/)**: Prinsip perancangan dan integritas data.
 5.  **[04 - PostgreSQL untuk Aplikasi](./04-postgresql-untuk-aplikasi/)**: Integrasi database dengan pengembangan software.
