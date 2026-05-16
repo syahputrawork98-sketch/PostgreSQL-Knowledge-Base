@@ -166,7 +166,7 @@ SELECT nama_produk, harga, stok FROM produk;
 - [Apa Itu PostgreSQL](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)
 
 ### Materi Berikutnya
-- Filtering Data dengan WHERE *(Segera Datang)*
+- [Mengambil Seluruh Kolom](./bab-02-mengambil-seluruh-kolom.md)
 
 ### Materi Terkait
 - [Optimasi Query Planner](../../07-indexing-query-planner-dan-performance/)

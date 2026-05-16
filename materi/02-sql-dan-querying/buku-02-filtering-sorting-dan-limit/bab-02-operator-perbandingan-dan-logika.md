@@ -184,7 +184,7 @@ WHERE (kategori = 'Makanan' OR kategori = 'Minuman')
 - [Klausa WHERE Dasar](./bab-01-klausa-where-dasar.md)
 
 ### Materi Berikutnya
-- Operator Pencarian Khusus IN, BETWEEN, dan LIKE *(Segera Datang)*
+- [Mengenal Schema PostgreSQL](../../03-desain-data-dan-schema/buku-01-konsep-table-schema-dan-relasi/bab-01-mengenal-schema-postgresql.md)
 
 ### Materi Terkait
 - [Indexing, Query Planner, dan Performance](../../07-indexing-query-planner-dan-performance/)

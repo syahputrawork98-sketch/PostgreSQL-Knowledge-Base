@@ -151,7 +151,7 @@ CREATE TABLE produk (
 - Tidak ada (Ini adalah Bab Pembuka).
 
 ### Materi Berikutnya
-- [Struktur Perintah SELECT](../../02-sql-dan-querying/buku-01-dasar-sql-dan-query-select/bab-01-struktur-perintah-select.md)
+- [Kenapa PostgreSQL Penting](./bab-02-kenapa-postgresql-penting.md)
 
 ### Materi Terkait
 - [Arsitektur dan Internals PostgreSQL](../../11-arsitektur-dan-internals-postgresql/)

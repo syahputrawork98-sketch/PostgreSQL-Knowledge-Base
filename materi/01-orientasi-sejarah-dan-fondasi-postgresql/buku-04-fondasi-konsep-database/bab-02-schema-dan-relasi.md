@@ -174,7 +174,7 @@ CREATE TABLE sales.pesanan (
 - [Database, Table, Row, dan Column](./bab-01-database-table-row-dan-column.md)
 
 ### Materi Berikutnya
-- Selesai (Ini adalah Bab Penutup Buku Fondasi Konsep Database).
+- [Struktur Perintah SELECT](../../02-sql-dan-querying/buku-01-dasar-sql-dan-query-select/bab-01-struktur-perintah-select.md)
 
 ### Materi Terkait
 - [Desain Data dan Schema](../../03-desain-data-dan-schema/)

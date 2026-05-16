@@ -167,7 +167,7 @@ WHERE rating <= 2;
 - [Mengambil Seluruh Kolom](../../02-sql-dan-querying/buku-01-dasar-sql-dan-query-select/bab-02-mengambil-seluruh-kolom.md)
 
 ### Materi Berikutnya
-- Operator Logika AND, OR, dan NOT *(Segera Datang)*
+- [Operator Perbandingan dan Logika](./bab-02-operator-perbandingan-dan-logika.md)
 
 ### Materi Terkait
 - [Indexing, Query Planner, dan Performance](../../07-indexing-query-planner-dan-performance/)

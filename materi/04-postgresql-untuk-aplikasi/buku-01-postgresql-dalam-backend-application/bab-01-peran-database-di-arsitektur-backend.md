@@ -153,10 +153,10 @@ WHERE produk_id = 15 AND stok > 0;
 - [Apa Itu PostgreSQL](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)
 
 ### Materi Sebelumnya
-- [Apa Itu PostgreSQL](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)
+- [Check dan Unique Constraint](../../03-desain-data-dan-schema/buku-02-primary-key-foreign-key-dan-constraint/bab-03-check-dan-unique-constraint.md)
 
 ### Materi Berikutnya
-- Menghubungkan Aplikasi Backend ke PostgreSQL *(Segera Datang)*
+- [Database Driver dan Connection Pooling](./bab-02-database-driver-dan-connection-pooling.md)
 
 ### Materi Terkait
 - [Administrasi DBA dan Operasional](../../08-administrasi-dba-dan-operasional/)

@@ -172,7 +172,7 @@ WHERE produk_id = 2;
 - [Mengenal Schema PostgreSQL](../../03-desain-data-dan-schema/buku-01-konsep-table-schema-dan-relasi/bab-01-mengenal-schema-postgresql.md)
 
 ### Materi Berikutnya
-- Relasi Data dengan Foreign Key *(Segera Datang)*
+- [Foreign Key dan Referential Integrity](./bab-02-foreign-key-dan-referential-integrity.md)
 
 ### Materi Terkait
 - [Arsitektur dan Internals PostgreSQL](../../11-arsitektur-dan-internals-postgresql/)

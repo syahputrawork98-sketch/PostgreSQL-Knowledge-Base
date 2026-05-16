@@ -168,7 +168,7 @@ SELECT nama_produk, harga FROM produk;
 - [Database Driver dan Connection Pooling](./bab-02-database-driver-dan-connection-pooling.md)
 
 ### Materi Berikutnya
-- Tidak ada (Ini adalah Bab Penutup Buku).
+- [Apa Itu Database Migration](../buku-03-migration-seed-dan-versioning-schema/bab-01-apa-itu-database-migration.md)
 
 ### Materi Terkait
 - [Administrasi DBA dan Operasional](../../08-administrasi-dba-dan-operasional/)

@@ -1,6 +1,6 @@
 # Katalog Rak Materi
 
-Status: SKELETON
+Status: DRAFT
 
 Daftar seluruh rak dalam PostgreSQL Living Knowledge Base berdasarkan domain ilmu.
 

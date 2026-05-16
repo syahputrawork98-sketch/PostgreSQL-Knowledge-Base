@@ -175,10 +175,10 @@ CREATE TABLE audit.activity_logs (
 - [Apa Itu PostgreSQL](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)
 
 ### Materi Sebelumnya
-- [Apa Itu PostgreSQL](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)
+- [Operator Perbandingan dan Logika](../../02-sql-dan-querying/buku-02-filtering-sorting-dan-limit/bab-02-operator-perbandingan-dan-logika.md)
 
 ### Materi Berikutnya
-- Merancang Tabel dan Constraints *(Segera Datang)*
+- [Pentingnya Primary Key](../buku-02-primary-key-foreign-key-dan-constraint/bab-01-pentingnya-primary-key.md)
 
 ### Materi Terkait
 - [Security, Role Permission, dan Governance](../../10-security-role-permission-dan-governance/)

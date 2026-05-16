@@ -199,7 +199,7 @@ CREATE TABLE order_items (
 - [Pentingnya Primary Key](./bab-01-pentingnya-primary-key.md)
 
 ### Materi Berikutnya
-- Mengenal Check Constraint dan Default Value *(Segera Datang)*
+- [Check dan Unique Constraint](./bab-03-check-dan-unique-constraint.md)
 
 ### Materi Terkait
 - [SQL dan Querying](../../02-sql-dan-querying/) (Kueri penggabungan data via JOIN)

@@ -146,7 +146,7 @@ WHERE 'sql' = ANY(tags);
 - [Apa Itu PostgreSQL](./bab-01-apa-itu-postgresql.md)
 
 ### Materi Berikutnya
-- [Struktur Perintah SELECT](../../02-sql-dan-querying/buku-01-dasar-sql-dan-query-select/bab-01-struktur-perintah-select.md)
+- [Database, Table, Row, dan Column](../buku-04-fondasi-konsep-database/bab-01-database-table-row-dan-column.md)
 
 ### Materi Terkait
 - [Fitur PostgreSQL Lanjutan](../../05-fitur-postgresql-lanjutan/)

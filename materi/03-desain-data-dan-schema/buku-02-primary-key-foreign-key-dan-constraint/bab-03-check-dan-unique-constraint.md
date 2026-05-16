@@ -174,7 +174,7 @@ CREATE TABLE ulasan_produk (
 - [Foreign Key dan Referential Integrity](./bab-02-foreign-key-dan-referential-integrity.md)
 
 ### Materi Berikutnya
-- Selesai (Ini adalah Bab Penutup Buku Primary Key Foreign Key dan Constraint).
+- [Peran Database di Arsitektur Backend](../../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-01-peran-database-di-arsitektur-backend.md)
 
 ### Materi Terkait
 - [SQL dan Querying](../../02-sql-dan-querying/)

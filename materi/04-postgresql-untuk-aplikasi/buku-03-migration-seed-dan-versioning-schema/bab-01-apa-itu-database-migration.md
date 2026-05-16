@@ -164,10 +164,10 @@ ALTER TABLE karyawan ADD CONSTRAINT uq_karyawan_email UNIQUE (email);
 - [Foreign Key dan Referential Integrity](../../03-desain-data-dan-schema/buku-02-primary-key-foreign-key-dan-constraint/bab-02-foreign-key-dan-referential-integrity.md)
 
 ### Materi Sebelumnya
-- Tidak ada (Ini adalah Bab Pembuka Buku).
+- [Keamanan Koneksi Database](../buku-01-postgresql-dalam-backend-application/bab-03-keamanan-koneksi-database.md)
 
 ### Materi Berikutnya
-- Mengenal Database Seed dan Pengisian Data Awal *(Segera Datang)*
+- [Kembali ke Jalur Belajar Utama](../../00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md)
 
 ### Materi Terkait
 - [Administrasi DBA dan Operasional](../../08-administrasi-dba-dan-operasional/)

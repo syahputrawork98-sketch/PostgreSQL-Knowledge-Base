@@ -154,7 +154,7 @@ FROM artikel;
 - [Struktur Perintah SELECT](./bab-01-struktur-perintah-select.md)
 
 ### Materi Berikutnya
-- Filtering Data dengan WHERE *(Segera Datang)*
+- [Klausa WHERE Dasar](../buku-02-filtering-sorting-dan-limit/bab-01-klausa-where-dasar.md)
 
 ### Materi Terkait
 - [Indexing, Query Planner, dan Performance](../../07-indexing-query-planner-dan-performance/)

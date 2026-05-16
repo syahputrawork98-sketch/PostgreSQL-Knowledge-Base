@@ -149,7 +149,7 @@ WHERE produk_id = 12;
 - [Peran Database di Arsitektur Backend](./bab-01-peran-database-di-arsitektur-backend.md)
 
 ### Materi Berikutnya
-- Mengelola Skema Database dengan Migrasi *(Segera Datang)*
+- [Keamanan Koneksi Database](./bab-03-keamanan-koneksi-database.md)
 
 ### Materi Terkait
 - [Administrasi DBA dan Operasional](../../08-administrasi-dba-dan-operasional/)

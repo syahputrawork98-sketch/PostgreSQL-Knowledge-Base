@@ -159,7 +159,7 @@ VALUES ('Kopi Cappuccino Latte', 22000.00, 30);
 - Tidak ada (Ini adalah Bab Pembuka Buku).
 
 ### Materi Berikutnya
-- [Pentingnya Primary Key](../../03-desain-data-dan-schema/buku-02-primary-key-foreign-key-dan-constraint/bab-01-pentingnya-primary-key.md)
+- [Schema dan Relasi](./bab-02-schema-dan-relasi.md)
 
 ### Materi Terkait
 - [SQL dan Querying](../../02-sql-dan-querying/)
