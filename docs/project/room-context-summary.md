@@ -12,11 +12,11 @@ Menyediakan pusat pengetahuan PostgreSQL yang terstruktur, mendalam, dan memilik
 GitHub (setelah proses commit/push oleh user).
 
 ## 4. Status Batch Terakhir
-*   **Batch 9** — Draf Lanjutan Terakhir Level 0-4 (Selesai & disetujui).
-*   **Batch 10 (Current)** — Docs Sync dan Evaluasi Fase Pertama.
+*   **Batch 15** — Cleanup Ringan Konsistensi Materi Batch 12-14 (Selesai & disetujui).
+*   **Batch 15.1 (Current)** — Mini Docs Checkpoint setelah Batch 15 selesai.
 
-## 5. Hasil Fase Pertama (Batch 6-9)
-Telah diselesaikan penulisan **16 Bab DRAFT awal** di Rak 01 s/d Rak 04 untuk tingkat pemula hingga menengah (Level 0-4). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).
+## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14)
+Telah diselesaikan penulisan total **28 Bab DRAFT** di Rak 01 s/d Rak 04 untuk tingkat pemula hingga menengah (Level 0-2). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).
 
 ## 6. Struktur Root
 - `README.md` & `FITUR.md`: Gambaran umum dan rencana fitur.
@@ -33,7 +33,7 @@ Mengikuti pola: **Rak** (Folder 00-16) $\rightarrow$ **Buku** (Folder Topik) $\r
 ## 9. Kebijakan Sumber (Source Policy)
 - Sumber utama wajib dari **PostgreSQL Official Documentation**.
 - AI membantu menyusun struktur, draf, dan analogi; bukan sumber kebenaran utama.
-- Seluruh 16 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang sebelum diberi status `VERIFIED`.
+- Seluruh 28 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang (direncanakan pada **Batch 20**) sebelum diberi status `VERIFIED`.
 
 ## 10. Larangan Scope
 Dilarang mengerjakan UI/Frontend, Backend API, Authentication, Database App aktif, atau teknologi non-PostgreSQL (seperti MongoDB) sebelum fase materi dinyatakan stabil dan disetujui oleh Owner.
