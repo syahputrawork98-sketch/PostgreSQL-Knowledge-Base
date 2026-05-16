@@ -23,8 +23,8 @@ Di akhir bab ini, pembaca diharapkan mampu:
 - Mengidentifikasi skenario relasi data sederhana seperti satu-ke-banyak (*one-to-many*) pada entitas bisnis nyata.
 
 ## 2. Prasyarat
-- Memahami dasar konsep sistem database (baca: [Apa Itu PostgreSQL](../../buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)).
-- Mengetahui posisi konseptual PostgreSQL dibanding jenis database lainnya (baca: [Posisi PostgreSQL di Dunia Database](../../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)).
+- Memahami dasar konsep sistem database (baca: [Apa Itu PostgreSQL](../buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)).
+- Mengetahui posisi konseptual PostgreSQL dibanding jenis database lainnya (baca: [Posisi PostgreSQL di Dunia Database](../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)).
 
 ## 3. Ringkasan Cepat
 Filosofi dasar database relasional adalah memisahkan cara data disimpan secara fisik di memori/disk komputer dari cara data direpresentasikan secara logis kepada program aplikasi. Data disusun ke dalam tabel dua dimensi (relasi) yang kaku dan teratur. Manfaat terbesar dari sistem database relasional (RDBMS) bukanlah pada kapasitas penyimpanannya, melainkan pada kemampuannya untuk menjamin bahwa data Anda selalu konsisten, terbebas dari duplikasi yang sia-sia, dan patuh terhadap aturan logika matematika yang presisi.
@@ -185,10 +185,10 @@ INNER JOIN pelanggan c ON p.pelanggan_id = c.pelanggan_id;
 - Buku: [Filosofi dan Mental Model PostgreSQL](../)
 
 ### Prasyarat
-- [Posisi PostgreSQL di Dunia Database](../../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)
+- [Posisi PostgreSQL di Dunia Database](../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)
 
 ### Materi Sebelumnya
-- [Posisi PostgreSQL di Dunia Database](../../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)
+- [Posisi PostgreSQL di Dunia Database](../buku-01-orientasi-postgresql/bab-03-posisi-postgresql-di-dunia-database.md)
 
 ### Materi Berikutnya
 - [PostgreSQL sebagai Penjaga Integritas Data](./bab-02-postgresql-sebagai-penjaga-integritas-data.md)

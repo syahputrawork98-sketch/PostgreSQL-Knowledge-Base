@@ -23,7 +23,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 - Memahami peran mendasar operasi **JOIN** sebagai metode untuk merekatkan kembali lembaran data lintas tabel dalam hasil kueri.
 
 ## 2. Prasyarat
-- Memahami dasar filosofi penyimpanan data relasional (baca: [Filosofi Relational Database](../../materi/01-orientasi-sejarah-dan-fondasi-postgresql/buku-03-filosofi-dan-mental-model-postgresql/bab-01-filosofi-relational-database.md)).
+- Memahami dasar filosofi penyimpanan data relasional (baca: [Filosofi Relational Database](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-03-filosofi-dan-mental-model-postgresql/bab-01-filosofi-relational-database.md)).
 - Mampu melakukan kueri pengurutan data menggunakan klausa ORDER BY (baca: [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)).
 
 ## 3. Ringkasan Cepat

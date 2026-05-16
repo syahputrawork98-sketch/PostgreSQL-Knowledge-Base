@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami dasar filosofi database relasional berbasis tabel (baca: [Filosofi Relational Database](./bab-01-filosofi-relational-database.md)).
-- Mengetahui bahwa database berinteraksi dengan SQL kueri (baca: [Struktur Perintah SELECT](../../buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)).
+- Mengetahui bahwa database berinteraksi dengan SQL kueri (baca: [Struktur Perintah SELECT](../buku-01-orientasi-postgresql/bab-01-apa-itu-postgresql.md)).
 
 ## 3. Ringkasan Cepat
 Integritas data adalah fondasi utama dari keandalan arsitektur backend sistem informasi. Di PostgreSQL, penegakan kebenaran data tidak diserahkan sepenuhnya ke kode aplikasi luar yang rentan mengalami kesalahan kode (*bug*), melainkan dikunci rapat di tingkat database melalui mekanisme **Constraints** (batasan nilai) dan **Transactions** (proses penulisan aman). Dengan jaminan kepatuhan penuh pada prinsip transaksi **ACID**, PostgreSQL memastikan data Anda selalu utuh, valid, konsisten, dan aman dari kerusakan meskipun server database mendadak mati lampu di tengah jalan.

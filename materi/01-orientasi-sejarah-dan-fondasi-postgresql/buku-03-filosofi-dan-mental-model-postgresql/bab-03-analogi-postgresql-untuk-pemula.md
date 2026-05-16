@@ -171,7 +171,7 @@ FROM kategori_komik.rak_komik_jepang;
 - [PostgreSQL sebagai Penjaga Integritas Data](./bab-02-postgresql-sebagai-penjaga-integritas-data.md)
 
 ### Materi Berikutnya
-- [Database, Table, Row, dan Column](../../buku-04-fondasi-konsep-database/bab-01-database-table-row-dan-column.md)
+- [Database, Table, Row, dan Column](../buku-04-fondasi-konsep-database/bab-01-database-table-row-dan-column.md)
 
 ### Materi Terkait
 - [Desain Data dan Schema](../../03-desain-data-dan-schema/) (Membahas skema tingkat mendalam)

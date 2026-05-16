@@ -177,10 +177,10 @@ ORDER BY total_amount DESC, created_at DESC; -- Pengurutan bertingkat
 - Buku: [Filtering Sorting dan Limit](../)
 
 ### Prasyarat
-- [Operator Perbandingan dan Logika](../../buku-02-filtering-sorting-dan-limit/bab-02-operator-perbandingan-dan-logika.md)
+- [Operator Perbandingan dan Logika](./bab-02-operator-perbandingan-dan-logika.md)
 
 ### Materi Sebelumnya
-- [Operator Perbandingan dan Logika](../../buku-02-filtering-sorting-dan-limit/bab-02-operator-perbandingan-dan-logika.md)
+- [Operator Perbandingan dan Logika](./bab-02-operator-perbandingan-dan-logika.md)
 
 ### Materi Berikutnya
 - [Konsep Relasi Antar Tabel](../../buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)

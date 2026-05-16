@@ -183,10 +183,10 @@ WHERE spesifikasi->>'ram' = '8GB' AND harga < 5000000.00;
 - Buku: [Orientasi PostgreSQL](../)
 
 ### Prasyarat
-- [Kenapa PostgreSQL Penting](../buku-01-orientasi-postgresql/bab-02-kenapa-postgresql-penting.md)
+- [Kenapa PostgreSQL Penting](./bab-02-kenapa-postgresql-penting.md)
 
 ### Materi Sebelumnya
-- [Kenapa PostgreSQL Penting](../buku-01-orientasi-postgresql/bab-02-kenapa-postgresql-penting.md)
+- [Kenapa PostgreSQL Penting](./bab-02-kenapa-postgresql-penting.md)
 
 ### Materi Berikutnya
 - [Filosofi Relational Database](../buku-03-filosofi-dan-mental-model-postgresql/bab-01-filosofi-relational-database.md)
