@@ -8,8 +8,9 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 10 batch awal:
 - **Batch 3**: Refinement Rak 01 (Orientasi & Sejarah).
 - **Batch 4**: Kunci standar penulisan materi dan template.
 - **Batch 5**: Sinkronisasi awal skeleton prioritas Level 0-4 berdasarkan standar.
-- **Batch 5.1 (Current)**: Docs sync dan anti-blunder audit.
-- **Batch 6 - 9**: Mulai pengisian materi awal Level 0-4 secara bertahap.
+- **Batch 5.1**: Docs sync dan anti-blunder audit.
+- **Batch 5.2 (Current)**: Official PostgreSQL Source Policy.
+- **Batch 6 - 9**: Mulai pengisian materi awal Level 0-4 berbasis official docs.
 - **Batch 10**: Sinkronisasi dokumentasi project (sync) dan evaluasi fase pertama.
 
 *Catatan: Batch 5.1 memastikan seluruh dokumentasi project konsisten sebelum pengisian materi detail dimulai.*

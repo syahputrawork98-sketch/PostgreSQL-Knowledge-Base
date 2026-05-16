@@ -9,6 +9,10 @@ Target: [Target Pembaca]
 Estimasi Baca: [Contoh: 10 Menit]
 Terakhir Diperiksa: [Tanggal]
 
+Sumber Utama: [Contoh: PostgreSQL Official Documentation]
+Versi Referensi: [Contoh: PostgreSQL docs/current]
+Status Verifikasi Sumber: [SKELETON/REVIEW/VERIFIED]
+
 ---
 
 ## 1. Tujuan Belajar

@@ -65,4 +65,9 @@ Materi ditulis secara berlapis untuk mendukung berbagai kebutuhan pembaca:
 4.  **Konsep & Detail**: Penjelasan teknis mendalam.
 5.  **Contoh (Dasar & Project)**: Implementasi nyata.
 6.  **Kesalahan Umum & Interview Note**: Tips praktis.
-7.  **Latihan & Referensi**: Pengayaan materi.
+## 12. Kebijakan Sumber (Source Policy)
+- **Primary Source**: PostgreSQL Official Documentation.
+- **Release Notes**: Rujukan utama untuk update versi dan fitur baru.
+- **Conflict Rule**: Jika konflik, dokumentasi resmi menang.
+- **AI Rule**: AI hanya alat bantu draft/analogi, bukan sumber kebenaran utama.
+- **Verified Status**: Materi wajib diverifikasi dengan rujukan resmi sebelum berstatus `VERIFIED`.

@@ -12,7 +12,7 @@ Menyediakan pusat pengetahuan PostgreSQL yang terstruktur, mendalam, dan memilik
 GitHub (setelah proses commit/push oleh user).
 
 ## 4. Status Batch Terakhir
-**Batch 5.1** — Docs Sync dan Anti-Blunder Audit (Selesai).
+**Batch 5.2** — Official PostgreSQL Source Policy (Selesai).
 
 ## 5. Struktur Root
 - `README.md` & `FITUR.md`: Gambaran umum dan rencana fitur.
@@ -35,10 +35,15 @@ Rak 01 s/d 04 (Fondasi, SQL Dasar, Desain Data, Integrasi Aplikasi) untuk target
 ## 10. Standar Penulisan
 Wajib menggunakan template yang ada di `docs/project/` (`materi-template-rak.md`, `materi-template-buku.md`, `materi-template-bab.md`).
 
-## 11. Workflow
+## 11. Kebijakan Sumber (Source Policy)
+- Sumber utama wajib dari **PostgreSQL Official Documentation**.
+- AI hanya membantu menyusun draft, struktur, dan analogi; bukan sebagai sumber kebenaran utama.
+- Materi harus diverifikasi terhadap dokumentasi resmi sebelum berstatus `VERIFIED`.
+
+## 12. Workflow
 User (Syah) → Room Chat 00 (Manager) → Gemini 3 Flash (Executor) → Laporan → Commit/Push → Review.
 
-## 12. Larangan Scope
+## 13. Larangan Scope
 Dilarang mengerjakan UI/Frontend, Backend API, Authentication, Database App aktif, atau teknologi non-PostgreSQL (seperti MongoDB) sebelum fase materi selesai.
 
 ---
