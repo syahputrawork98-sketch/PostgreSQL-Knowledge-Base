@@ -1,8 +1,8 @@
 # Status Saat Ini
 
-- **Fase**: Inisialisasi (Batch 0).
-- **Kondisi**: Project dimulai ulang dari nol untuk memastikan struktur yang bersih.
+- **Fase**: Inisialisasi Kerangka Materi (Batch 1).
+- **Kondisi**: Struktur rak, buku, dan bab awal telah berhasil dibangun.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
-- **Fokus Utama**: Membangun kerangka materi PostgreSQL Living Knowledge Base.
+- **Fokus Utama**: Menjaga kebersihan struktur Rak -> Buku -> Bab.
 - **Client/Server**: Belum dikerjakan (Placeholder).
-- **Source of Truth**: GitHub (setelah proses commit/push selesai).
+- **Source of Truth**: GitHub.
