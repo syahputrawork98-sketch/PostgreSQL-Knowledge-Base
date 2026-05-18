@@ -1,27 +1,29 @@
 # Status Saat Ini
 
-- **Fase**: Batch 32 - Sync README Rak/Buku Aktif
+- **Fase**: Batch 33 - Expand Struktur Rak 02 SQL Core
 - **Kondisi**:
-  - **Batch 32**: Telah diselesaikan dengan sukses sebagai sinkronisasi navigasi materi.
-    - Sinkronisasi seluruh README.md lokal pada Rak 01 s/d Rak 08 beserta buku-buku aktif/skeleton di bawahnya agar mencerminkan status aktual 49 Bab DRAFT secara terperinci.
-    - Penyematan catatan tegas mengenai kebijakan *No Fixed Limit* (fleksibilitas rak, buku, bab, sub-bab) di setiap README rak.
-    - Integrasi pranala relatif ke dokumen kebijakan teknis (`book-chapter-depth-policy.md`, `materi-expert-scale-gap-matrix.md`, `materi-writing-standard.md`, `materi-structure-decision.md`).
+  - **Batch 33**: Telah diselesaikan dengan sukses sebagai ekspansi kurikulum SQL Core lanjutan.
+    - Pembuatan 4 folder buku baru di Rak 02 (Buku 05, Buku 06, Buku 07, Buku 08) beserta 4 README.md buku baru.
+    - Pembuatan 13 bab skeleton DRAFT ringan baru untuk memetakan materi DML, NULL semantics, subquery, CTE, dan Window Functions dasar.
+    - Total materi utama berkembang dari **49 Bab DRAFT** menjadi **62 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 02 agar mengindeks seluruh 8 buku dan 25 bab aktif.
+    - Sinkronisasi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) agar merefleksikan 62 Bab DRAFT baru.
+  - **Batch 32**: Telah diselesaikan sebelumnya (Sync README Rak/Buku Aktif).
   - **Batch 31**: Telah diselesaikan sebelumnya (Gap Matrix Struktur Expert-Scale).
   - **Batch 30.3**: Telah diselesaikan sebelumnya (Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab).
   - **Batch 30.2**: Telah diselesaikan sebelumnya (Lock Expert-Scale Book/Chapter Expansion Rules).
   - **Batch 30.1**: Telah diselesaikan sebelumnya (Instruksi portabel, Alur Verifikasi, Riwayat Batch, & Skeleton Berita Rak 17).
-  - Total **49 Bab DRAFT** di Rak 01 s/d Rak 08 tetap terisi lengkap tanpa perubahan (tidak ada penulisan materi teknis baru atau bab baru).
   - Sesuai kebijakan keamanan, semua materi baru berstatus Status: DRAFT dan Status Verifikasi Sumber: REVIEW (belum live-verified ke official docs).
   - Browser/web access belum digunakan.
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Sinkronisasi README/index dan navigasi rak serta buku materi aktif.
+  - Ekspansi struktur kueri SQL Core lanjutan (DML, NULL, Subquery, CTE, Window Functions dasar).
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 33: Expand Rak 02 SQL Core** untuk menulis draf kueri SQL Core tingkat lanjut (Subquery, CTE, Window Functions).
+  - **Rekomendasi Utama**: **Batch 34: Expand Rak 03 Schema & Data Modeling** untuk merancang draf tipe data lanjutan (JSONB, Array, Range, Enum, UUID, TZ) dan constraint canggih.
   - **Opsi Lain**:
-    - **Opsi A — Batch 34: Expand Rak 03 Schema & Data Modeling**: Menulis draf tipe data lanjutan (JSONB, Array, Range, Enum, UUID, TZ) dan constraint canggih.
+    - **Opsi A — Batch 35: Expand Rak 04 PostgreSQL untuk Aplikasi**: Merancang draf koneksi lanjutan, ORM integration, dan optimasi query tingkat backend.
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `684faa6c6fd89e4417edf5d15a967118eeba0241`
+- **Commit Terakhir**: `6707814eb973bbeb3931251f758246b01ccf0029`
