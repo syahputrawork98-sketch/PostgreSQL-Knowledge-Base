@@ -1,13 +1,14 @@
 # Status Saat Ini
 
-- **Fase**: Batch 35 - Expand Struktur Rak 04 PostgreSQL untuk Aplikasi
+- **Fase**: Batch 36 - Activate Struktur Rak 05 Advanced PostgreSQL Features
 - **Kondisi**:
-  - **Batch 35**: Telah diselesaikan dengan sukses sebagai ekspansi kurikulum PostgreSQL untuk Aplikasi.
-    - Pembuatan 4 folder buku baru di Rak 04 (Buku 05, Buku 06, Buku 07, Buku 08) beserta 4 README.md buku baru.
-    - Pembuatan 13 bab skeleton DRAFT ringan baru untuk memetakan prepared statement, parameterization, transaction boundary di service layer, retry & idempotency, pagination strategies, connection pool sizing, pgBouncer, ORM vs native SQL trade-off, dan migration rollback risk.
-    - Total materi utama berkembang dari **76 Bab DRAFT** menjadi **89 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 04 agar mengindeks seluruh 8 buku dan 30 bab aktif.
-    - Sinkronisasi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) agar merefleksikan 89 Bab DRAFT baru.
+  - **Batch 36**: Telah diselesaikan dengan sukses sebagai aktivasi struktur kurikulum Fitur PostgreSQL Lanjutan di Rak 05.
+    - Pembuatan 5 folder buku baru di Rak 05 (Buku 01, Buku 02, Buku 03, Buku 04, Buku 05) beserta 5 README.md buku baru.
+    - Pembuatan 17 bab skeleton DRAFT ringan baru untuk memetakan JSONB vs JSON, kueri JSONB, indexing GIN untuk JSONB, anti-pattern JSONB, konsep Full Text Search, tsvector/tsquery, indexing FTS, Views sebagai abstraksi kueri, Materialized Views, refresh concurrently, SQL/PLpgSQL functions, Stored Procedures transaksional, triggers, and extensions (citext, pg_trgm, uuid-ossp, pgcrypto, pg_stat_statements).
+    - Total materi utama berkembang dari **89 Bab DRAFT** menjadi **106 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 05 agar mengindeks seluruh 5 buku dan 17 bab aktif.
+    - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang akan dirapikan di Batch 40.
+  - **Batch 35**: Telah diselesaikan sebelumnya (Expand Struktur Rak 04 PostgreSQL untuk Aplikasi).
   - **Batch 34**: Telah diselesaikan sebelumnya (Expand Struktur Rak 03 Schema & Data Modeling).
   - **Batch 33**: Telah diselesaikan sebelumnya (Expand Struktur Rak 02 SQL Core).
   - **Batch 32**: Telah diselesaikan sebelumnya (Sync README Rak/Buku Aktif).
@@ -20,12 +21,12 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Ekspansi struktur PostgreSQL untuk aplikasi backend tingkat lanjut (query aman, transaction boundary, pagination dinamis, connection pooling & trade-offs).
+  - Aktivasi struktur Fitur PostgreSQL Lanjutan di Rak 05 (JSONB, Full Text Search, Views/Materialized Views, PL/pgSQL pemrograman database, dan Extensions).
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 36: Expand Rak 07 Indexing, Query Planner, dan Performance** untuk merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
+  - **Rekomendasi Utama**: **Batch 37: Expand Rak 07 Indexing, Query Planner, dan Performance** untuk merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
   - **Opsi Lain**:
-    - **Opsi A — Batch 37: Expand Rak 08 Administrasi, DBA, dan Operasional**: Merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
+    - **Opsi A — Batch 38: Expand Rak 08 Administrasi, DBA, dan Operasional**: Merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `50bc38115231d5b7c43efc78d652f16ed18a2bd2`
+- **Commit Terakhir**: `02db417c7284c04983db37ecbb1b90d485a40b4e`

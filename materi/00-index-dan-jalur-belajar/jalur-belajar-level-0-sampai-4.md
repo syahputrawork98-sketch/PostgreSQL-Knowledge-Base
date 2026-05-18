@@ -189,4 +189,19 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 - **Fokus**: Memahami pentingnya perlindungan data, perbedaan backup vs migration vs seeding, cara mencadangkan database dengan `pg_dump`, melakukan restore dengan `psql` / `pg_restore`, serta latihan simulasi pemulihan (*restore drill*).
 
 ---
+
+## Transisi ke Jalur Belajar Level 5 - 9 (Advanced ke Expert)
+
+Dengan diaktifkannya **Rak 05: Fitur PostgreSQL Lanjutan** (Buku 01 s/d Buku 05, total 17 Bab DRAFT baru), materi pembelajaran mulai bergeser dari Level 4 ke **Level 5 (Intermediate Advanced)**.
+
+Topik-topik Rak 05 meliputi:
+- Pemrosesan JSONB & semi-structured data
+- Pencarian teks modern (Full Text Search)
+- Penggunaan standard Views dan Materialized Views
+- Pemrograman database prosedural (Functions, Procedures, Triggers)
+- Ekosistem Extensions modular dasar
+
+Untuk menjaga integritas peta kurikulum dasar Level 0 - 4 tetap bersih dan fokus pada fondasi utama pengembang backend, seluruh detail urutan dan deskripsi tahapan belajar untuk **Level 5 s/d Level 9 (Advanced, Expert, DBA & Architecture)** — termasuk pemetaan komprehensif Rak 05, Rak 06 (Concurrency & MVCC), Rak 07 (Advanced Indexing & Planner), dan Rak 08 (Advanced Operational/DBA) — akan distrukturkan, dirapikan, dan diregistrasikan secara formal pada **Jalur Belajar Level 5-9** dalam **Batch 40**.
+
+---
 *Catatan: Selesaikan rak secara berurutan untuk hasil belajar yang optimal. Status materi di atas adalah DRAFT dan sedang berada dalam tahap REVIEW verifikasi dokumentasi resmi.*

@@ -41,12 +41,13 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 33**: Expand Struktur Rak 02 SQL Core — **Selesai**.
 - **Batch 34**: Expand Struktur Rak 03 Schema & Data Modeling — **Selesai**.
 - **Batch 35**: Expand Struktur Rak 04 PostgreSQL untuk Aplikasi — **Selesai**.
+- **Batch 36**: Activate Struktur Rak 05 Advanced PostgreSQL Features — **Selesai**.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
 Fase selanjutnya adalah melaksanakan prioritas pengembangan jangka menengah yang telah diidentifikasi dalam [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md):
 
-*   **Rekomendasi Utama — Batch 36: Expand Rak 07 Indexing, Query Planner, dan Performance**: Mulai merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
-*   **Opsi A — Batch 37: Expand Rak 08 Administrasi, DBA, dan Operasional**: Mulai merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
-*   **Opsi B — Mulai official docs verification**: Mulai melakukan verifikasi draf 89 bab aktif terhadap dokumentasi resmi menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+*   **Rekomendasi Utama — Batch 37: Expand Rak 07 Indexing, Query Planner, dan Performance**: Mulai merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
+*   **Opsi A — Batch 38: Expand Rak 08 Administrasi, DBA, dan Operasional**: Mulai merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
+*   **Opsi B — Mulai official docs verification**: Mulai melakukan verifikasi draf 106 bab aktif terhadap dokumentasi resmi menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
