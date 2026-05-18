@@ -45,7 +45,7 @@ Bayangkan Anda adalah bagian dari tim arsitek yang sedang merancang dan memeliha
 - **Skema Database** adalah **Blueprint (Cetak Biru) Arsitektur Candi** tersebut.
 - **Manual Database Editing (Klik GUI)** adalah tindakan developer diam-diam datang ke candi membawa palu di malam hari untuk memahat ruangan baru tanpa menggambar ulang blueprint resminya. Akibatnya, arsitek lain keesokan harinya akan kebingungan karena bentuk fisik candi tidak lagi cocok dengan blueprint kertas yang mereka bawa.
 - **Schema Versioning** adalah **Sistem Cetak Biru Berlembar Terurut (Blueprint Versioning)**. Setiap ada perubahan ruangan, tim wajib mengeluarkan lembar blueprint tambahan: *Lembar 01 (Fondasi awal), Lembar 02 (Penambahan pilar gerbang), Lembar 03 (Pemasangan atap)*.
-- Setiap kali ada candi replika baru yang ingin dibangun di kota lain (**lingkungan server baru**), tim pembangun cukup mengeksekusi blueprint lembar demi lembar secara berurutan. Hasil akhirnya dijamin 100% identik dan tidak ada deviasi arsitektur.
+- Setiap kali ada candi replika baru yang ingin dibangun di kota lain (**lingkungan server baru**), tim pembangun cukup mengeksekusi blueprint lembar demi lembar secara berurutan. Hasil akhirnya dapat dijamin konsisten dan bebas dari deviasi arsitektur.
 
 ## 6. Batas Analogi
 Di dunia arsitektur fisik, begitu semen basah gerbang candi sudah mengeras, sangat sulit untuk melakukan pembatalan (*rollback*) struktur tanpa menghancurkan fisik candi secara kasar.
@@ -162,7 +162,7 @@ UPDATE users SET nomor_hp = telepon WHERE nomor_hp IS NULL;
 -- FASE 3: Tambahkan NOT NULL constraint ke kolom baru setelah semua data tersalin
 ALTER TABLE users ALTER COLUMN nomor_hp SET NOT NULL;
 
--- FASE 4: (Setelah aplikasi versi baru 100% stabil) Hapus kolom lama
+-- FASE 4: (Setelah aplikasi versi baru sepenuhnya stabil) Hapus kolom lama
 ALTER TABLE users DROP COLUMN telepon;
 ```
 

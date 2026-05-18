@@ -89,7 +89,7 @@ Bagan di atas fokus pada pagination konseptual menggunakan `LIMIT`/`OFFSET` (Off
 ### Perilaku Operator LIKE vs ILIKE di PostgreSQL
 Dalam fitur pencarian nama atau barang, input dari form pencarian pengguna sering kali tidak konsisten dalam penggunaan huruf kapital:
 - **LIKE (SQL Standard)**: Bersifat *case-sensitive*. Pencarian `LIKE '%budi%'` tidak akan menemukan baris dengan nama `"Budi Utomo"` karena huruf 'B' kapital tidak cocok dengan 'b' kecil.
-- **ILIKE (PostgreSQL Extension)**: Bersifat *case-insensitive*. Pencarian `ILIKE '%budi%'` akan sukses menemukan `"Budi Utomo"`, `"BUDI SETIAWAN"`, maupun `"doni budiman"`. Ini adalah pilihan wajib untuk fitur search search aplikasi umum.
+- **ILIKE (PostgreSQL Extension)**: Bersifat *case-insensitive*. Pencarian `ILIKE '%budi%'` akan sukses menemukan `"Budi Utomo"`, `"BUDI SETIAWAN"`, maupun `"doni budiman"`. Ini adalah pilihan yang sangat cocok untuk fitur pencarian pada aplikasi umum.
 
 ---
 

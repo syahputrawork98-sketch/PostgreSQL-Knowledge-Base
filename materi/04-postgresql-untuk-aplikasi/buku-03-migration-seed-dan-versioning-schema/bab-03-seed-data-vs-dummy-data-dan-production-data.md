@@ -162,7 +162,7 @@ FROM generate_series(1, 1000) AS i;
 
 ## 16. Catatan Diskusi User
 - **Pertanyaan Umum**: "Bagaimana cara terbaik memicu data tiruan di tim kami tanpa harus menulis generator manual?"
-- **Diskusikan**: Di tingkat aplikasi backend, manfaatkan library generator data populer seperti **Faker.js** (Node.js), **Faker** (Python), atau library tiruan sejenis. Tools ini menghasilkan nama, alamat, kartu kredit, dan detail acak yang terlihat riil namun 100% fiktif sehingga aman dari tuduhan kebocoran data pribadi.
+- **Diskusikan**: Di tingkat aplikasi backend, manfaatkan library generator data populer seperti **Faker.js** (Node.js), **Faker** (Python), atau library tiruan sejenis. Tools ini menghasilkan nama, alamat, kartu kredit, dan detail acak yang terlihat riil namun sepenuhnya fiktif sehingga aman dari tuduhan kebocoran data pribadi.
 
 ---
 

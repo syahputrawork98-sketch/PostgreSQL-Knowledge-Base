@@ -36,7 +36,7 @@ Di dalam pengembangan aplikasi modern, sebagian besar fungsionalitas backend ber
 |---|---|
 | Overfetching | Kondisi di mana aplikasi meminta kolom/data lebih banyak daripada yang sebenarnya dibutuhkan oleh UI. |
 | Underfetching | Kondisi di mana data yang diminta kurang, memicu backend memanggil query tambahan secara beruntun. |
-| SELECT * (Star Query) | Sintaksis SQL untuk menarik seluruh kolom dari suatu tabel (dilarang keras untuk query list). |
+| SELECT * (Star Query) | Sintaksis SQL untuk menarik seluruh kolom dari suatu tabel (sebaiknya dihindari pada endpoint list). |
 | Primary Key Lookup | Operasi pencarian super cepat di PostgreSQL memanfaatkan indeks unik kolom primary key. |
 | Zero Rows Returned | Kondisi di mana kueri SQL sukses dieksekusi tetapi mengembalikan 0 baris (data tidak ditemukan). |
 
@@ -93,7 +93,7 @@ Bagan di atas menggambarkan kueri detail menggunakan `SELECT *`. Di dunia nyata,
 
 ### Karakteristik Kueri Detail
 Kueri detail memiliki karakteristik unik:
-- **Tepat Satu Baris**: Menggunakan filter primary key (`WHERE product_id = 45`). Karena primary key memiliki indeks bawaan, pencarian ini berjalan dalam hitungan mikrodetik (*O(1) complexity*).
+- **Tepat Satu Baris**: Menggunakan filter primary key (`WHERE product_id = 45`). Pencarian ini biasanya sangat efisien karena primary key memiliki index unik bawaan di PostgreSQL.
 - **Kaya Informasi (Rich Data)**: Biasanya menggabungkan tabel master dengan tabel relasi (misalnya order detail membutuhkan join ke user, order items, dan product).
 
 ---
@@ -172,7 +172,7 @@ WHERE o.order_id = 105;
 ---
 
 ## 15. Catatan Interview
-- **Pertanyaan**: "Mengapa kita dilarang keras menggunakan kueri `SELECT *` untuk fitur halaman daftar (list data) di aplikasi kita?"
+- **Pertanyaan**: "Mengapa kita sebaiknya menghindari kueri `SELECT *` untuk fitur halaman daftar (list data) di aplikasi kita?"
 - **Jawaban**: "Karena penggunaan `SELECT *` memicu masalah *overfetching*, di mana kolom-kolom besar yang tidak dibutuhkan oleh antarmuka list (seperti teks deskripsi panjang atau log riwayat) ikut ditarik. Hal ini menyebabkan pemborosan bandwidth jaringan antara database dan backend, membebani alokasi RAM server aplikasi, serta memaksa mesin PostgreSQL melakukan operasi pembacaan disk (I/O) ekstra, yang secara dramatis menurunkan performa respon aplikasi secara keseluruhan."
 
 ---

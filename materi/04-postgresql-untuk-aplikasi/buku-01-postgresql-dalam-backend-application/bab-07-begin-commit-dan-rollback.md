@@ -48,7 +48,7 @@ Bayangkan Anda sedang menulis sebuah **Naskah Novel menggunakan Pensil di Buku K
 - **ROLLBACK** adalah tindakan Anda **mengambil penghapus karet besar lalu menggosok bersih seluruh coretan pensil** di halaman tersebut hingga bersih mengilap karena Anda menyadari alur cerita novel yang Anda tulis di lembar tersebut rusak berantakan. Halaman buku kembali kosong melongpong seolah Anda tidak pernah menulis coretan pensil tersebut.
 
 ## 6. Batas Analogi
-Di buku fisik, menggosok penghapus karet akan meninggalkan bekas noda abu-abu atau merusak serat kertas. Di dalam PostgreSQL, operasi `ROLLBACK` berjalan 100% sempurna tanpa bekas noda fisik sedikit pun di disk penyimpanan karena PostgreSQL memanfaatkan teknologi log penulisan canggih di memori sebelum data benar-benar disahkan ke disk fisik.
+Di buku fisik, menggosok penghapus karet akan meninggalkan bekas noda abu-abu atau merusak serat kertas. Di dalam PostgreSQL, operasi `ROLLBACK` berjalan sangat bersih tanpa bekas noda fisik di disk penyimpanan karena PostgreSQL memanfaatkan teknologi log penulisan canggih di memori sebelum data benar-benar disahkan ke disk fisik.
 
 ## 7. Ilustrasi Konsep
 
