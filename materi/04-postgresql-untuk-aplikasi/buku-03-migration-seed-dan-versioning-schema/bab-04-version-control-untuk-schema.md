@@ -5,7 +5,7 @@ Rak: PostgreSQL untuk Aplikasi
 Buku: Migration Seed dan Versioning Schema
 Level: Level 3 - Level 4
 Tipe Materi: Tutorial
-Target: Backend Developer yang menghubungkan aplikasi to PostgreSQL.
+Target: Backend Developer yang menghubungkan aplikasi ke PostgreSQL.
 Estimasi Baca: 10 Menit
 Terakhir Diperiksa: 2026-05-18
 
