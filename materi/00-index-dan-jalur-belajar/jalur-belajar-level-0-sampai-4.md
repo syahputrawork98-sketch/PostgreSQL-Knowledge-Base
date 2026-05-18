@@ -6,9 +6,9 @@ Status Verifikasi Sumber: REVIEW
 Tujuan Jalur Belajar:
 Membantu pembaca belajar secara terstruktur dari nol (tanpa background database) hingga mampu merancang skema database PostgreSQL yang kokoh, menulis query SQL yang efisien, dan mengintegrasikannya secara aman dengan arsitektur backend modern (Backend Developer Ready).
 
-## Peta Kurikulum 62 Bab DRAFT Lengkap
+## Peta Kurikulum 76 Bab DRAFT Lengkap
 
-Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fondasi PostgreSQL melalui 62 Bab DRAFT lengkap (termasuk draf/skeleton SQL Core lanjutan) dari Rak 01 hingga Rak 08:
+Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fondasi PostgreSQL melalui 76 Bab DRAFT lengkap (termasuk draf/skeleton SQL Core dan Schema Modeling lanjutan) dari Rak 01 hingga Rak 08:
 
 | Urutan | Level | Rak | Buku | Bab | Status | Verifikasi |
 | :---: | :---: | :--- | :--- | :--- | :---: | :---: |
@@ -54,26 +54,40 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 | 40 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 03: Normalisasi | [Bab 01: Normal Form 1-2-3](../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-01-normal-form-1-2-3.md) | DRAFT | REVIEW |
 | 41 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 03: Normalisasi | [Bab 02: Kapan Harus Denormalisasi](../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-02-kapan-harus-denormalisasi.md) | DRAFT | REVIEW |
 | 42 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 03: Normalisasi | [Bab 03: Dampak Desain pada Performa](../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md) | DRAFT | REVIEW |
-| 43 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 01: Peran Database di Backend](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-01-peran-database-di-arsitektur-backend.md) | DRAFT | REVIEW |
-| 44 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 02: Driver & Connection Pooling](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-02-database-driver-dan-connection-pooling.md) | DRAFT | REVIEW |
-| 45 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 03: Keamanan Koneksi Database](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-03-keamanan-koneksi-database.md) | DRAFT | REVIEW |
-| 46 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 04: Query untuk List & Detail Data Aplikasi](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-04-query-untuk-list-dan-detail-data-aplikasi.md) | DRAFT | REVIEW |
-| 47 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 05: Query untuk Filter, Sorting, dan Pagination](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-05-query-untuk-filter-sorting-dan-pagination.md) | DRAFT | REVIEW |
-| 48 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 06: Transaksi Database untuk Aplikasi](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-06-transaksi-database-untuk-aplikasi.md) | DRAFT | REVIEW |
-| 49 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 07: BEGIN, COMMIT, dan ROLLBACK](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-07-begin-commit-dan-rollback.md) | DRAFT | REVIEW |
-| 50 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 01: Konfigurasi Env Var Database](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-01-konfigurasi-env-var-database.md) | DRAFT | REVIEW |
-| 51 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 02: Manajemen Secret Database](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-02-manajemen-secret-database.md) | DRAFT | REVIEW |
-| 52 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 03: Troubleshooting Koneksi Aplikasi](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-03-troubleshooting-koneksi-aplikasi.md) | DRAFT | REVIEW |
-| 53 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 01: Apa Itu Database Migration](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-01-apa-itu-database-migration.md) | DRAFT | REVIEW |
-| 54 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 02: Data Seeding Dasar](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-02-data-seeding-dasar.md) | DRAFT | REVIEW |
-| 55 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 03: Seed Data vs Dummy Data vs Production Data](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-03-seed-data-vs-dummy-data-dan-production-data.md) | DRAFT | REVIEW |
-| 56 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 04: Version Control untuk Schema](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-04-version-control-untuk-schema.md) | DRAFT | REVIEW |
-| 57 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 01: Apa Itu Index Database](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-01-apa-itu-index-database.md) | DRAFT | REVIEW |
-| 58 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 02: Kapan Index Membantu Query](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-02-kapan-index-membantu-query.md) | DRAFT | REVIEW |
-| 59 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 03: Apa Itu EXPLAIN](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-03-apa-itu-explain.md) | DRAFT | REVIEW |
-| 60 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 04: Membaca Query Plan Dasar](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-04-membaca-query-plan-dasar.md) | DRAFT | REVIEW |
-| 61 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 01: Kenapa Backup Database Penting](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-01-kenapa-backup-database-penting.md) | DRAFT | REVIEW |
-| 62 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 02: Restore dan Latihan Pemulihan Data](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-02-restore-dan-latihan-pemulihan-data.md) | DRAFT | REVIEW |
+| 43 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 05: Tipe Data | [Bab 01: Text, Numeric, Boolean, dan Pemilihan Tipe](../03-desain-data-dan-schema/buku-05-tipe-data-postgresql-untuk-desain-schema/bab-01-text-numeric-boolean-dan-pemilihan-tipe.md) | DRAFT | REVIEW |
+| 44 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 05: Tipe Data | [Bab 02: Date, Time, Timestamp, dan Timezone](../03-desain-data-dan-schema/buku-05-tipe-data-postgresql-untuk-desain-schema/bab-02-date-time-timestamp-dan-timezone.md) | DRAFT | REVIEW |
+| 45 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 05: Tipe Data | [Bab 03: UUID, Serial, Bigserial, dan Identity](../03-desain-data-dan-schema/buku-05-tipe-data-postgresql-untuk-desain-schema/bab-03-uuid-serial-bigserial-dan-identity.md) | DRAFT | REVIEW |
+| 46 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 05: Tipe Data | [Bab 04: Enum, Array, Range, dan JSONB Sebagai Tipe Data](../03-desain-data-dan-schema/buku-05-tipe-data-postgresql-untuk-desain-schema/bab-04-enum-array-range-dan-jsonb-sebagai-tipe-data.md) | DRAFT | REVIEW |
+| 47 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 06: Constraint Lanjutan | [Bab 01: Unique Constraint, Unique Index, dan Partial Unique Index](../03-desain-data-dan-schema/buku-06-constraint-lanjutan-dan-integritas-data/bab-01-unique-constraint-unique-index-dan-partial-unique-index.md) | DRAFT | REVIEW |
+| 48 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 06: Constraint Lanjutan | [Bab 02: Exclusion Constraint](../03-desain-data-dan-schema/buku-06-constraint-lanjutan-dan-integritas-data/bab-02-exclusion-constraint.md) | DRAFT | REVIEW |
+| 49 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 06: Constraint Lanjutan | [Bab 03: Deferrable Constraint](../03-desain-data-dan-schema/buku-06-constraint-lanjutan-dan-integritas-data/bab-03-deferrable-constraint.md) | DRAFT | REVIEW |
+| 50 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 06: Constraint Lanjutan | [Bab 04: Generated Column, Domain, dan Integritas Terstruktur](../03-desain-data-dan-schema/buku-06-constraint-lanjutan-dan-integritas-data/bab-04-generated-column-domain-dan-integritas-terstruktur.md) | DRAFT | REVIEW |
+| 51 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 07: Schema Evolution | [Bab 01: ALTER TABLE dan Risiko Perubahan Schema](../03-desain-data-dan-schema/buku-07-schema-evolution-dan-perubahan-struktur/bab-01-alter-table-dan-risiko-perubahan-schema.md) | DRAFT | REVIEW |
+| 52 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 07: Schema Evolution | [Bab 02: Backward-Compatible Schema Change](../03-desain-data-dan-schema/buku-07-schema-evolution-dan-perubahan-struktur/bab-02-backward-compatible-schema-change.md) | DRAFT | REVIEW |
+| 53 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 07: Schema Evolution | [Bab 03: Migrasi Data dan Transisi Schema Bertahap](../03-desain-data-dan-schema/buku-07-schema-evolution-dan-perubahan-struktur/bab-03-migrasi-data-dan-transisi-schema-bertahap.md) | DRAFT | REVIEW |
+| 54 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 08: Partitioning | [Bab 01: Partitioning Sebagai Desain Data](../03-desain-data-dan-schema/buku-08-partitioning-dan-desain-data-skala-besar/bab-01-partitioning-sebagai-desain-data.md) | DRAFT | REVIEW |
+| 55 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 08: Partitioning | [Bab 02: Range, List, dan Hash Partitioning (Pengantar)](../03-desain-data-dan-schema/buku-08-partitioning-dan-desain-data-skala-besar/bab-02-range-list-dan-hash-partitioning-pengantar.md) | DRAFT | REVIEW |
+| 56 | L2 - L3 | [03 - Desain & Schema](../03-desain-data-dan-schema/) | Buku 08: Partitioning | [Bab 03: Partition Key dan Risiko Query Pattern](../03-desain-data-dan-schema/buku-08-partitioning-dan-desain-data-skala-besar/bab-03-partition-key-dan-risiko-query-pattern.md) | DRAFT | REVIEW |
+| 57 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 01: Peran Database di Backend](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-01-peran-database-di-arsitektur-backend.md) | DRAFT | REVIEW |
+| 58 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 02: Driver & Connection Pooling](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-02-database-driver-dan-connection-pooling.md) | DRAFT | REVIEW |
+| 59 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 03: Keamanan Koneksi Database](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-03-keamanan-koneksi-database.md) | DRAFT | REVIEW |
+| 60 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 04: Query untuk List & Detail Data Aplikasi](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-04-query-untuk-list-dan-detail-data-aplikasi.md) | DRAFT | REVIEW |
+| 61 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 05: Query untuk Filter, Sorting, dan Pagination](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-05-query-untuk-filter-sorting-dan-pagination.md) | DRAFT | REVIEW |
+| 62 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 06: Transaksi Database untuk Aplikasi](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-06-transaksi-database-untuk-aplikasi.md) | DRAFT | REVIEW |
+| 63 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 01: App Backend | [Bab 07: BEGIN, COMMIT, dan ROLLBACK](../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-07-begin-commit-dan-rollback.md) | DRAFT | REVIEW |
+| 64 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 01: Konfigurasi Env Var Database](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-01-konfigurasi-env-var-database.md) | DRAFT | REVIEW |
+| 65 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 02: Manajemen Secret Database](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-02-manajemen-secret-database.md) | DRAFT | REVIEW |
+| 66 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 02: Env & Secret | [Bab 03: Troubleshooting Koneksi Aplikasi](../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-03-troubleshooting-koneksi-aplikasi.md) | DRAFT | REVIEW |
+| 67 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 01: Apa Itu Database Migration](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-01-apa-itu-database-migration.md) | DRAFT | REVIEW |
+| 68 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 02: Data Seeding Dasar](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-02-data-seeding-dasar.md) | DRAFT | REVIEW |
+| 69 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 03: Seed Data vs Dummy Data vs Production Data](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-03-seed-data-vs-dummy-data-dan-production-data.md) | DRAFT | REVIEW |
+| 70 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 04: Version Control untuk Schema](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-04-version-control-untuk-schema.md) | DRAFT | REVIEW |
+| 71 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 01: Apa Itu Index Database](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-01-apa-itu-index-database.md) | DRAFT | REVIEW |
+| 72 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 02: Kapan Index Membantu Query](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-02-kapan-index-membantu-query.md) | DRAFT | REVIEW |
+| 73 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 03: Apa Itu EXPLAIN](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-03-apa-itu-explain.md) | DRAFT | REVIEW |
+| 74 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 04: Membaca Query Plan Dasar](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-04-membaca-query-plan-dasar.md) | DRAFT | REVIEW |
+| 75 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 01: Kenapa Backup Database Penting](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-01-kenapa-backup-database-penting.md) | DRAFT | REVIEW |
+| 76 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 02: Restore dan Latihan Pemulihan Data](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-02-restore-dan-latihan-pemulihan-data.md) | DRAFT | REVIEW |
 
 *(Semua materi di atas saat ini berstatus DRAFT dan berada dalam tahap REVIEW verifikasi dokumen resmi).*
 
@@ -109,23 +123,39 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 - **Rak**: [03 - Desain Data dan Schema](../03-desain-data-dan-schema/)
 - **Fokus**: Menguasai konsep dasar perancangan ternormalisasi (1NF, 2NF, 3NF), memahami kapan dan mengapa kita diperbolehkan melakukan denormalisasi data untuk optimasi kueri baca (*read-heavy*), serta menganalisis dampak nyata desain skema terhadap penggunaan memori cache page 8KB PostgreSQL.
 
-### 8. Tahap Implementasi Aplikasi & Keamanan Lingkungan (Level 3 - 4)
+### 8. Tahap Pemodelan Data & Tipe Data Lanjutan (Level 2 - 3)
+- **Rak**: [03 - Desain Data dan Schema](../03-desain-data-dan-schema/)
+- **Fokus**: Menguasai pemilihan tipe data optimal (karakter, angka, date/time/timezone, AUTO_INCREMENT vs UUID PK, serta tipe data kustom enum, array, range, dan jsonb pengantar) untuk menjamin akurasi dan skalabilitas fisik data.
+
+### 9. Tahap Constraint Lanjutan & Validasi Integritas (Level 2 - 3)
+- **Rak**: [03 - Desain Data dan Schema](../03-desain-data-dan-schema/)
+- **Fokus**: Menjamin konsistensi data tingkat lanjut menggunakan partial unique index, exclusion constraint (BTREE_GIST) untuk non-overlapping, deferrable constraint untuk pembaruan dependensi melingkar, serta generated columns dan domain terpusat.
+
+### 10. Tahap Schema Evolution & Zero-Downtime Deployment (Level 2 - 3)
+- **Rak**: [03 - Desain Data dan Schema](../03-desain-data-dan-schema/)
+- **Fokus**: Memahami cara memodifikasi struktur database produksi yang padat beban via ALTER TABLE tanpa table-lock yang memicu downtime, serta menguasai alur kerja 'Expand and Contract' dan background data migration bertahap.
+
+### 11. Tahap Partitioning & Desain Data Skala Besar (Level 2 - 3)
+- **Rak**: [03 - Desain Data dan Schema](../03-desain-data-dan-schema/)
+- **Fokus**: Memahami pembagian fisik tabel raksasa secara deklaratif (Range, List, dan Hash Partitioning), pemilihan Partition Key yang efisien, serta perilaku indeks dan query optimizer (Partition Pruning).
+
+### 12. Tahap Implementasi Aplikasi & Keamanan Lingkungan (Level 3 - 4)
 - **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
 - **Fokus**: Mengintegrasikan database dengan aplikasi backend. Memahami peran database, cara kerja database driver vs ORM, Connection Pooling, aspek keamanan koneksi (SSL/TLS), pemisahan kredensial lewat Environment Variables, manajemen rahasia sensitif (Secret Management), serta diagnosis kegagalan koneksi (*Troubleshooting*).
 
-### 9. Tahap Siklus Hidup Skema Database (Level 3 - 4)
+### 13. Tahap Siklus Hidup Skema Database (Level 3 - 4)
 - **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
 - **Fokus**: Memahami cara mengelola evolusi struktur skema database di lingkungan tim developer menggunakan alur kerja *Database Migration*.
 
-### 10. Tahap Seeding & Schema Versioning (Level 3 - 4)
+### 14. Tahap Seeding & Schema Versioning (Level 3 - 4)
 - **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
 - **Fokus**: Memahami pengisian data awal (*seeding*) baik referensi statis maupun dummy dinamis, perbedaan data seeding vs migration vs production, serta penerapan riwayat perubahan skema (*schema versioning*).
 
-### 11. Tahap Indexing & Membaca Query Plan (Level 3 - 4)
+### 15. Tahap Indexing & Membaca Query Plan (Level 3 - 4)
 - **Rak**: [07 - Indexing, Query Planner, dan Performance](../../materi/07-indexing-query-planner-dan-performance/)
 - **Fokus**: Memahami apa itu index B-Tree, kapan index membantu kueri, penggunaan perintah `EXPLAIN` untuk estimasi biaya, serta cara menganalisis rencana eksekusi database (*Query Plan*).
 
-### 12. Tahap Backup & Restore Dasar (Level 3 - 4)
+### 16. Tahap Backup & Restore Dasar (Level 3 - 4)
 - **Rak**: [08 - Administrasi, DBA, dan Operasional](../../materi/08-administrasi-dba-dan-operasional/)
 - **Fokus**: Memahami pentingnya perlindungan data, perbedaan backup vs migration vs seeding, cara mencadangkan database dengan `pg_dump`, melakukan restore dengan `psql` / `pg_restore`, serta latihan simulasi pemulihan (*restore drill*).
 

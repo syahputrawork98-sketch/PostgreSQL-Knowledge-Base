@@ -1,13 +1,14 @@
 # Status Saat Ini
 
-- **Fase**: Batch 33 - Expand Struktur Rak 02 SQL Core
+- **Fase**: Batch 34 - Expand Struktur Rak 03 Schema & Data Modeling
 - **Kondisi**:
-  - **Batch 33**: Telah diselesaikan dengan sukses sebagai ekspansi kurikulum SQL Core lanjutan.
-    - Pembuatan 4 folder buku baru di Rak 02 (Buku 05, Buku 06, Buku 07, Buku 08) beserta 4 README.md buku baru.
-    - Pembuatan 13 bab skeleton DRAFT ringan baru untuk memetakan materi DML, NULL semantics, subquery, CTE, dan Window Functions dasar.
-    - Total materi utama berkembang dari **49 Bab DRAFT** menjadi **62 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 02 agar mengindeks seluruh 8 buku dan 25 bab aktif.
-    - Sinkronisasi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) agar merefleksikan 62 Bab DRAFT baru.
+  - **Batch 34**: Telah diselesaikan dengan sukses sebagai ekspansi kurikulum Schema & Data Modeling lanjutan.
+    - Pembuatan 4 folder buku baru di Rak 03 (Buku 05, Buku 06, Buku 07, Buku 08) beserta 4 README.md buku baru.
+    - Pembuatan 14 bab skeleton DRAFT ringan baru untuk memetakan tipe data, constraint lanjutan, schema evolution, dan partitioning deklaratif.
+    - Total materi utama berkembang dari **62 Bab DRAFT** menjadi **76 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 03 agar mengindeks seluruh 8 buku dan 23 bab aktif.
+    - Sinkronisasi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) agar merefleksikan 76 Bab DRAFT baru.
+  - **Batch 33**: Telah diselesaikan sebelumnya (Expand Struktur Rak 02 SQL Core).
   - **Batch 32**: Telah diselesaikan sebelumnya (Sync README Rak/Buku Aktif).
   - **Batch 31**: Telah diselesaikan sebelumnya (Gap Matrix Struktur Expert-Scale).
   - **Batch 30.3**: Telah diselesaikan sebelumnya (Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab).
@@ -18,12 +19,12 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Ekspansi struktur kueri SQL Core lanjutan (DML, NULL, Subquery, CTE, Window Functions dasar).
+  - Ekspansi struktur desain skema & data modeling tingkat lanjut (tipe data lanjutan, constraint canggih, schema evolution, partitioning deklaratif).
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 34: Expand Rak 03 Schema & Data Modeling** untuk merancang draf tipe data lanjutan (JSONB, Array, Range, Enum, UUID, TZ) dan constraint canggih.
+  - **Rekomendasi Utama**: **Batch 35: Expand Rak 04 PostgreSQL untuk Aplikasi** untuk merancang draf koneksi lanjutan, ORM integration, dan optimasi query tingkat backend.
   - **Opsi Lain**:
-    - **Opsi A — Batch 35: Expand Rak 04 PostgreSQL untuk Aplikasi**: Merancang draf koneksi lanjutan, ORM integration, dan optimasi query tingkat backend.
+    - **Opsi A — Batch 36: Expand Rak 07 Indexing, Query Planner, dan Performance**: Merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `6707814eb973bbeb3931251f758246b01ccf0029`
+- **Commit Terakhir**: `e139f9b6eccd6ff03b40872036d8eccbcd0d7629`
