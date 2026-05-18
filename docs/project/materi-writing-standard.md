@@ -65,9 +65,18 @@ Materi ditulis secara berlapis untuk mendukung berbagai kebutuhan pembaca:
 4.  **Konsep & Detail**: Penjelasan teknis mendalam.
 5.  **Contoh (Dasar & Project)**: Implementasi nyata.
 6.  **Kesalahan Umum & Interview Note**: Tips praktis.
+
 ## 12. Kebijakan Sumber (Source Policy)
 - **Primary Source**: PostgreSQL Official Documentation.
 - **Release Notes**: Rujukan utama untuk update versi dan fitur baru.
 - **Conflict Rule**: Jika konflik, dokumentasi resmi menang.
 - **AI Rule**: AI hanya alat bantu draft/analogi, bukan sumber kebenaran utama.
 - **Verified Status**: Materi wajib diverifikasi dengan rujukan resmi sebelum berstatus `VERIFIED`.
+
+## 13. Kedalaman Buku dan Jumlah Bab
+- **Tidak Ada Batas Maksimal Bab**: Jumlah bab per buku bersifat fleksibel dan disesuaikan sepenuhnya dengan kedalaman kompetensi dan kelengkapan materi.
+- **Pola 3-4 Bab Bukan Standar**: Pola 3-4 bab yang ada saat ini merupakan struktur skeleton awal dan bukan merupakan batas standar penulisan final.
+- **Fleksibilitas Jumlah Bab**: Jumlah bab dapat mengikuti kebutuhan kompetensi. Satu buku boleh pendek (misal 3 bab) jika topiknya sempit, atau panjang (misal 12 bab atau lebih) jika topiknya besar.
+- **Pemekaran & Pemecahan Bab**: Sub-bab atau pembahasan yang terlalu panjang/kompleks dapat dinaikkan posisinya menjadi bab mandiri.
+- **Deep Dive Mandiri**: Topik-topik yang membutuhkan pembahasan mendalam (*deep dive*) boleh dibuat sebagai bab atau bahkan buku tersendiri.
+- **Dukungan Level 0 s/d Level 9**: Struktur materi harus dirancang secara modular dan mendalam agar mampu mendukung perjalanan belajar dari pemula (Level 0) hingga ahli/pakar (Level 9).

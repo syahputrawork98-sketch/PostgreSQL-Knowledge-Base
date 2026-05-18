@@ -14,6 +14,8 @@ GitHub (setelah proses commit/push oleh user).
 ## 4. Status Batch Terakhir
 *   **Batch 30** — Docs Sync Besar Setelah Batch 21-29 (Selesai).
 *   **Batch 30.1** — Portable Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton (Selesai).
+*   **Batch 30.2** — Lock Expert-Scale Book/Chapter Expansion Rules (Selesai).
+
 
 ## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14, Batch 16-17, Batch 21-24, Batch 26-28)
 Telah diselesaikan penulisan total **49 Bab DRAFT** di Rak 01 s/d Rak 08 untuk tingkat pemula hingga menengah (Level 0-4). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).

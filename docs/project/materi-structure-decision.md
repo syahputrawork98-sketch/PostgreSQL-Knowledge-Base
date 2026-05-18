@@ -10,7 +10,7 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 2.  **Organisasi Rak**: Rak didefinisikan berdasarkan **Domain Ilmu** PostgreSQL, bukan sekadar urutan belajar tutorial.
 3.  **Navigasi vs Konten**: Jalur belajar (learning paths) dipisahkan ke dalam rak khusus `00-index-dan-jalur-belajar/` agar tidak bercampur dengan materi referensi murni.
 4.  **Skala Level**: Struktur mendukung perjalanan belajar dari **Level 0 (Pemula)** hingga **Level 9 (Expert/Pakar)**.
-5.  **Penomoran Rak**: Menggunakan dua digit (00-16) untuk menjaga urutan logis di sistem file.
+5.  **Penomoran Rak**: Menggunakan dua digit (00-17) untuk menjaga urutan logis di sistem file.
 
 ## Daftar Rak Final
 | No | Nama Rak | Fokus Utama | Target Level |
@@ -32,6 +32,7 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 | 14 | Interview & Konsultasi | Karir & Expert Advice | L4 - L9 |
 | 15 | Referensi Cepat | Cheatsheets | Lintas Level |
 | 16 | Version Updates | Release Notes | Lintas Level |
+| 17 | Berita, Isu, dan Ekosistem PostgreSQL | News / Ecosystem Watch | Lintas Level |
 
 ## Strategi Implementasi Bertahap
 - **Fase A (Batch 2)**: Kunci struktur besar (Expert-Scale skeleton).
@@ -49,6 +50,14 @@ Setelah Batch 2, Rak 01 diperjelas agar menampung materi non-teknis/fondasi kons
 - Glosarium ditempatkan di `materi/00-index-dan-jalur-belajar/02-glosarium-istilah-postgresql/`.
 - Peta relasi materi ditempatkan di `materi/00-index-dan-jalur-belajar/03-peta-relasi-materi-postgresql.md`.
 
+## Catatan Expert-Scale Book Depth Policy (Batch 30.2)
+- **Struktur materi/ adalah expert-scale**: PostgreSQL Living Knowledge Base dikonsepkan sebagai perpustakaan teknis kelas pakar, bukan kursus kilat.
+- **Rak Berbasis Domain Ilmu**: Rak diorganisasikan berdasarkan cakupan domain keilmuan PostgreSQL, bukan berdasarkan durasi tutorial.
+- **Buku Bukan Unit Kecil yang Dibatasi**: Jumlah bab per buku tidak dibatasi hanya 3–4 bab.
+- **Jumlah Bab Fleksibel**: Jumlah bab menyesuaikan kebutuhan kedalaman topik dan kelengkapan materi.
+- **Pattern Pendek Efek Skeleton**: Pola 3-4 bab saat ini murni merupakan implikasi dari fase inisiasi kerangka awal (skeleton), bukan standar resmi.
+- **Ekspansi Berdasarkan Audit**: Penambahan dan pemekaran buku/bab di masa depan harus didasarkan pada hasil audit kelengkapan materi terstruktur, bukan sekadar menyeragamkan kuantitas bab.
+
 ---
-*Diputuskan pada: 2026-05-16*
+*Diputuskan pada: 2026-05-19*
 *Oleh: Room Chat 00 & Syah (Owner)*

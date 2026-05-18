@@ -1,25 +1,26 @@
 # Status Saat Ini
 
-- **Fase**: Batch 30.1 - Portable Instructions, History Docs, Verification Workflow, dan Rak Berita PostgreSQL.
+- **Fase**: Batch 30.2 - Lock Expert-Scale Book/Chapter Expansion Rules
 - **Kondisi**:
-  - **Batch 30.1**: Telah diselesaikan dengan sukses.
-    - Pembuatan instruksi portabel mandiri untuk ChatGPT Project, Room Chat 00, Room Chat 01, dan Gemini Executor di `docs/project-instructions/`.
-    - Penyusunan dokumen alur verifikasi resmi di `docs/project/verification-workflow.md` berbasis dokumen resmi PostgreSQL.
-    - Pembentukan folder riwayat batch terorganisir per 10 batch di `docs/history/`.
-    - Penambahan skeleton & templat untuk Rak 17 Berita & Ekosistem di `materi/17-berita-isu-dan-ekosistem-postgresql/` tanpa mengubah jumlah bab draf materi utama (tetap 49 Bab DRAFT).
-  - **Batch 21 s/d Batch 29** (Fase Drafting Lanjutan) dan **Batch 30** (Docs Sync) telah diterima dan dikonsolidasikan.
-  - Total **49 Bab DRAFT** di Rak 01 s/d Rak 08 telah terisi lengkap dalam bentuk DRAFT materi.
+  - **Batch 30.2**: Telah diselesaikan dengan sukses sebagai policy lock.
+    - Pembuatan dokumen kebijakan kedalaman buku dan bab di `docs/project/book-chapter-depth-policy.md` untuk mengunci aturan struktur expert-scale.
+    - Penegasan bahwa pola 3–4 bab bukan standar resmi melainkan efek kerangka skeleton awal.
+    - Pembaruan dokumen keputusan struktur `docs/project/materi-structure-decision.md` untuk menyelaraskan Rak 17 secara resmi dan menambahkan catatan keputusan Batch 30.2.
+    - Pembaruan standar penulisan `docs/project/materi-writing-standard.md` dengan menambahkan Bagian 13 mengenai kedalaman buku dan bab.
+    - Pembaruan instruksi portabel ChatGPT Project (`docs/project-instructions/add-instructions-chatgpt-project.md`) dan Room Chat 00 (`docs/project-instructions/room-chat-00-instructions.md`) untuk menyelaraskan aturan portabel.
+  - **Batch 30.1**: Telah diselesaikan sebelumnya (Instruksi portabel, Alur Verifikasi, Riwayat Batch, & Skeleton Berita Rak 17).
+  - Total **49 Bab DRAFT** di Rak 01 s/d Rak 08 tetap terisi lengkap tanpa perubahan (tidak ada penulisan materi teknis baru atau bab baru).
   - Sesuai kebijakan keamanan, semua materi baru berstatus Status: DRAFT dan Status Verifikasi Sumber: REVIEW (belum live-verified ke official docs).
   - Browser/web access belum digunakan.
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Menyediakan infrastruktur portabilitas manajemen proyek agar dapat dilanjutkan dengan mudah di ChatGPT Project baru.
+  - Mengunci aturan expert-scale agar proyek tidak terikat pada pola skeleton 3-4 bab per buku.
 - **Next Step**:
-  - Menunggu keputusan dari **Room Chat 00 / User** setelah Batch 30.1 selesai:
+  - **Rekomendasi Utama**: Room Chat 01 melakukan **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale** untuk mengidentifikasi celah materi sebelum melanjutkan ekspansi besar.
+  - **Opsi Lain**:
     - **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08.
-    - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
-    - **Opsi C — Room Chat 01 Analisa Saja**: Meminta analisis repositori secara menyeluruh setelah Batch 30.1 menggunakan Custom Instructions baru untuk menentukan prioritas materi mana yang perlu diverifikasi atau ditulis berikutnya.
+    - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
 - **Commit Terakhir (Sebelum Batch 30)**: `38da8fba08428b8e2672eb86ace37ee5527360a1`

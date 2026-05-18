@@ -54,3 +54,20 @@ Halaman ini mendokumentasikan catatan riwayat dan pencapaian pengembangan proyek
   2. Penyusunan dokumen alur verifikasi resmi (`docs/project/verification-workflow.md`) menggunakan PostgreSQL Official Documentation sebagai acuan utama.
   3. Pembuatan direktori riwayat teratur (`docs/history/`) untuk merangkum perjalanan proyek per 10 batch.
   4. Penyusunan skeleton dan templat Rak 17 (`materi/17-berita-isu-dan-ekosistem-postgresql/`) untuk memfasilitasi berita dinamis PostgreSQL di masa depan tanpa mengubah total draf bab materi utama (tetap 49 Bab DRAFT).
+
+## Batch 30.2 — Addendum Expert-Scale Book/Chapter Depth Policy
+- **Status**: **Selesai**
+- **Tujuan**: Mengunci aturan resmi bahwa PostgreSQL Living Knowledge Base adalah perpustakaan teknis expert-scale dan meniadakan asumsi pola 3-4 bab per buku sebagai batas standar penulisan.
+- **Berkas Baru / Diubah**:
+  - **Berkas Baru**: [book-chapter-depth-policy.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/book-chapter-depth-policy.md)
+  - **Berkas Diubah**:
+    - [materi-writing-standard.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/materi-writing-standard.md) (Menambahkan bagian 13 tentang kedalaman buku/bab)
+    - [materi-structure-decision.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/materi-structure-decision.md) (Menambahkan catatan Batch 30.2 dan mendaftarkan Rak 17 secara resmi)
+    - [add-instructions-chatgpt-project.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project-instructions/add-instructions-chatgpt-project.md) (Penyelarasan instruksi portabel)
+    - [room-chat-00-instructions.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project-instructions/room-chat-00-instructions.md) (Penyelarasan panduan PM untuk menjaga batasan depth)
+    - Berkas Kontrol: [current-status.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/current-status.md), [roadmap.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/roadmap.md), [room-context-summary.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/room-context-summary.md)
+- **Keputusan Penting**:
+  1. **Tidak Ada Batas Maksimal Bab**: Jumlah bab per buku tidak dibatasi hanya 3–4 bab, melainkan fleksibel disesuaikan cakupan topik.
+  2. **Skeleton Pattern vs Standar**: Pola 3-4 bab saat ini murni merupakan efek samping kerangka skeleton awal.
+  3. **Pembedahan / Pemekaran Bab**: Pembahasan yang terlalu padat dapat dipecah menjadi beberapa bab mandiri, dan deep dive dapat dijadikan bab/buku terpisah.
+  4. **Ekspansi Berbasis Audit**: Setiap penambahan bab atau pemekaran buku baru ke depan harus didahului dengan audit terstruktur oleh Room Chat 01.
