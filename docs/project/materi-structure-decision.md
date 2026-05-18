@@ -10,9 +10,9 @@ Struktur awal (Batch 1) dirancang untuk kebutuhan basic hingga intermediate. Nam
 2.  **Organisasi Rak**: Rak didefinisikan berdasarkan **Domain Ilmu** PostgreSQL, bukan sekadar urutan belajar tutorial.
 3.  **Navigasi vs Konten**: Jalur belajar (learning paths) dipisahkan ke dalam rak khusus `00-index-dan-jalur-belajar/` agar tidak bercampur dengan materi referensi murni.
 4.  **Skala Level**: Struktur mendukung perjalanan belajar dari **Level 0 (Pemula)** hingga **Level 9 (Expert/Pakar)**.
-5.  **Penomoran Rak**: Menggunakan dua digit (00-17) untuk menjaga urutan logis di sistem file.
+5.  **Penomoran Rak Aktif**: Saat ini menggunakan dua digit (00-17) untuk menjaga urutan logis di sistem file. Rentang ini adalah baseline aktif, bukan batas permanen. Rak baru boleh ditambahkan jika ada domain ilmu PostgreSQL yang layak dipisahkan.
 
-## Daftar Rak Final
+## Daftar Rak Aktif Saat Ini / Baseline Aktif
 | No | Nama Rak | Fokus Utama | Target Level |
 |---|---|---|---|
 | 00 | Index dan Jalur Belajar | Navigasi & Roadmap | Lintas Level |
@@ -57,6 +57,14 @@ Setelah Batch 2, Rak 01 diperjelas agar menampung materi non-teknis/fondasi kons
 - **Jumlah Bab Fleksibel**: Jumlah bab menyesuaikan kebutuhan kedalaman topik dan kelengkapan materi.
 - **Pattern Pendek Efek Skeleton**: Pola 3-4 bab saat ini murni merupakan implikasi dari fase inisiasi kerangka awal (skeleton), bukan standar resmi.
 - **Ekspansi Berdasarkan Audit**: Penambahan dan pemekaran buku/bab di masa depan harus didasarkan pada hasil audit kelengkapan materi terstruktur, bukan sekadar menyeragamkan kuantitas bab.
+
+## Catatan No Fixed Limit untuk Struktur Materi (Batch 30.3)
+- **Tidak Ada Batas Jumlah Rak**: Rak dapat bertambah jika ada domain ilmu PostgreSQL baru yang layak dipisahkan.
+- **Tidak Ada Batas Buku per Rak**: Satu rak boleh memiliki satu buku atau banyak buku sesuai keluasan domain.
+- **Tidak Ada Batas Bab per Buku**: Satu buku boleh berisi sedikit atau banyak bab sesuai kedalaman topik.
+- **Tidak Ada Batas Sub-bab per Bab**: Sub-bab boleh tetap menjadi heading, atau dinaikkan menjadi bab/buku jika pembahasannya terlalu besar.
+- **Baseline Aktif, Bukan Batas Permanen**: Daftar rak 00-17 adalah kondisi aktif saat ini, bukan batas final.
+- **Batas Sebenarnya**: Materi dianggap cukup hanya jika pembahasannya lengkap, benar, mendalam, dan sesuai kompetensi yang ditargetkan (Level 0 sampai Level 9). Penambahan rak/buku/bab/sub-bab besar sebaiknya didahului oleh audit terstruktur oleh Room Chat 01.
 
 ---
 *Diputuskan pada: 2026-05-19*

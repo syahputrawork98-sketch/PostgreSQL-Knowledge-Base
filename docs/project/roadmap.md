@@ -35,12 +35,14 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 30**: Docs Sync Besar setelah Batch 21-29 selesai — **Selesai**.
 - **Batch 30.1**: Portable Project Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton — **Selesai**.
 - **Batch 30.2**: Lock Expert-Scale Book/Chapter Expansion Rules — **Selesai**.
+- **Batch 30.3**: Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab — **Selesai**.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
 Fase selanjutnya memerlukan keputusan resmi dari **Room Chat 00 / User**:
 
-*   **Rekomendasi Utama — Room Chat 01 Analisa Saja**: Meminta Room Chat 01 melakukan **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale** untuk mengidentifikasi celah materi, kelayakan pemecahan bab, dan peluang ekspansi buku sebelum melanjutkan drafting besar-besaran.
+*   **Rekomendasi Utama — Room Chat 01 Analisa Saja**: Meminta Room Chat 01 melakukan **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale** untuk mengidentifikasi celah materi, kelayakan pemecahan bab, rak yang perlu ditambah, dan sub-bab yang layak naik kelas sebelum melanjutkan drafting.
+
 *   **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08 (seperti dasar constraint lanjutan, data type lanjutan, indexing lanjutan ringan, transaksi lanjutan ringan, atau administrasi dasar lain).
 *   **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.

@@ -19,6 +19,18 @@ Tidak ada batas maksimal jumlah bab per buku.
 - **Buku Besar (9–15 bab)**: Membahas topik domain yang luas (contoh: *Desain Skema & Integritas Data*).
 - **Buku Expert / Deep Dive (15+ bab)**: Membahas topik tingkat lanjut yang memerlukan pemahaman internal mendalam jika dibutuhkan (contoh: *Transaksi & MVCC Internals*).
 
+## Bukan Batas Permanen
+- **Hanya Ilustrasi**: Contoh klasifikasi di atas (3–4, 5–8, 9–15, 15+ bab) hanyalah ilustrasi pembantu pemahaman dan mental model saja.
+- **Bukan Batas Minimal/Maksimal**: Angka-angka tersebut bukan merupakan batas formal minimal atau maksimal yang harus dipenuhi secara kaku.
+- **Prioritas Kelengkapan**: Kelengkapan ilmu, ketepatan data, dan kebenaran materi teknis PostgreSQL jauh lebih penting daripada memaksakan kecocokan jumlah bab pada angka tertentu.
+
+## Hubungan dengan Rak dan Sub-bab
+- **Fleksibilitas Seluruh Struktur**: Kebijakan ini tidak hanya berlaku terbatas pada buku dan bab, melainkan menjaga fleksibilitas seluruh hierarki struktur materi (`materi/`).
+- **Rak Boleh Bertambah**: Domain ilmu PostgreSQL yang baru dapat ditambahkan sebagai rak baru jika dianggap layak dipisahkan secara keilmuan.
+- **Buku per Rak Boleh Bertambah**: Satu rak dibebaskan memiliki sedikit atau banyak buku sesuai dengan kebutuhan cakupan materinya.
+- **Sub-bab Boleh Dimekarkan**: Sub-bab tidak dibatasi kuantitasnya di dalam file bab, dan dapat dimekarkan sewaktu-waktu.
+- **Struktur Tidak Dipaksa Seragam**: Tidak ada kewajiban menyamaratakan struktur antar rak atau antar buku. Setiap bagian dari perpustakaan beradaptasi secara organik mengikuti domain ilmu masing-masing.
+
 ## Kriteria Buku Dianggap Cukup (Completion Criteria)
 Sebuah buku tidak dianggap selesai hanya karena sudah memenuhi kuantitas bab tertentu. Buku dianggap cukup apabila telah mencakup:
 1. **Fondasi Teoretis & Mental Model**: Konsep dasar, analogi dunia nyata, dan batas-batas analogi.
@@ -29,7 +41,7 @@ Sebuah buku tidak dianggap selesai hanya karena sudah memenuhi kuantitas bab ter
 6. **Jalur Lanjut / Deep Dive**: Rujukan untuk eksplorasi tingkat lanjut bila diperlukan.
 
 ## Audit Struktur
-Sebelum dilakukan ekspansi besar, Room Chat 01 (Read-Only Analyst) dapat diminta melakukan audit resmi bertajuk:
+Before dilakukan ekspansi besar, Room Chat 01 (Read-Only Analyst) dapat diminta melakukan audit resmi bertajuk:
 > **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale**
 
 Audit ini bertujuan untuk mengidentifikasi celah materi, bab-bab yang layak dipecah, serta merekomendasikan penambahan bab/buku baru secara terstruktur.

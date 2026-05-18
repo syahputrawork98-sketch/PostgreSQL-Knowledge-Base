@@ -15,6 +15,8 @@ GitHub (setelah proses commit/push oleh user).
 *   **Batch 30** — Docs Sync Besar Setelah Batch 21-29 (Selesai).
 *   **Batch 30.1** — Portable Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton (Selesai).
 *   **Batch 30.2** — Lock Expert-Scale Book/Chapter Expansion Rules (Selesai).
+*   **Batch 30.3** — Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab (Selesai).
+
 
 
 ## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14, Batch 16-17, Batch 21-24, Batch 26-28)

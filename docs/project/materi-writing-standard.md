@@ -73,10 +73,10 @@ Materi ditulis secara berlapis untuk mendukung berbagai kebutuhan pembaca:
 - **AI Rule**: AI hanya alat bantu draft/analogi, bukan sumber kebenaran utama.
 - **Verified Status**: Materi wajib diverifikasi dengan rujukan resmi sebelum berstatus `VERIFIED`.
 
-## 13. Kedalaman Buku dan Jumlah Bab
-- **Tidak Ada Batas Maksimal Bab**: Jumlah bab per buku bersifat fleksibel dan disesuaikan sepenuhnya dengan kedalaman kompetensi dan kelengkapan materi.
-- **Pola 3-4 Bab Bukan Standar**: Pola 3-4 bab yang ada saat ini merupakan struktur skeleton awal dan bukan merupakan batas standar penulisan final.
-- **Fleksibilitas Jumlah Bab**: Jumlah bab dapat mengikuti kebutuhan kompetensi. Satu buku boleh pendek (misal 3 bab) jika topiknya sempit, atau panjang (misal 12 bab atau lebih) jika topiknya besar.
-- **Pemekaran & Pemecahan Bab**: Sub-bab atau pembahasan yang terlalu panjang/kompleks dapat dinaikkan posisinya menjadi bab mandiri.
-- **Deep Dive Mandiri**: Topik-topik yang membutuhkan pembahasan mendalam (*deep dive*) boleh dibuat sebagai bab atau bahkan buku tersendiri.
-- **Dukungan Level 0 s/d Level 9**: Struktur materi harus dirancang secara modular dan mendalam agar mampu mendukung perjalanan belajar dari pemula (Level 0) hingga ahli/pakar (Level 9).
+## 13. Kedalaman Struktur Rak, Buku, Bab, dan Sub-bab
+- **Tidak Ada Batas Jumlah Rak**: Rak baru dapat dibuat jika domain ilmu PostgreSQL layak dipisahkan. Rentang 00–17 saat ini adalah baseline aktif, bukan batas permanen.
+- **Tidak Ada Batas Buku per Rak**: Satu rak boleh memiliki sedikit atau banyak buku sesuai keluasan domain ilmu yang dibahas.
+- **Tidak Ada Batas Bab per Buku**: Jumlah bab per buku bersifat fleksibel dan disesuaikan dengan kedalaman topik. Pola 3–4 bab bukan standar melainkan efek skeleton awal.
+- **Tidak Ada Batas Sub-bab per Bab**: Jumlah dan kedalaman sub-bab (heading H2, H3, dst.) mengikuti kebutuhan kelengkapan materi.
+- **Pemekaran & Pemecahan Struktur**: Sub-bab yang terlalu panjang/kompleks boleh naik menjadi bab mandiri, dan bab atau topik *deep dive* yang besar boleh naik menjadi buku tersendiri.
+- **Dukungan Level 0 s/d Level 9**: Struktur materi harus modular dan mendalam agar mampu mendukung perjalanan belajar dari pemula (Level 0) hingga ahli/pakar (Level 9) secara komprehensif.

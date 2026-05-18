@@ -71,3 +71,19 @@ Halaman ini mendokumentasikan catatan riwayat dan pencapaian pengembangan proyek
   2. **Skeleton Pattern vs Standar**: Pola 3-4 bab saat ini murni merupakan efek samping kerangka skeleton awal.
   3. **Pembedahan / Pemekaran Bab**: Pembahasan yang terlalu padat dapat dipecah menjadi beberapa bab mandiri, dan deep dive dapat dijadikan bab/buku terpisah.
   4. **Ekspansi Berbasis Audit**: Setiap penambahan bab atau pemekaran buku baru ke depan harus didahului dengan audit terstruktur oleh Room Chat 01.
+
+## Batch 30.3 — Addendum No Fixed Limit for Rak, Buku, Bab, dan Sub-bab
+- **Status**: **Selesai**
+- **Tujuan**: Memperjelas secara eksplisit bahwa tidak ada batas tetap untuk jumlah rak, buku, bab, maupun sub-bab dalam perpustakaan materi PostgreSQL, serta mendefinisikan rentang 00-17 saat ini sebagai baseline aktif dan bukan batas permanen.
+- **Berkas Diubah**:
+  - [materi-structure-decision.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/materi-structure-decision.md) (Menghapus istilah "Daftar Rak Final", mengubah heading menjadi "Daftar Rak Aktif Saat Ini / Baseline Aktif", memperjelas penomoran rak aktif, dan menambah catatan Batch 30.3)
+  - [materi-writing-standard.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/materi-writing-standard.md) (Menaikkan skala Bagian 13 menjadi "Kedalaman Struktur Rak, Buku, Bab, dan Sub-bab" guna mencakup seluruh hierarki materi)
+  - [book-chapter-depth-policy.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/book-chapter-depth-policy.md) (Menambahkan bagian "Bukan Batas Permanen" dan "Hubungan dengan Rak dan Sub-bab" demi menjaga fleksibilitas seluruh struktur)
+  - [add-instructions-chatgpt-project.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project-instructions/add-instructions-chatgpt-project.md) (Penyelarasan instruksi kustom portabel "No Fixed Limit")
+  - [room-chat-00-instructions.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project-instructions/room-chat-00-instructions.md) (Pembaruan panduan PM untuk menghindari pembatasan sepihak dan memaksa keseragaman)
+  - [room-chat-01-analisa-saja-instructions.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project-instructions/room-chat-01-analisa-saja-instructions.md) (Pembaruan tanggung jawab analis saat melakukan audit struktur)
+  - Berkas Kontrol: [current-status.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/current-status.md), [roadmap.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/roadmap.md), [room-context-summary.md](file:///i:/Workspace/Workspace-Syahputrawork/04-Storage-Hubs/PostgreSQL-Knowledge-Base/docs/project/room-context-summary.md)
+- **Keputusan Penting**:
+  1. **Tidak Ada Batas Struktur**: Kebijakan "No Fixed Limit" dikunci secara mutlak untuk rak, buku, bab, dan sub-bab.
+  2. **Baseline Aktif, Bukan Batas Permanen**: Penomoran Rak 00-17 didefinisikan secara resmi sebagai baseline aktif saat ini yang dapat bertambah secara fleksibel berdasarkan keluasan domain ilmu PostgreSQL.
+  3. **Ekspansi Menyeluruh**: Rak baru, buku baru, dan sub-bab baru dibebaskan bertambah organik tanpa kewajiban dipaksa seragam, didahului dengan audit terstruktur.

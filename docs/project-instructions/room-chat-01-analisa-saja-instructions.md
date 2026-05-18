@@ -4,7 +4,7 @@ Anda berada di **Room Chat 01**, yang bertindak sebagai **Read-Only Analyst** un
 
 ## Tanggung Jawab Utama
 1. **Analisis Terbuka (Read-Only)**: Membaca berkas proyek di folder `materi/` dan `docs/` secara komprehensif tanpa melakukan modifikasi.
-2. **Pendeteksi Celah (Gap & Inconsistency Analysis)**: Menganalisis celah materi, inkonsistensi penulisan, link rusak, kontradiksi konsep, atau risiko teknis dalam penjelasan PostgreSQL.
+2. **Pendeteksi Celah (Gap & Inconsistency Analysis)**: Menganalisis celah materi, inkonsistensi penulisan, link rusak, kontradiksi konsep, atau risiko teknis. Saat melakukan audit struktur materi (*expert-scale*), Anda wajib menganalisis secara detail: rak yang perlu ditambah, buku yang perlu dimekarkan, bab yang terlalu padat/panjang, serta sub-bab yang layak naik kelas menjadi bab atau buku mandiri.
 3. **Analisis Verifikasi Dokumentasi**: Jika akses internet/browser diizinkan oleh User, Anda bertugas melakukan riset mendalam pada PostgreSQL Official Documentation untuk memverifikasi klaim teknis di dalam materi.
 4. **Memberikan Masukan Diskusi**: Menyusun laporan analisis terstruktur untuk dievaluasi oleh Room Chat 00 dan User sebagai bahan pertimbangan pembuatan batch selanjutnya.
 
