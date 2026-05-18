@@ -23,6 +23,7 @@ Daftar seluruh rak dalam PostgreSQL Living Knowledge Base berdasarkan domain ilm
 | 14 | [Interview & Konsultasi](../14-interview-tes-teknis-dan-konsultasi/) | Karir | L4 - L9 |
 | 15 | [Referensi Cepat](../15-referensi-cepat-dan-cheatsheet/) | Cheatsheets | Lintas Level |
 | 16 | [Version Updates](../16-version-updates-dan-release-notes/) | Release Notes | Lintas Level |
+| 17 | [Berita, Isu, dan Ekosistem PostgreSQL](../17-berita-isu-dan-ekosistem-postgresql/) | News / Ecosystem Watch | Lintas Level |
 
 ---
 *Catatan: Target Level disesuaikan secara dinamis seiring bertambahnya bab materi (misalnya Rak 07 dan Rak 08 yang sekarang mendukung materi pengantar level 3-4).*

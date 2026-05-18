@@ -12,28 +12,32 @@ Menyediakan pusat pengetahuan PostgreSQL yang terstruktur, mendalam, dan memilik
 GitHub (setelah proses commit/push oleh user).
 
 ## 4. Status Batch Terakhir
-*   **Batch 29** — Final consistency pass materi Batch 21-28 (Selesai).
-*   **Batch 30 (Current)** — Docs Sync Besar Setelah Batch 21-29 (Selesai).
+*   **Batch 30** — Docs Sync Besar Setelah Batch 21-29 (Selesai).
+*   **Batch 30.1** — Portable Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton (Selesai).
 
 ## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14, Batch 16-17, Batch 21-24, Batch 26-28)
 Telah diselesaikan penulisan total **49 Bab DRAFT** di Rak 01 s/d Rak 08 untuk tingkat pemula hingga menengah (Level 0-4). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).
 
+*Catatan: Kerangka berita dinamis baru di Rak 17 tidak mengubah jumlah 49 Bab DRAFT materi utama.*
+
 ## 6. Struktur Root
 - `README.md` & `FITUR.md`: Gambaran umum dan rencana fitur.
 - `client/` & `server/`: Folder aplikasi (Status: **HOLD**).
-- `docs/project/`: Dokumentasi manajemen dan standar proyek.
-- `materi/`: Folder utama konten pengetahuan.
+- `docs/project-instructions/`: Instruksi portabel mandiri untuk ChatGPT Project, Room 00, Room 01, dan Gemini Executor.
+- `docs/history/`: Berkas arsip riwayat perjalanan proyek per 10 batch.
+- `docs/project/`: Dokumentasi manajemen, standar proyek, dan [Verification Workflow](./verification-workflow.md).
+- `materi/`: Folder utama konten pengetahuan (Rak 00 s/d Rak 17).
 
 ## 7. Fokus Saat Ini
-Hanya mengerjakan folder `materi/` dan sinkronisasi berkas kontrol di `docs/project/`. Implementasi kode (Client/Server) masih ditangguhkan (**HOLD**) hingga materi cukup matang.
+Hanya mengerjakan folder `materi/` dan sinkronisasi berkas kontrol di `docs/`. Implementasi kode (Client/Server) masih ditangguhkan (**HOLD**) hingga materi cukup matang.
 
 ## 8. Struktur Materi
-Mengikuti pola: **Rak** (Folder 00-16) $\rightarrow$ **Buku** (Folder Topik) $\rightarrow$ **Bab** (File MD) $\rightarrow$ **Sub-bab** (Heading).
+Mengikuti pola: **Rak** (Folder 00-17) $\rightarrow$ **Buku** (Folder Topik) $\rightarrow$ **Bab** (File MD) $\rightarrow$ **Sub-bab** (Heading).
 
 ## 9. Kebijakan Sumber (Source Policy)
 - Sumber utama wajib dari **PostgreSQL Official Documentation**.
 - AI membantu menyusun struktur, draf, dan analogi; bukan sumber kebenaran utama.
-- Seluruh 49 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang sebelum diberi status `VERIFIED`.
+- Seluruh 49 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang mengikuti [Verification Workflow](./verification-workflow.md) sebelum diberi status `VERIFIED`.
 
 ## 10. Larangan Scope
 Dilarang mengerjakan UI/Frontend, Backend API, Authentication, Database App aktif, atau teknologi non-PostgreSQL (seperti MongoDB) sebelum fase materi dinyatakan stabil dan disetujui oleh Owner.

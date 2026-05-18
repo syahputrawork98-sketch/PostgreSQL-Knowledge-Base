@@ -32,7 +32,8 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 27**: Drafting materi EXPLAIN dan Membaca Query Plan Dasar — **Selesai**.
 - **Batch 28**: Drafting materi Backup, Restore, dan Kesadaran Risiko Data — **Selesai**.
 - **Batch 29**: Final consistency pass materi Batch 21-28 (melunakkan klaim absolut, verifikasi link internal, dan integrasi penamaan) — **Selesai**.
-- **Batch 30 (Current)**: Docs Sync Besar setelah Batch 21-29 selesai.
+- **Batch 30**: Docs Sync Besar setelah Batch 21-29 selesai — **Selesai**.
+- **Batch 30.1**: Portable Project Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton — **Selesai**.
 
 ---
 
@@ -40,5 +41,5 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 Fase selanjutnya memerlukan keputusan resmi dari **Room Chat 00 / User**:
 
 *   **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08 (seperti dasar constraint lanjutan, data type lanjutan, indexing lanjutan ringan, transaksi lanjutan ringan, atau administrasi dasar lain).
-*   **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap dan menaikkan status dari REVIEW menjadi `VERIFIED`.
-*   **Opsi C — Room Chat 01 Analisa Saja**: Meminta analisis repositori secara menyeluruh setelah Batch 30 untuk menentukan prioritas materi mana yang perlu diverifikasi atau ditulis berikutnya.
+*   **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+*   **Opsi C — Room Chat 01 Analisa Saja**: Meminta analisis repositori secara menyeluruh setelah Batch 30.1 menggunakan Custom Instructions baru untuk menentukan prioritas materi mana yang perlu diverifikasi atau ditulis berikutnya.
