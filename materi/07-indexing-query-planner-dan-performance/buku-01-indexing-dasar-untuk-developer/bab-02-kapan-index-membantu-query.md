@@ -56,8 +56,8 @@ Status Ilustrasi: DRAFT
 graph TD
     subgraph Query Planner Decision [Keputusan Jalur PostgreSQL]
         Q[SELECT * FROM users WHERE status = 'PENDING'] -->|Analisis Statistik| QP{Berapa persen data PENDING?}
-        QP -->|Sangat Sedikit < 5%| ID[Gunakan Index Scan idx_users_status]
-        QP -->|Sangat Banyak > 20%| SS[Gunakan Sequential Scan]
+        QP -->|Sebagian kecil data| ID[Gunakan Index Scan idx_users_status]
+        QP -->|Sebagian besar data| SS[Gunakan Sequential Scan]
     end
     
     style ID fill:#ccffcc,stroke:#009900,stroke-width:2px
@@ -75,7 +75,7 @@ Bagan di atas menyederhanakan ambang batas keputusan query planner. Keputusan ri
 ## 10. Konsep Inti
 
 ### Kapan Indeks Biasanya Membantu Performa Query?
-Developerbackend sebaiknya memprioritaskan pembuatan indeks pada pola-pola kueri berikut:
+Developer backend sebaiknya memprioritaskan pembuatan indeks pada pola-pola kueri berikut:
 
 1. **Penyaringan Presisi Tinggi (Highly Selective WHERE)**
    Kueri yang menyaring data spesifik pada kolom yang memiliki banyak nilai unik (seperti username, email, nomor induk, nomor telepon).
@@ -99,7 +99,7 @@ Developerbackend sebaiknya memprioritaskan pembuatan indeks pada pola-pola kueri
 Ada kalanya indeks yang kita buat tidak akan pernah disentuh oleh PostgreSQL:
 - **Tabel Terlalu Kecil**: Jika tabel hanya memuat puluhan atau ratusan baris data.
 - **Nilai Unik Sangat Sedikit (Low Cardinality)**: Seperti kolom `gender` (hanya `'L'` atau `'P'`) atau kolom `is_active` (hanya `TRUE` atau `FALSE`).
-- **Kueri yang Menarik Terlalu Banyak Baris**: Kueri yang menghasilkan lebih dari 15-20% dari total baris tabel. PostgreSQL Planner akan menyimpulkan bahwa melompati indeks dan langsung memindai tabel secara fisik (Seq Scan) jauh lebih murah.
+- **Kueri yang Menarik Terlalu Banyak Baris**: Kueri yang menghasilkan sebagian besar data dari total baris tabel. PostgreSQL Planner akan menyimpulkan bahwa melompati indeks dan langsung memindai tabel secara fisik (Seq Scan) jauh lebih murah.
 - **Kueri yang Memanipulasi Kolom Terindeks**: Menggunakan fungsi pada kolom yang terindeks di klausa `WHERE`.
   ```sql
   -- Indeks pada kolom created_at akan diabaikan karena kolom dibungkus fungsi DATE()
@@ -137,7 +137,7 @@ WHERE status = 'PROCESSED';
 Berikut adalah praktik optimasi kueri join e-commerce yang menggabungkan indeks pada foreign key dan filter rentang tanggal laporan penjualan bulanan:
 
 ```sql
--- [SKENARIO B: LAPORAN PENJUALAN BULANAN SALES DEPARTEMENT]
+-- [SKENARIO B: LAPORAN PENJUALAN BULANAN DEPARTEMEN PENJUALAN]
 
 -- Langkah 1: Buat indeks pendukung relasi dan tanggal
 CREATE INDEX idx_order_items_product_id ON order_items(product_id);

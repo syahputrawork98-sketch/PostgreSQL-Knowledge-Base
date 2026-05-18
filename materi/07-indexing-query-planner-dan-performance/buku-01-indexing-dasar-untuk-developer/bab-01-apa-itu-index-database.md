@@ -28,7 +28,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 - Memahami konsep kueri aplikasi list dan detail (baca: [Query untuk List dan Detail Data Aplikasi](../../04-postgresql-untuk-aplikasi/buku-01-postgresql-dalam-backend-application/bab-04-query-untuk-list-dan-detail-data-aplikasi.md)).
 
 ## 3. Ringkasan Cepat
-Seiring pertumbuhan data dalam aplikasi backend, kueri pembacaan data (`SELECT`) dapat berjalan semakin lambat. Tanpa optimasi, mesin PostgreSQL terpaksa memindai setiap baris data di dalam disk dari baris pertama hingga terakhir (**Sequential Scan**) hanya untuk mencari satu data spesifik. **Index Database** menyelesaikan masalah ini dengan membuat struktur data pencarian terurut sekunder di luar tabel utama. Indeks berfungsi sebagai peta alamat cepat yang memandu PostgreSQL langsung ke lokasi penyimpanan baris data target (**Index Scan**), mempercepat pencarian data secara dramatis dalam banyak kasus kasus operasional.
+Seiring pertumbuhan data dalam aplikasi backend, kueri pembacaan data (`SELECT`) dapat berjalan semakin lambat. Tanpa optimasi, mesin PostgreSQL terpaksa memindai setiap baris data di dalam disk dari baris pertama hingga terakhir (**Sequential Scan**) hanya untuk mencari satu data spesifik. **Index Database** menyelesaikan masalah ini dengan membuat struktur data pencarian terurut sekunder di luar tabel utama. Indeks berfungsi sebagai peta alamat cepat yang memandu PostgreSQL langsung ke lokasi penyimpanan baris data target (**Index Scan**), mempercepat pencarian data secara dramatis dalam banyak kasus operasional.
 
 ## 4. Istilah Penting di Bab Ini
 
