@@ -158,7 +158,7 @@ CREATE INDEX idx_products_created_at_desc ON products(created_at DESC);
 
 ## 14. Kesalahan Umum
 - **Hanya Fokus pada Nilai Awal Cost**: Terjebak mengkhawatirkan startup cost yang sedikit naik saat menggunakan indeks (misalnya dari `0.00` menjadi `0.28`). Ingat, performa keseluruhan ditentukan oleh total cost estimasi di bagian akhir.
-- **Mengabaikan Baris Filter pada Seq Scan**: Membiarkan kueri Seq Scan dengan `Filter` yang menyaring jutaan baris data berjalan di aplikasi backend. Hal ini dipastikan akan memicu kelambatan server database saat trafik pengguna meningkat.
+- **Mengabaikan Baris Filter pada Seq Scan**: Membiarkan kueri Seq Scan dengan `Filter` yang menyaring jutaan baris data berjalan di aplikasi backend. Hal ini dalam banyak kasus berpotensi memicu hambatan performa server database saat trafik pengguna meningkat.
 - **Membaca Terbalik**: Membaca kueri plan dari atas secara harfiah tanpa memahami bahwa alur pasokan data sebenarnya mengalir dari node terdalam di bawah menuju ke atas.
 
 ---

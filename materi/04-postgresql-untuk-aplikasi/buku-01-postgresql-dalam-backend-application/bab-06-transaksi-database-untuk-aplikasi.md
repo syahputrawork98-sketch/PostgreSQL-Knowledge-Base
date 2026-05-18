@@ -49,7 +49,7 @@ Bayangkan Anda sedang berbelanja di **Kasir Swalayan Supermarket (Aplikasi & Pos
 
 ## 6. Batas Analogi
 Di kasir supermarket fisik, jika transaksi gagal, kasir terpaksa mengeluarkan barang dari kantong plastik secara manual dengan tangan satu per satu.
-Di dalam PostgreSQL, proses pembersihan data setengah jadi tersebut diatur secara elektronik dan otomatis melalui engine penyimpanan database. Ketika mendeteksi kegagalan, PostgreSQL akan langsung menghapus seluruh modifikasi sementara dari memori RAM, sehingga data fisik di disk penyimpanan tetap bersih seolah-olah transaksi tersebut tidak pernah terjadi.
+Di dalam PostgreSQL, proses pembersihan data setengah jadi tersebut dikelola oleh engine database. Ketika mendeteksi kegagalan kueri dalam blok transaksi, PostgreSQL akan menandai transaksi tersebut sebagai aborted (batal) dan mengabaikan kueri selanjutnya hingga instruksi ROLLBACK eksplisit dikirimkan oleh backend aplikasi atau driver database untuk mengembalikan status memori ke keadaan bersih seolah-olah transaksi tidak pernah terjadi.
 
 ## 7. Ilustrasi Konsep
 
@@ -65,7 +65,7 @@ graph TD
 
     subgraph Multi-step Dengan Transaksi [Skenario AMAN: Dengan Transaksi]
         A2[1. Insert Order - SUKSES] --> B2[2. Deduct Stock - ERROR!]
-        B2 -->|Picu Rollback Otomatis| C2["HASIL AKHIR: Database Bersih & Aman!
+        B2 -->|Picu Rollback via App/Driver| C2["HASIL AKHIR: Database Bersih & Aman!
         (Order dibatalkan, stok utuh, 0% data kotor)"]
     end
 
@@ -74,7 +74,7 @@ graph TD
 ```
 
 ## 8. Penjelasan Ilustrasi
-Bagan di atas menggambarkan perbedaan dramatis antara mengeksekusi operasi multi-step tanpa transaksi dengan menggunakan transaksi. Tanpa transaksi, error di langkah kedua memicu kegagalan sistem namun meninggalkan data order menggantung di database (data rusak/inkonsisten). Dengan transaksi, kegagalan di langkah kedua memicu pembatalan otomatis (*rollback*) yang menghapus record order yang sempat ditulis di langkah pertama, mengembalikan database ke kondisi bersih.
+Bagan di atas menggambarkan perbedaan dramatis antara mengeksekusi operasi multi-step tanpa transaksi dengan menggunakan transaksi. Tanpa transaksi, error di langkah kedua memicu kegagalan sistem namun meninggalkan data order menggantung di database (data rusak/inkonsisten). Dengan transaksi, kegagalan di langkah kedua membuat transaksi dibatalkan (di-rollback oleh aplikasi/driver) yang membersihkan record order yang sempat ditulis sementara di langkah pertama, mengembalikan database ke kondisi bersih.
 
 ## 9. Batas Ilustrasi
 Bagan di atas menyederhanakan alur transaksi. Di dunia nyata, keputusan untuk melakukan rollback tidak hanya dipicu oleh error di sisi PostgreSQL saja, melainkan bisa juga dipicu oleh logika bisnis di server backend aplikasi (misalnya backend mendeteksi stok fisik ternyata kurang dari jumlah yang diminta, sehingga backend sengaja mengirimkan perintah rollback).

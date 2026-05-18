@@ -81,7 +81,7 @@ Bagan di atas menyederhanakan proses verifikasi. Latihan pemulihan di tingkat ko
 ### Perbedaan "Backup Berhasil" vs "Restore Berhasil"
 Banyak developer terjebak dalam rasa aman palsu:
 - **Backup Berhasil**: Skrip otomatis di server berhasil menghasilkan berkas cadangan `.sql` setiap hari pukul 02.00 subuh. Namun, tidak pernah ada yang membuka atau menguji berkas tersebut.
-- **Restore Berhasil**: Berkas `.sql` cadangan dicoba didekripsi, dieksekusi di database uji coba, dan terbukti mampu menyusun ulang 100% baris transaksi tanpa ada satupun instruksi SQL yang error.
+- **Restore Berhasil**: Berkas `.sql` cadangan dicoba didekripsi, dieksekusi di database uji coba, dan terbukti mampu menyusun ulang baris transaksi secara lengkap sesuai snapshot cadangan yang tersedia tanpa ada satupun instruksi SQL yang error.
 *Penting*: **Nilai sejati dari sebuah backup hanya terbukti saat proses restore berhasil dilaksanakan dengan mulus.**
 
 ### Risiko Bencana: Restore ke Database yang Salah
@@ -120,7 +120,7 @@ pg_restore -U postgres -d toko_test_db backup_toko_db.dump
 ---
 
 ## 13. Contoh Praktik Project: Latihan Pemulihan Aman
-Mari kita praktikkan latihan restore terisolasi yang sepenuhnya aman di komputer lokal Anda:
+Mari kita praktikkan latihan restore terisolasi yang relatif aman karena sepenuhnya berjalan di komputer lokal Anda:
 
 ```bash
 # Langkah 1: Buat database tiruan khusus uji coba di terminal psql Anda
@@ -129,7 +129,7 @@ Mari kita praktikkan latihan restore terisolasi yang sepenuhnya aman di komputer
 # Langkah 2: Eksekusi proses pemulihan ke database uji coba tersebut
 psql -U postgres -d uji_pulih_db < aman_sebelum_eksperimen.sql
 
-# Langkah 3: Periksa isi tabel di database uji_pulih_db untuk memastikan data kembali utuh
+# Langkah 3: Periksa isi tabel di database uji_pulih_db untuk memastikan data dapat dipulihkan ke titik backup yang tersedia
 # psql -U postgres -d uji_pulih_db -c "SELECT COUNT(*) FROM users;"
 ```
 

@@ -80,7 +80,7 @@ Dalam pengembangan aplikasi backend berskala besar, kita tidak boleh berasumsi t
 3. **Mencegah Blunder Produksi**: Menangkap kueri lambat yang berpotensi melumpuhkan server database sebelum kode program di-deploy ke lingkungan produksi.
 
 ### Perbedaan Estimasi vs Eksekusi Riil
-- **EXPLAIN (Estimasi)**: Sangat aman dijalankan di server produksi untuk kueri apa pun (termasuk `DELETE` atau `UPDATE`) karena database hanya membuat simulasi matematika tanpa benar-benar mengubah atau menghapus data.
+- **EXPLAIN (Estimasi)**: Relatif aman dijalankan di server produksi untuk kueri pembacaan maupun modifikasi (seperti `DELETE` atau `UPDATE`) karena database hanya mensimulasikan rencana eksekusi tanpa benar-benar mengubah atau menghapus data.
 - **EXPLAIN ANALYZE (Eksekusi Riil)**: **Dapat berbahaya jika dijalankan sembarangan** di produksi untuk kueri modifikasi (seperti `DELETE`), karena kueri tersebut akan benar-benar menghapus data riil di database Anda.
 
 ---
@@ -145,7 +145,7 @@ WHERE price = 150000;
 
 ## 15. Catatan Interview
 - **Pertanyaan**: "Apa perbedaan utama antara perintah `EXPLAIN` standar dengan `EXPLAIN ANALYZE` di PostgreSQL, dan kapan kita harus berhati-hati menggunakannya?"
-- **Jawaban**: "Perbedaan utamanya terletak pada eksekusi kueri. `EXPLAIN` standar hanya meminta Query Planner membuat estimasi rute matematika dan biaya (*cost*) berdasarkan statistik tanpa benar-benar mengeksekusi kueri tersebut di disk. Hal ini sangat aman dijalankan kapan saja. Sebaliknya, `EXPLAIN ANALYZE` akan benar-benar mengeksekusi kueri tersebut secara fisik untuk mengukur waktu nyata (*actual time*). Kita harus sangat berhati-hati menggunakan `EXPLAIN ANALYZE` di database produksi untuk kueri modifikasi data seperti `INSERT`, `UPDATE`, atau `DELETE` karena perubahan data tersebut akan benar-benar terjadi dan disahkan ke dalam database."
+- **Jawaban**: "Perbedaan utamanya terletak pada eksekusi kueri. `EXPLAIN` standar hanya meminta Query Planner membuat estimasi rute matematika dan biaya (*cost*) berdasarkan statistik tanpa benar-benar mengeksekusi kueri tersebut di disk. Hal ini umumnya dinilai sangat aman karena tidak menyentuh data riil. Sebaliknya, `EXPLAIN ANALYZE` akan benar-benar mengeksekusi kueri tersebut secara fisik untuk mengukur waktu nyata (*actual time*). Kita harus sangat berhati-hati menggunakan `EXPLAIN ANALYZE` di database produksi untuk kueri modifikasi data seperti `INSERT`, `UPDATE`, atau `DELETE` karena perubahan data tersebut akan benar-benar terjadi dan disahkan ke dalam database."
 
 ---
 
@@ -157,7 +157,7 @@ WHERE price = 150000;
 
 ## 17. Latihan Kecil
 1. Tuliskan kueri SQL untuk memeriksa rencana eksekusi dari kueri: `SELECT * FROM orders WHERE status = 'DELIVERED'`!
-2. Mengapa perintah `EXPLAIN` standar dinilai sangat aman dijalankan di database produksi live untuk kueri `DELETE FROM orders` dibandingkan perintah `EXPLAIN ANALYZE`?
+2. Mengapa perintah `EXPLAIN` standar dinilai relatif sangat aman dijalankan di database produksi live untuk kueri `DELETE FROM orders` dibandingkan perintah `EXPLAIN ANALYZE`?
 
 ---
 

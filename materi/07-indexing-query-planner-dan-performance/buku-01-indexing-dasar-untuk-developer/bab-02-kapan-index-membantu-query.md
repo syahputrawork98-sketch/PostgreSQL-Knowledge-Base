@@ -175,7 +175,7 @@ ORDER BY total_revenue DESC;
 
 ## 16. Catatan Diskusi User
 - **Pertanyaan Umum**: "Apakah kita perlu membuat indeks pada kolom bertipe Boolean seperti `is_deleted`?"
-- **Diskusikan**: Umumnya dihindari. Kolom Boolean memiliki kardinalitas sangat rendah (hanya bernilai `TRUE` atau `FALSE`). Kueri penyaringan Boolean biasanya akan mengembalikan hampir 50% hingga 90% data tabel, sehingga PostgreSQL Query Planner dipastikan akan mengabaikan indeks tersebut dan memilih Sequential Scan. Indeks pada kolom Boolean hanya berguna dalam kasus khusus menggunakan teknik *Partial Index* yang dibahas pada Level lanjutan (misalnya `CREATE INDEX ... WHERE is_deleted = FALSE` untuk tabel arsip aktif).
+- **Diskusikan**: Umumnya dihindari. Kolom Boolean memiliki kardinalitas sangat rendah (hanya bernilai `TRUE` atau `FALSE`). Kueri penyaringan Boolean biasanya akan mengembalikan hampir 50% hingga 90% data tabel, sehingga PostgreSQL Query Planner dalam banyak kasus kemungkinan besar akan memilih Sequential Scan dibanding memanfaatkan indeks tersebut. Indeks pada kolom Boolean hanya berguna dalam kasus khusus menggunakan teknik *Partial Index* yang dibahas pada Level lanjutan (misalnya `CREATE INDEX ... WHERE is_deleted = FALSE` untuk tabel arsip aktif).
 
 ---
 

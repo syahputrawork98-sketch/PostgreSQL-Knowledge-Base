@@ -45,11 +45,11 @@ Bayangkan Anda adalah bagian dari tim arsitek yang sedang merancang dan memeliha
 - **Skema Database** adalah **Blueprint (Cetak Biru) Arsitektur Candi** tersebut.
 - **Manual Database Editing (Klik GUI)** adalah tindakan developer diam-diam datang ke candi membawa palu di malam hari untuk memahat ruangan baru tanpa menggambar ulang blueprint resminya. Akibatnya, arsitek lain keesokan harinya akan kebingungan karena bentuk fisik candi tidak lagi cocok dengan blueprint kertas yang mereka bawa.
 - **Schema Versioning** adalah **Sistem Cetak Biru Berlembar Terurut (Blueprint Versioning)**. Setiap ada perubahan ruangan, tim wajib mengeluarkan lembar blueprint tambahan: *Lembar 01 (Fondasi awal), Lembar 02 (Penambahan pilar gerbang), Lembar 03 (Pemasangan atap)*.
-- Setiap kali ada candi replika baru yang ingin dibangun di kota lain (**lingkungan server baru**), tim pembangun cukup mengeksekusi blueprint lembar demi lembar secara berurutan. Hasil akhirnya dapat dijamin konsisten dan bebas dari deviasi arsitektur.
+- Setiap kali ada candi replika baru yang ingin dibangun di kota lain (**lingkungan server baru**), tim pembangun cukup mengeksekusi blueprint lembar demi lembar secara berurutan. Hasil akhirnya dapat diupayakan agar tetap konsisten dan bebas dari deviasi arsitektur.
 
 ## 6. Batas Analogi
 Di dunia arsitektur fisik, begitu semen basah gerbang candi sudah mengeras, sangat sulit untuk melakukan pembatalan (*rollback*) struktur tanpa menghancurkan fisik candi secara kasar.
-Dalam PostgreSQL, setiap perintah modifikasi skema diatur secara elektronik. Melalui transaksi DDL yang didukung penuh oleh PostgreSQL, kita bisa menulis skrip pembatalan (*down-migration*) secara presisi, sehingga jika ada perubahan skema yang terbukti merusak sistem, server database dapat dikembalikan ke versi sebelumnya secara mulus dalam hitungan detik.
+Dalam PostgreSQL, setiap perintah modifikasi skema diatur secara elektronik. Melalui transaksi DDL yang didukung penuh oleh PostgreSQL, kita bisa menulis skrip pembatalan (*down-migration*) secara presisi, sehingga jika ada perubahan skema yang terbukti merusak sistem, server database secara konseptual dapat dikembalikan ke versi sebelumnya secara relatif lebih aman (tergantung pada kompleksitas relasi data).
 
 ## 7. Ilustrasi Konsep
 

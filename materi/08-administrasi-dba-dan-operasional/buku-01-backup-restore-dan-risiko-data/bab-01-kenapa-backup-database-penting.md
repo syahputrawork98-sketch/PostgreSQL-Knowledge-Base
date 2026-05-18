@@ -43,7 +43,7 @@ Dalam operasional backend application, data adalah aset komersial yang tidak bol
 ## 5. Analogi Sehari-hari
 Bayangkan Anda sedang memimpin proyek **Restorasi Gedung Arsip Kuno yang Rapuh (Database Server)**:
 - **Backup Database** adalah tindakan Anda **membuat salinan fotokopi warna dari seluruh lembar dokumen sejarah di gedung tersebut**, lalu menyimpannya di dalam **Brankas Antipetir yang Terletak di Gedung Seberang Jalan**. Jika besok terjadi kebakaran hebat akibat korsleting listrik saat renovasi (salah kueri/server crash), isi dokumen sejarah berharga tersebut tidak hilang selamanya karena Anda memiliki fotokopi fisiknya di brankas seberang jalan.
-- **Batas Analogi**: Di dunia fisik, memfotokopi 1 juta dokumen kertas membutuhkan waktu berminggu-minggu dan kertas berton-ton. Di dalam dunia PostgreSQL, membackup 1 juta baris data elektronik dapat diselesaikan secara instan dalam hitungan detik dan disimpan di dalam berkas digital berukuran sangat kecil berkat teknologi kompresi data.
+- **Batas Analogi**: Di dunia fisik, memfotokopi 1 juta dokumen kertas membutuhkan waktu berminggu-minggu dan kertas berton-ton. Di dalam dunia PostgreSQL, membackup 1 juta baris data elektronik secara konseptual dapat diselesaikan secara lebih cepat dibandingkan fotokopi fisik, tergantung pada ukuran data dan spesifikasi server, serta disimpan di dalam berkas digital berukuran lebih ringkas berkat teknologi kompresi data.
 
 ## 6. Ilustrasi Konsep
 
@@ -59,7 +59,7 @@ graph TD
     subgraph Skenario Penyelamatan Dengan Backup
         B1[Developer salah ketik kueri] -->|DELETE FROM users tanpa WHERE| B2[Seluruh user terhapus secara fisik]
         B2 -->|Miliki snapshot pg_dump| B3[Jalankan proses restore cadangan]
-        B3 -->|Data kembali utuh| B4[Sistem kembali beroperasi secara normal]
+        B3 -->|Data dipulihkan ke titik backup| B4[Sistem kembali beroperasi secara normal]
     end
 ```
 
@@ -67,7 +67,7 @@ graph TD
 Bagan di atas membandingkan dua akhir hidup operasional aplikasi backend saat terjadi kesalahan kueri fatal. Tanpa adanya cadangan data, satu baris kueri yang salah ketik dapat membunuh reputasi bisnis perusahaan seketika. Dengan adanya backup yang dijaga disiplin, developer memiliki tombol penyelamat darurat untuk memulihkan seluruh keadaan sistem ke kondisi sedetik sebelum insiden terjadi.
 
 ## 8. Batas Ilustrasi
-Bagan di atas memberikan kesan bahwa restore data dapat memulihkan 100% data tanpa kerugian sedikit pun. Perlu dipahami bahwa jika backup terakhir dilakukan pada pukul 08.00 pagi, dan kecelakaan terjadi pada pukul 12.00 siang, seluruh data transaksi transaksi yang masuk antara pukul 08.00 hingga 12.00 siang dipastikan hilang, kecuali perusahaan menerapkan strategi replikasi canggih seperti WAL archiving tingkat tinggi yang dibatasi pada pengantar ini.
+Bagan di atas memberikan kesan bahwa restore data dapat memulihkan keseluruhan data tanpa kerugian sedikit pun. Perlu dipahami bahwa jika backup terakhir dilakukan pada pukul 08.00 pagi, dan kecelakaan terjadi pada pukul 12.00 siang, sebagian besar data transaksi transaksi yang masuk antara pukul 08.00 hingga 12.00 siang kemungkinan besar akan hilang, kecuali perusahaan menerapkan strategi replikasi canggih seperti WAL archiving tingkat tinggi yang dibatasi pada pengantar ini.
 
 ---
 
@@ -145,7 +145,7 @@ pg_dump -U postgres -d belajar_db -f aman_sebelum_eksperimen.sql
 
 ## 16. Catatan Diskusi User
 - **Pertanyaan Umum**: "Apakah proses backup menggunakan `pg_dump` akan mengunci database sehingga aplikasi backend kita tidak bisa diakses selama proses backup berlangsung?"
-- **Diskusikan**: Tidak secara konseptual. PostgreSQL dirancang sangat canggih menggunakan arsitektur MVCC. Proses `pg_dump` melakukan pembacaan snapshot data secara konsisten tanpa mengunci aktivitas kueri baca/tulis (`SELECT`, `INSERT`, `UPDATE`) dari aplikasi backend, sehingga aman dijalankan di server produksi live tanpa mengganggu kenyamanan transaksi pengguna.
+- **Diskusikan**: Tidak secara konseptual untuk sebagian besar kueri standar. PostgreSQL dirancang menggunakan arsitektur MVCC. Proses `pg_dump` melakukan pembacaan snapshot data secara konsisten dengan dampak minimal pada aktivitas kueri baca/tulis (`SELECT`, `INSERT`, `UPDATE`) dari aplikasi backend. Utilitas ini dirancang untuk mengambil snapshot konsisten tanpa mengunci akses baca/tulis kueri biasa, namun untuk database produksi live sangat disarankan untuk tetap dijalankan sesuai prosedur operasional pada jam trafik rendah demi meminimalkan dampak beban kerja server.
 
 ---
 
@@ -160,7 +160,7 @@ pg_dump -U postgres -d belajar_db -f aman_sebelum_eksperimen.sql
 - [ ] Mengetahui risiko-risiko operasional fatal akibat ketiadaan prosedur backup.
 - [ ] Mampu membedakan karakteristik berkas Backup dengan berkas Migration dan Seed Data.
 - [ ] Mampu menuliskan perintah ekspor database dasar memanfaatkan utilitas `pg_dump` secara konseptual.
-- [ ] Mengetahui bahwa proses backup `pg_dump` tidak mengunci akses baca/tulis kueri aplikasi backend.
+- [ ] Mengetahui bahwa proses backup `pg_dump` dirancang untuk mengambil snapshot konsisten tanpa mengunci sebagian besar akses kueri baca/tulis biasa.
 
 ---
 

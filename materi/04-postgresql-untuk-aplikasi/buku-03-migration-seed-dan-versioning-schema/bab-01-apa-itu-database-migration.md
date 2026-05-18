@@ -50,7 +50,7 @@ Bayangkan Anda dan tim arsitek sedang mengelola proyek **Renovasi Gedung Sekolah
 ## 6. Batas Analogi
 Di dunia renovasi fisik, jika Anda sudah terlanjur merubuhkan tembok beton kokoh, Anda harus mengeluarkan tenaga fisik ekstra dan biaya material besar untuk membangunnya kembali jika ingin membatalkan (*rollback*) renovasi.
 
-Di dalam PostgreSQL, modifikasi skema diatur secara elektronik melalui perintah SQL DDL (`ALTER TABLE`). Melalui bantuan tools migrasi backend, kita bisa melakukan pembatalan (*rollback*) struktur database ke versi 5 menit yang lalu secara instan dalam hitungan detik (selama database tidak memuat data sensitif yang terlanjur terhapus akibat kolomnya dibuang).
+Di dalam PostgreSQL, modifikasi skema diatur secara elektronik melalui perintah SQL DDL (`ALTER TABLE`). Melalui bantuan tools migrasi backend, kita bisa melakukan pembatalan (*rollback*) struktur database ke versi sebelumnya secara relatif lebih cepat (selama database tidak memuat data sensitif yang terlanjur terhapus akibat kolomnya dibuang).
 
 ## 7. Ilustrasi Konsep
 
