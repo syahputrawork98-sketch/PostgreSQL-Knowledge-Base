@@ -47,7 +47,7 @@ Bayangkan Anda sedang menggunakan **Aplikasi Ojek Online / GPS Navigasi (Postgre
 - **Perintah EXPLAIN** adalah tindakan Anda **melihat layar ponsel sebelum menekan tombol "Pesan Ojek/Mulai Jalan"**. Anda memeriksa rute mana yang dipilih oleh GPS, apakah ojek akan lewat jalan tikus yang becek atau jalan raya yang mulus. Anda melihat rencana perjalanan tanpa benar-benar melangkahkan kaki keluar rumah.
 
 ## 6. Batas Analogi
-Di aplikasi navigasi, Anda dapat dengan sengaja memaksa pengemudi ojek menyimpang dari rute GPS di tengah jalan. Di dalam PostgreSQL, begitu kueri dijalankan, backend aplikasi tidak dapat mengintervensi alur kerja mesin database; kueri akan berjalan 100% mengikuti keputusan mutlak yang dipilih oleh Query Planner.
+Di aplikasi navigasi, Anda dapat dengan sengaja memaksa pengemudi ojek menyimpang dari rute GPS di tengah jalan. Di dalam PostgreSQL, begitu kueri dijalankan, backend aplikasi tidak dapat mengintervensi alur kerja mesin database; kueri akan berjalan mengikuti rencana yang dipilih Query Planner.
 
 ## 7. Ilustrasi Konsep
 
@@ -76,7 +76,7 @@ Bagan di atas memisahkan proses `EXPLAIN` dengan eksekusi fisik. Perlu dicatat b
 ### Kenapa Developer Backend Membutuhkan EXPLAIN?
 Dalam pengembangan aplikasi backend berskala besar, kita tidak boleh berasumsi tentang performa database:
 1. **Verifikasi Indeks**: Memastikan indeks baru yang kita buat benar-benar digunakan untuk kueri API kita.
-2. **Pendeteksi Botleneck**: Menemukan bagian kueri mana yang paling mahal (misalnya karena filter yang salah atau `JOIN` yang tidak efisien).
+2. **Pendeteksi Bottleneck**: Menemukan bagian kueri mana yang paling mahal (misalnya karena filter yang salah atau `JOIN` yang tidak efisien).
 3. **Mencegah Blunder Produksi**: Menangkap kueri lambat yang berpotensi melumpuhkan server database sebelum kode program di-deploy ke lingkungan produksi.
 
 ### Perbedaan Estimasi vs Eksekusi Riil
@@ -150,7 +150,7 @@ WHERE price = 150000;
 ---
 
 ## 16. Catatan Diskusi User
-- **Pertanyaan Umum**: "Apakah output EXPLAIN memiliki format visual selain teks biner pohon yang rumit?"
+- **Pertanyaan Umum**: "Apakah output EXPLAIN memiliki format visual selain teks pohon / node tree yang rumit?"
 - **Diskusikan**: Ya, PostgreSQL mendukung berbagai format output. Developer backend dapat menggunakan perintah `EXPLAIN (FORMAT JSON) SELECT ...` atau menggunakan perangkat visualisasi pihak ketiga yang populer seperti **PEV (Postgres Explain Visualizer)** untuk mengubah pohon teks yang rumit menjadi diagram interaktif yang lebih mudah dibaca saat melakukan koordinasi tim.
 
 ---
