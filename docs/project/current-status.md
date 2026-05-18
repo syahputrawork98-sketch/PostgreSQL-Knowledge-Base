@@ -1,28 +1,29 @@
 # Status Saat Ini
 
-- **Fase**: Batch 20 - Docs Sync Besar Setelah Batch 11-19.
+- **Fase**: Batch 30 - Docs Sync Besar Setelah Batch 21-29.
 - **Kondisi**:
-  - Batch 11 s/d Batch 19 telah diselesaikan dengan sukses.
-  - **Batch 11**: Cleanup navigasi lokal, relative link, dan menyelaraskan jalur belajar 16 bab draft awal.
-  - **Batch 12**: Drafting 4 bab fondasi Level 0-1.
-  - **Batch 13**: Drafting 4 bab SQL dasar Level 1-2.
-  - **Batch 14**: Drafting 4 bab relasi dan struktur data Level 2.
-  - **Batch 15**: Cleanup ringan konsistensi materi hasil Batch 12-14.
-  - **Batch 15.1**: Mini docs checkpoint.
-  - **Batch 16**: Drafting agregasi SQL dan denormalisasi dasar (menambah 4 bab baru).
-  - **Batch 17**: Drafting schema performance dan database environment (menambah 4 bab baru).
-  - **Batch 18**: Cleanup hubungan materi dan peta relasi lokal (Jalur belajar diperluas menjadi 36 Bab DRAFT).
-  - **Batch 19**: Final pre-docs-sync material consistency pass & programmatic relative link validation berhasil dengan status: `SUCCESS: Every single relative link across all markdown files is perfectly valid and resolved!`.
-  - Total **36 Bab DRAFT** di Rak 01 s/d Rak 04 telah terisi lengkap dalam bentuk DRAFT materi.
+  - Batch 21 s/d Batch 29 telah diselesaikan dengan sukses.
+  - **Batch 21**: Drafting materi Data Seeding Dasar dan Seed Data vs Dummy Data vs Production Data.
+  - **Batch 22**: Drafting materi Schema Versioning / Version Control untuk Schema.
+  - **Batch 23**: Drafting materi Query untuk List/Detail Data Aplikasi serta Query Filter, Sorting, dan Pagination.
+  - **Batch 24**: Drafting materi Transaksi Database untuk Aplikasi serta BEGIN, COMMIT, dan ROLLBACK.
+  - **Batch 25**: Cleanup konsistensi materi Batch 21-24.
+  - **Batch 26**: Drafting materi Indexing Pengantar untuk Developer.
+  - **Batch 27**: Drafting materi EXPLAIN dan Membaca Query Plan Dasar.
+  - **Batch 28**: Drafting materi Backup, Restore, dan Kesadaran Risiko Data.
+  - **Batch 29**: Final consistency pass materi Batch 21-28 (melunakkan klaim absolut, verifikasi link internal, dan integrasi penamaan).
+  - Total **49 Bab DRAFT** di Rak 01 s/d Rak 08 telah terisi lengkap dalam bentuk DRAFT materi.
   - Sesuai kebijakan keamanan, semua materi baru berstatus Status: DRAFT dan Status Verifikasi Sumber: REVIEW (belum live-verified ke official docs).
+  - Browser/web access belum digunakan.
+  - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Sinkronisasi dokumen project control dengan realisasi Batch 11-19.
+  - Sinkronisasi dokumen project control dengan realisasi Batch 21-29.
 - **Next Step**:
-  - Menunggu keputusan dari **Room Chat 00 / User** setelah Batch 20 selesai:
-    - Opsi A: Lanjut drafting Batch 21-29 untuk materi lanjutan (seperti data seeding, version control schema, dll).
-    - Opsi B: Mulai fase official docs verification (Rencana Batch 21) jika user mengizinkan browser untuk mengubah status menjadi `VERIFIED`.
-    - Opsi C: Analisis pre-verification via Room Chat 01 sebelum menentukan batch berikutnya.
+  - Menunggu keputusan dari **Room Chat 00 / User** setelah Batch 30 selesai:
+    - **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan materi Level 4-5 yang masih kosong (seperti dasar constraint lanjutan, data type lanjutan, indexing lanjutan ringan, transaksi lanjutan ringan, atau administrasi dasar lain).
+    - **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+    - **Opsi C — Room Chat 01 Analisa Saja**: Meminta analisis repositori secara menyeluruh setelah Batch 30 untuk menentukan prioritas materi mana yang perlu diverifikasi atau ditulis berikutnya.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir (Sebelum Batch 20)**: `24968a5c07ac327eb78441892192bda683e385c0`
+- **Commit Terakhir (Sebelum Batch 30)**: `38da8fba08428b8e2672eb86ace37ee5527360a1`

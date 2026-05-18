@@ -1,6 +1,6 @@
 # Project Roadmap
 
-Rencana pengembangan PostgreSQL Knowledge Base dalam 20 batch awal dan arah fase berikutnya:
+Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase berikutnya:
 
 - **Batch 0**: Reset repository dan pembuatan struktur awal (Root, Materi, Docs) — **Selesai**.
 - **Batch 1**: Pembuatan kerangka folder awal (Inisialisasi Materi) — **Selesai**.
@@ -22,13 +22,23 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 20 batch awal dan arah fase
 - **Batch 17**: Drafting schema performance dan database environment (menambah 4 bab baru) — **Selesai**.
 - **Batch 18**: Cleanup hubungan materi dan peta relasi lokal (Jalur belajar diperluas menjadi 36 Bab DRAFT) — **Selesai**.
 - **Batch 19**: Final pre-docs-sync material consistency pass dan programmatic relative link validation — **Selesai**.
-- **Batch 20 (Current)**: Docs Sync Besar setelah Batch 11-19 selesai.
+- **Batch 20**: Docs Sync Besar setelah Batch 11-19 selesai — **Selesai**.
+- **Batch 21**: Drafting materi Data Seeding Dasar dan Seed Data vs Dummy Data vs Production Data — **Selesai**.
+- **Batch 22**: Drafting materi Schema Versioning / Version Control untuk Schema — **Selesai**.
+- **Batch 23**: Drafting materi Query untuk List/Detail Data Aplikasi serta Query Filter, Sorting, dan Pagination — **Selesai**.
+- **Batch 24**: Drafting materi Transaksi Database untuk Aplikasi serta BEGIN, COMMIT, dan ROLLBACK — **Selesai**.
+- **Batch 25**: Cleanup konsistensi materi Batch 21-24 — **Selesai**.
+- **Batch 26**: Drafting materi Indexing Pengantar untuk Developer — **Selesai**.
+- **Batch 27**: Drafting materi EXPLAIN dan Membaca Query Plan Dasar — **Selesai**.
+- **Batch 28**: Drafting materi Backup, Restore, dan Kesadaran Risiko Data — **Selesai**.
+- **Batch 29**: Final consistency pass materi Batch 21-28 (melunakkan klaim absolut, verifikasi link internal, dan integrasi penamaan) — **Selesai**.
+- **Batch 30 (Current)**: Docs Sync Besar setelah Batch 21-29 selesai.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
 Fase selanjutnya memerlukan keputusan resmi dari **Room Chat 00 / User**:
 
-*   **Opsi A: Lanjutan Drafting**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 3-4 lainnya yang masih kosong pada Rak 01-04 (seperti data seeding, version control schema, dll).
-*   **Opsi B: Official Docs Verification (Rencana Batch 21)**: Memulai fase verifikasi terhadap dokumentasi resmi PostgreSQL lewat browser untuk mencocokkan dan mengesahkan draf materi agar berstatus `VERIFIED`.
-*   **Opsi C: Analisis Pre-Verification**: Melakukan audit mendalam dan penyusunan checklist detail sebelum verifikasi dimulai.
+*   **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08 (seperti dasar constraint lanjutan, data type lanjutan, indexing lanjutan ringan, transaksi lanjutan ringan, atau administrasi dasar lain).
+*   **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+*   **Opsi C — Room Chat 01 Analisa Saja**: Meminta analisis repositori secara menyeluruh setelah Batch 30 untuk menentukan prioritas materi mana yang perlu diverifikasi atau ditulis berikutnya.

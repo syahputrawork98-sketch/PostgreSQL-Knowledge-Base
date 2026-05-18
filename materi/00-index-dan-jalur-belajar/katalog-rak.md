@@ -13,8 +13,8 @@ Daftar seluruh rak dalam PostgreSQL Living Knowledge Base berdasarkan domain ilm
 | 04 | [PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/) | Integrasi Backend | L3 - L4 |
 | 05 | [Fitur Lanjutan](../05-fitur-postgresql-lanjutan/) | JSONB, FTS, Window | L4 - L5 |
 | 06 | [Transaksi & MVCC](../06-transaksi-concurrency-dan-mvcc/) | Concurrency | L5 - L6 |
-| 07 | [Indexing & Performance](../07-indexing-query-planner-dan-performance/) | Optimasi Query | L5 - L6 |
-| 08 | [Admin & DBA](../08-administrasi-dba-dan-operasional/) | Ops & Maintenance | L6 - L7 |
+| 07 | [Indexing & Performance](../07-indexing-query-planner-dan-performance/) | Optimasi Query | L3 - L6 |
+| 08 | [Admin & DBA](../08-administrasi-dba-dan-operasional/) | Ops & Maintenance | L3 - L7 |
 | 09 | [Backup & High Availability](../09-backup-recovery-replication-dan-ha/) | Data Safety | L7 - L8 |
 | 10 | [Security & Governance](../10-security-role-permission-dan-governance/) | Keamanan | L6 - L8 |
 | 11 | [Arsitektur Internals](../11-arsitektur-dan-internals-postgresql/) | Engine Bedah | L8 |
@@ -23,3 +23,6 @@ Daftar seluruh rak dalam PostgreSQL Living Knowledge Base berdasarkan domain ilm
 | 14 | [Interview & Konsultasi](../14-interview-tes-teknis-dan-konsultasi/) | Karir | L4 - L9 |
 | 15 | [Referensi Cepat](../15-referensi-cepat-dan-cheatsheet/) | Cheatsheets | Lintas Level |
 | 16 | [Version Updates](../16-version-updates-dan-release-notes/) | Release Notes | Lintas Level |
+
+---
+*Catatan: Target Level disesuaikan secara dinamis seiring bertambahnya bab materi (misalnya Rak 07 dan Rak 08 yang sekarang mendukung materi pengantar level 3-4).*

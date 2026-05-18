@@ -12,11 +12,11 @@ Menyediakan pusat pengetahuan PostgreSQL yang terstruktur, mendalam, dan memilik
 GitHub (setelah proses commit/push oleh user).
 
 ## 4. Status Batch Terakhir
-*   **Batch 19** — Final pre-docs-sync material consistency pass & programmatic relative link validation (Selesai).
-*   **Batch 20 (Current)** — Docs Sync Besar Setelah Batch 11-19 (Selesai).
+*   **Batch 29** — Final consistency pass materi Batch 21-28 (Selesai).
+*   **Batch 30 (Current)** — Docs Sync Besar Setelah Batch 21-29 (Selesai).
 
-## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14, Batch 16-17)
-Telah diselesaikan penulisan total **36 Bab DRAFT** di Rak 01 s/d Rak 04 untuk tingkat pemula hingga menengah (Level 0-4). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).
+## 5. Hasil Pengisian Materi (Batch 6-9, Batch 12-14, Batch 16-17, Batch 21-24, Batch 26-28)
+Telah diselesaikan penulisan total **49 Bab DRAFT** di Rak 01 s/d Rak 08 untuk tingkat pemula hingga menengah (Level 0-4). Semua materi ini saat ini berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` karena ditulis secara lokal (*offline-mode*).
 
 ## 6. Struktur Root
 - `README.md` & `FITUR.md`: Gambaran umum dan rencana fitur.
@@ -33,7 +33,7 @@ Mengikuti pola: **Rak** (Folder 00-16) $\rightarrow$ **Buku** (Folder Topik) $\r
 ## 9. Kebijakan Sumber (Source Policy)
 - Sumber utama wajib dari **PostgreSQL Official Documentation**.
 - AI membantu menyusun struktur, draf, dan analogi; bukan sumber kebenaran utama.
-- Seluruh 36 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang sebelum diberi status `VERIFIED`.
+- Seluruh 49 materi saat ini wajib diverifikasi terhadap dokumentasi resmi lewat browser pada batch mendatang sebelum diberi status `VERIFIED`.
 
 ## 10. Larangan Scope
 Dilarang mengerjakan UI/Frontend, Backend API, Authentication, Database App aktif, atau teknologi non-PostgreSQL (seperti MongoDB) sebelum fase materi dinyatakan stabil dan disetujui oleh Owner.
