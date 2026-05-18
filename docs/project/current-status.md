@@ -1,13 +1,14 @@
 # Status Saat Ini
 
-- **Fase**: Batch 36 - Activate Struktur Rak 05 Advanced PostgreSQL Features
+- **Fase**: Batch 37 - Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC
 - **Kondisi**:
-  - **Batch 36**: Telah diselesaikan dengan sukses sebagai aktivasi struktur kurikulum Fitur PostgreSQL Lanjutan di Rak 05.
-    - Pembuatan 5 folder buku baru di Rak 05 (Buku 01, Buku 02, Buku 03, Buku 04, Buku 05) beserta 5 README.md buku baru.
-    - Pembuatan 17 bab skeleton DRAFT ringan baru untuk memetakan JSONB vs JSON, kueri JSONB, indexing GIN untuk JSONB, anti-pattern JSONB, konsep Full Text Search, tsvector/tsquery, indexing FTS, Views sebagai abstraksi kueri, Materialized Views, refresh concurrently, SQL/PLpgSQL functions, Stored Procedures transaksional, triggers, and extensions (citext, pg_trgm, uuid-ossp, pgcrypto, pg_stat_statements).
-    - Total materi utama berkembang dari **89 Bab DRAFT** menjadi **106 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 05 agar mengindeks seluruh 5 buku dan 17 bab aktif.
+  - **Batch 37**: Telah diselesaikan dengan sukses sebagai aktivasi struktur kurikulum Transaksi, Konkurensi, dan MVCC di Rak 06.
+    - Pembuatan 5 folder buku baru di Rak 06 (Buku 01, Buku 02, Buku 03, Buku 04, Buku 05) beserta 5 README.md buku baru.
+    - Pembuatan 18 bab skeleton DRAFT ringan baru untuk memetakan batas transaksi, prinsip ACID (Atomicity, Consistency, Isolation, Durability), kontrol native BEGIN/COMMIT/ROLLBACK/SAVEPOINT, 3 active isolation levels, anomali dirty read/fuzzy read/phantom read/write skew, serialization failure (SQL State 40001) & retry, row-level locks (FOR UPDATE/SHARE/NOWAIT/SKIP LOCKED), table locks, deadlock detection & prevention, parameter lock_timeout, teori MVCC non-blocking, snapshot visibility rules, metadata tersembunyi xmin/xmax, row versioning, dead tuples & VACUUM, Lost Update on Read-Modify-Write, Optimistic Concurrency Control (OCC), Pessimistic Concurrency Control (PCC), and idempotent retry loop.
+    - Total materi utama berkembang dari **106 Bab DRAFT** menjadi **124 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 06 agar mengindeks seluruh 5 buku dan 18 bab aktif.
     - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang akan dirapikan di Batch 40.
+  - **Batch 36**: Telah diselesaikan sebelumnya (Activate Struktur Rak 05 Advanced PostgreSQL Features).
   - **Batch 35**: Telah diselesaikan sebelumnya (Expand Struktur Rak 04 PostgreSQL untuk Aplikasi).
   - **Batch 34**: Telah diselesaikan sebelumnya (Expand Struktur Rak 03 Schema & Data Modeling).
   - **Batch 33**: Telah diselesaikan sebelumnya (Expand Struktur Rak 02 SQL Core).
@@ -21,12 +22,12 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Aktivasi struktur Fitur PostgreSQL Lanjutan di Rak 05 (JSONB, Full Text Search, Views/Materialized Views, PL/pgSQL pemrograman database, dan Extensions).
+  - Aktivasi struktur Transaksi, Konkurensi, dan MVCC di Rak 06.
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 37: Expand Rak 07 Indexing, Query Planner, dan Performance** untuk merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
+  - **Rekomendasi Utama**: **Batch 38: Expand Rak 07 Indexing, Query Planner, dan Performance** untuk merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
   - **Opsi Lain**:
-    - **Opsi A — Batch 38: Expand Rak 08 Administrasi, DBA, dan Operasional**: Merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
+    - **Opsi A — Batch 39: Expand Rak 08 Administrasi, DBA, dan Operasional**: Merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `02db417c7284c04983db37ecbb1b90d485a40b4e`
+- **Commit Terakhir**: `f2bf1eab91ee59f270c60cb8a1d54de3dec02153`
