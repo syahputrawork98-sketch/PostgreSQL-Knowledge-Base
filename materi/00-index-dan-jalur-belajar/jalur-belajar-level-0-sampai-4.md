@@ -6,9 +6,9 @@ Status Verifikasi Sumber: REVIEW
 Tujuan Jalur Belajar:
 Membantu pembaca belajar secara terstruktur dari nol (tanpa background database) hingga mampu merancang skema database PostgreSQL yang kokoh, menulis query SQL yang efisien, dan mengintegrasikannya secara aman dengan arsitektur backend modern (Backend Developer Ready).
 
-## Peta Kurikulum 76 Bab DRAFT Lengkap
+## Peta Kurikulum 89 Bab DRAFT Lengkap
 
-Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fondasi PostgreSQL melalui 76 Bab DRAFT lengkap (termasuk draf/skeleton SQL Core dan Schema Modeling lanjutan) dari Rak 01 hingga Rak 08:
+Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fondasi PostgreSQL melalui 89 Bab DRAFT lengkap (termasuk draf/skeleton SQL Core, Schema Modeling, dan Integrasi Aplikasi backend lanjutan) dari Rak 01 hingga Rak 08:
 
 | Urutan | Level | Rak | Buku | Bab | Status | Verifikasi |
 | :---: | :---: | :--- | :--- | :--- | :---: | :---: |
@@ -82,12 +82,25 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 | 68 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 02: Data Seeding Dasar](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-02-data-seeding-dasar.md) | DRAFT | REVIEW |
 | 69 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 03: Seed Data vs Dummy Data vs Production Data](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-03-seed-data-vs-dummy-data-dan-production-data.md) | DRAFT | REVIEW |
 | 70 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 03: Migrations | [Bab 04: Version Control untuk Schema](../04-postgresql-untuk-aplikasi/buku-03-migration-seed-dan-versioning-schema/bab-04-version-control-untuk-schema.md) | DRAFT | REVIEW |
-| 71 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 01: Apa Itu Index Database](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-01-apa-itu-index-database.md) | DRAFT | REVIEW |
-| 72 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 02: Kapan Index Membantu Query](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-02-kapan-index-membantu-query.md) | DRAFT | REVIEW |
-| 73 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 03: Apa Itu EXPLAIN](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-03-apa-itu-explain.md) | DRAFT | REVIEW |
-| 74 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 04: Membaca Query Plan Dasar](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-04-membaca-query-plan-dasar.md) | DRAFT | REVIEW |
-| 75 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 01: Kenapa Backup Database Penting](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-01-kenapa-backup-database-penting.md) | DRAFT | REVIEW |
-| 76 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 02: Restore dan Latihan Pemulihan Data](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-02-restore-dan-latihan-pemulihan-data.md) | DRAFT | REVIEW |
+| 71 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 05: Query Aman | [Bab 01: SQL Injection dan Risiko Query String](../04-postgresql-untuk-aplikasi/buku-05-query-aman-dan-parameterized-query/bab-01-sql-injection-dan-risiko-query-string.md) | DRAFT | REVIEW |
+| 72 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 05: Query Aman | [Bab 02: Parameterized Query dan Prepared Statement](../04-postgresql-untuk-aplikasi/buku-05-query-aman-dan-parameterized-query/bab-02-parameterized-query-dan-prepared-statement.md) | DRAFT | REVIEW |
+| 73 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 05: Query Aman | [Bab 03: Validasi Input dan Boundary Query Aplikasi](../04-postgresql-untuk-aplikasi/buku-05-query-aman-dan-parameterized-query/bab-03-validasi-input-dan-boundary-query-aplikasi.md) | DRAFT | REVIEW |
+| 74 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 06: Transaksi Service | [Bab 01: Transaction Boundary pada Use Case Aplikasi](../04-postgresql-untuk-aplikasi/buku-06-transaction-boundary-di-service-layer/bab-01-transaction-boundary-pada-use-case-aplikasi.md) | DRAFT | REVIEW |
+| 75 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 06: Transaksi Service | [Bab 02: Retry, Idempotency, dan Error Handling Transaksi](../04-postgresql-untuk-aplikasi/buku-06-transaction-boundary-di-service-layer/bab-02-retry-idempotency-dan-error-handling-transaksi.md) | DRAFT | REVIEW |
+| 76 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 06: Transaksi Service | [Bab 03: Race Condition di Level Aplikasi](../04-postgresql-untuk-aplikasi/buku-06-transaction-boundary-di-service-layer/bab-03-race-condition-di-level-aplikasi.md) | DRAFT | REVIEW |
+| 77 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 07: Query Pattern | [Bab 01: Offset Pagination dan Risikonya](../04-postgresql-untuk-aplikasi/buku-07-pagination-filtering-dan-query-pattern-aplikasi/bab-01-offset-pagination-dan-risikonya.md) | DRAFT | REVIEW |
+| 78 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 07: Query Pattern | [Bab 02: Keyset Pagination Dasar](../04-postgresql-untuk-aplikasi/buku-07-pagination-filtering-dan-query-pattern-aplikasi/bab-02-keyset-pagination-dasar.md) | DRAFT | REVIEW |
+| 79 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 07: Query Pattern | [Bab 03: Dynamic Filtering, Sorting, dan Query Builder Risk](../04-postgresql-untuk-aplikasi/buku-07-pagination-filtering-dan-query-pattern-aplikasi/bab-03-dynamic-filtering-sorting-dan-query-builder-risk.md) | DRAFT | REVIEW |
+| 80 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 08: Pooling & Trade-off | [Bab 01: Connection Pool Sizing untuk Aplikasi](../04-postgresql-untuk-aplikasi/buku-08-connection-pooling-dan-tradeoff-akses-data/bab-01-connection-pool-sizing-untuk-aplikasi.md) | DRAFT | REVIEW |
+| 81 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 08: Pooling & Trade-off | [Bab 02: pgBouncer dan Pooling di Luar Aplikasi (Pengantar)](../04-postgresql-untuk-aplikasi/buku-08-connection-pooling-dan-tradeoff-akses-data/bab-02-pgbouncer-dan-pooling-di-luar-aplikasi-pengantar.md) | DRAFT | REVIEW |
+| 82 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 08: Pooling & Trade-off | [Bab 03: ORM vs Query Builder vs Native SQL](../04-postgresql-untuk-aplikasi/buku-08-connection-pooling-dan-tradeoff-akses-data/bab-03-orm-vs-query-builder-vs-native-sql.md) | DRAFT | REVIEW |
+| 83 | L3 - L4 | [04 - App Integration](../04-postgresql-untuk-aplikasi/) | Buku 08: Pooling & Trade-off | [Bab 04: Migration Rollback Risk dan Release Coordination](../04-postgresql-untuk-aplikasi/buku-08-connection-pooling-dan-tradeoff-akses-data/bab-04-migration-rollback-risk-dan-release-coordination.md) | DRAFT | REVIEW |
+| 84 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 01: Apa Itu Index Database](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-01-apa-itu-index-database.md) | DRAFT | REVIEW |
+| 85 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 02: Kapan Index Membantu Query](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-02-kapan-index-membantu-query.md) | DRAFT | REVIEW |
+| 86 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 03: Apa Itu EXPLAIN](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-03-apa-itu-explain.md) | DRAFT | REVIEW |
+| 87 | L3 - L4 | [07 - Indexing & Planner](../../materi/07-indexing-query-planner-dan-performance/) | Buku 01: Index Dasar | [Bab 04: Membaca Query Plan Dasar](../../materi/07-indexing-query-planner-dan-performance/buku-01-indexing-dasar-untuk-developer/bab-04-membaca-query-plan-dasar.md) | DRAFT | REVIEW |
+| 88 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 01: Kenapa Backup Database Penting](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-01-kenapa-backup-database-penting.md) | DRAFT | REVIEW |
+| 89 | L3 - L4 | [08 - DBA & Operasional](../../materi/08-administrasi-dba-dan-operasional/) | Buku 01: Backup & Restore | [Bab 02: Restore dan Latihan Pemulihan Data](../../materi/08-administrasi-dba-dan-operasional/buku-01-backup-restore-dan-risiko-data/bab-02-restore-dan-latihan-pemulihan-data.md) | DRAFT | REVIEW |
 
 *(Semua materi di atas saat ini berstatus DRAFT dan berada dalam tahap REVIEW verifikasi dokumen resmi).*
 
@@ -151,11 +164,27 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 - **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
 - **Fokus**: Memahami pengisian data awal (*seeding*) baik referensi statis maupun dummy dinamis, perbedaan data seeding vs migration vs production, serta penerapan riwayat perubahan skema (*schema versioning*).
 
-### 15. Tahap Indexing & Membaca Query Plan (Level 3 - 4)
+### 15. Tahap Keamanan Kueri Aplikasi (Level 3 - 4)
+- **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
+- **Fokus**: Memahami bahaya SQL Injection akibat penggabungan kueri string kustom, implementasi Parameterized Query untuk pemisahan logika kueri dari masukan parameter, penggunaan Prepared Statement untuk optimasi parsing eksekusi rencana kueri, serta hak akses database minimal (Least Privilege).
+
+### 16. Tahap Batasan Transaksi & Penanganan Kesalahan (Level 3 - 4)
+- **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
+- **Fokus**: Mengatur batas transaksi bisnis (Transaction Boundary) pada tingkat Service Layer secara terprogram, memahami taktik penanganan transient errors (deadlock, serialization error) melalui strategi Retry dan Exponential Backoff, serta menjamin idempotensi kueri menggunakan Idempotency Keys.
+
+### 17. Tahap Query Pattern & Optimasi Pagination Aplikasi (Level 3 - 4)
+- **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
+- **Fokus**: Menganalisis masalah performa Offset Pagination pada deep paging data raksasa, menguasai Keyset Pagination (Cursor-based) untuk waktu akses konstan O(1), serta mengantisipasi risiko keamanan/performa kueri Builder pencarian dan penyaringan dinamis.
+
+### 18. Tahap Arsitektur Pooling Koneksi & Release Coordination (Level 3 - 4)
+- **Rak**: [04 - PostgreSQL untuk Aplikasi](../04-postgresql-untuk-aplikasi/)
+- **Fokus**: Menentukan alokasi pool sizing koneksi yang ideal berdasarkan beban CPU server, pengenalan pgBouncer proxy pooling (Session vs Transaction vs Statement pooling), trade-off antara ORM, Query Builder, dan Native SQL, serta mitigasi kegagalan migrasi skema (DDL transaksional) dan sinkronisasi perilisan.
+
+### 19. Tahap Indexing & Membaca Query Plan (Level 3 - 4)
 - **Rak**: [07 - Indexing, Query Planner, dan Performance](../../materi/07-indexing-query-planner-dan-performance/)
 - **Fokus**: Memahami apa itu index B-Tree, kapan index membantu kueri, penggunaan perintah `EXPLAIN` untuk estimasi biaya, serta cara menganalisis rencana eksekusi database (*Query Plan*).
 
-### 16. Tahap Backup & Restore Dasar (Level 3 - 4)
+### 20. Tahap Backup & Restore Dasar (Level 3 - 4)
 - **Rak**: [08 - Administrasi, DBA, dan Operasional](../../materi/08-administrasi-dba-dan-operasional/)
 - **Fokus**: Memahami pentingnya perlindungan data, perbedaan backup vs migration vs seeding, cara mencadangkan database dengan `pg_dump`, melakukan restore dengan `psql` / `pg_restore`, serta latihan simulasi pemulihan (*restore drill*).
 
