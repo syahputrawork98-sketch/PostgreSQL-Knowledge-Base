@@ -37,12 +37,13 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 30.2**: Lock Expert-Scale Book/Chapter Expansion Rules — **Selesai**.
 - **Batch 30.3**: Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab — **Selesai**.
 - **Batch 31**: Gap Matrix Struktur Expert-Scale — **Selesai**.
+- **Batch 32**: Sync README Rak/Buku Aktif — **Selesai**.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
 Fase selanjutnya adalah melaksanakan prioritas pengembangan jangka menengah yang telah diidentifikasi dalam [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md):
 
-*   **Rekomendasi Utama — Batch 32: Sync README Rak/Buku Aktif**: Penyelarasan seluruh README/index lokal pada Rak 01 s/d Rak 08 agar mencerminkan daftar rak aktif yang mutakhir, integrasi pranala ke dokumen kebijakan *expert-scale*, dan penulisan lembar referensi cepat (*cheatsheet*) awal pada Rak 15.
-*   **Opsi A — Lanjut drafting materi Rak 02**: Mulai mengaktifkan Batch 33 dengan menulis draf SQL Core tingkat lanjut (Subquery, CTE, Window Functions).
+*   **Rekomendasi Utama — Batch 33: Expand Rak 02 SQL Core**: Mulai menulis draf kueri SQL Core tingkat lanjut (Subquery, CTE, Window Functions).
+*   **Opsi A — Batch 34: Expand Rak 03 Schema & Data Modeling**: Mulai menulis draf tipe data lanjutan (JSONB, Array, Range, Enum, UUID, TZ) dan constraint canggih.
 *   **Opsi B — Mulai official docs verification**: Mulai melakukan verifikasi draf 49 bab aktif terhadap dokumentasi resmi menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.

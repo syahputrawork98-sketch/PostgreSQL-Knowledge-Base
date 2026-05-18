@@ -1,11 +1,12 @@
 # Status Saat Ini
 
-- **Fase**: Batch 31 - Gap Matrix Struktur Expert-Scale
+- **Fase**: Batch 32 - Sync README Rak/Buku Aktif
 - **Kondisi**:
-  - **Batch 31**: Telah diselesaikan dengan sukses sebagai pemetaan gap terstruktur.
-    - Pembuatan dokumen resmi [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md) yang memetakan status, gap utama, risiko, dan rekomendasi untuk Rak 00 s/d Rak 17 secara detail.
-    - Perumusan pemekaran buku, pemecahan bab padat, dan pendaftaran 23 topik advanced PostgreSQL penting yang hilang.
-    - Penyusunan peta jalan prioritas jangka menengah untuk Batch 32 s/d Batch 40.
+  - **Batch 32**: Telah diselesaikan dengan sukses sebagai sinkronisasi navigasi materi.
+    - Sinkronisasi seluruh README.md lokal pada Rak 01 s/d Rak 08 beserta buku-buku aktif/skeleton di bawahnya agar mencerminkan status aktual 49 Bab DRAFT secara terperinci.
+    - Penyematan catatan tegas mengenai kebijakan *No Fixed Limit* (fleksibilitas rak, buku, bab, sub-bab) di setiap README rak.
+    - Integrasi pranala relatif ke dokumen kebijakan teknis (`book-chapter-depth-policy.md`, `materi-expert-scale-gap-matrix.md`, `materi-writing-standard.md`, `materi-structure-decision.md`).
+  - **Batch 31**: Telah diselesaikan sebelumnya (Gap Matrix Struktur Expert-Scale).
   - **Batch 30.3**: Telah diselesaikan sebelumnya (Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab).
   - **Batch 30.2**: Telah diselesaikan sebelumnya (Lock Expert-Scale Book/Chapter Expansion Rules).
   - **Batch 30.1**: Telah diselesaikan sebelumnya (Instruksi portabel, Alur Verifikasi, Riwayat Batch, & Skeleton Berita Rak 17).
@@ -15,12 +16,12 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Memetakan celah kualitas dan struktur materi berskala *expert-scale* untuk memandu pengembangan di batch-batch mendatang.
+  - Sinkronisasi README/index dan navigasi rak serta buku materi aktif.
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 32: Sync README Rak/Buku Aktif** untuk menyelaraskan indeks dan cheatsheet awal pada Rak 15.
+  - **Rekomendasi Utama**: **Batch 33: Expand Rak 02 SQL Core** untuk menulis draf kueri SQL Core tingkat lanjut (Subquery, CTE, Window Functions).
   - **Opsi Lain**:
-    - **Opsi A — Lanjut drafting materi Rak 02**: Menulis draf kueri lanjutan SQL Core (subquery, CTE, window functions).
+    - **Opsi A — Batch 34: Expand Rak 03 Schema & Data Modeling**: Menulis draf tipe data lanjutan (JSONB, Array, Range, Enum, UUID, TZ) dan constraint canggih.
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `de3d7d79ec5b8e0435fcfd5201b8edcc26ceb2b8`
+- **Commit Terakhir**: `684faa6c6fd89e4417edf5d15a967118eeba0241`
