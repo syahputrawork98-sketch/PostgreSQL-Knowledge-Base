@@ -1,13 +1,12 @@
 # Status Saat Ini
 
-- **Fase**: Batch 30.3 - Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab
+- **Fase**: Batch 31 - Gap Matrix Struktur Expert-Scale
 - **Kondisi**:
-  - **Batch 30.3**: Telah diselesaikan dengan sukses sebagai policy clarification.
-    - Pembentukan kebijakan tegas bahwa tidak ada batas tetap untuk jumlah rak, buku, bab, maupun sub-bab dalam PostgreSQL Living Knowledge Base.
-    - Pembaruan dokumen keputusan struktur `docs/project/materi-structure-decision.md` untuk meresmikan istilah "Daftar Rak Aktif Saat Ini / Baseline Aktif" (bukan Daftar Rak Final) serta memperjelas aturan fleksibilitas penomoran rak aktif dan menambah sub-bagian Batch 30.3.
-    - Pembaruan standar penulisan `docs/project/materi-writing-standard.md` dengan menaikkan skala Bagian 13 menjadi "Kedalaman Struktur Rak, Buku, Bab, dan Sub-bab" guna mencakup seluruh tingkatan organisasi materi.
-    - Pembaruan dokumen kebijakan kedalaman `docs/project/book-chapter-depth-policy.md` dengan menambahkan bagian "Bukan Batas Permanen" (klasifikasi jumlah bab hanya ilustrasi) dan "Hubungan dengan Rak dan Sub-bab" (fleksibilitas seluruh struktur).
-    - Pembaruan instruksi portabel ChatGPT Project (`docs/project-instructions/add-instructions-chatgpt-project.md`) dan Room Chat 00 (`docs/project-instructions/room-chat-00-instructions.md`) serta Room Chat 01 (`docs/project-instructions/room-chat-01-analisa-saja-instructions.md`) agar aturan ini dipahami dan dipelihara secara otomatis oleh asisten AI.
+  - **Batch 31**: Telah diselesaikan dengan sukses sebagai pemetaan gap terstruktur.
+    - Pembuatan dokumen resmi [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md) yang memetakan status, gap utama, risiko, dan rekomendasi untuk Rak 00 s/d Rak 17 secara detail.
+    - Perumusan pemekaran buku, pemecahan bab padat, dan pendaftaran 23 topik advanced PostgreSQL penting yang hilang.
+    - Penyusunan peta jalan prioritas jangka menengah untuk Batch 32 s/d Batch 40.
+  - **Batch 30.3**: Telah diselesaikan sebelumnya (Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab).
   - **Batch 30.2**: Telah diselesaikan sebelumnya (Lock Expert-Scale Book/Chapter Expansion Rules).
   - **Batch 30.1**: Telah diselesaikan sebelumnya (Instruksi portabel, Alur Verifikasi, Riwayat Batch, & Skeleton Berita Rak 17).
   - Total **49 Bab DRAFT** di Rak 01 s/d Rak 08 tetap terisi lengkap tanpa perubahan (tidak ada penulisan materi teknis baru atau bab baru).
@@ -16,12 +15,12 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Mengunci aturan "No Fixed Limit" di seluruh tingkatan struktur organisasi materi agar tidak terjadi salah tafsir di batch-batch mendatang.
+  - Memetakan celah kualitas dan struktur materi berskala *expert-scale* untuk memandu pengembangan di batch-batch mendatang.
 - **Next Step**:
-  - **Rekomendasi Utama**: Room Chat 01 melakukan **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale** untuk mengidentifikasi rak yang perlu ditambah, buku yang perlu dimekarkan, bab yang terlalu padat, dan sub-bab yang layak naik kelas.
+  - **Rekomendasi Utama**: **Batch 32: Sync README Rak/Buku Aktif** untuk menyelaraskan indeks dan cheatsheet awal pada Rak 15.
   - **Opsi Lain**:
-    - **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08.
+    - **Opsi A — Lanjut drafting materi Rak 02**: Menulis draf kueri lanjutan SQL Core (subquery, CTE, window functions).
     - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `62b3949c92dab57a90516ea249f6b71f9a96ebec`
+- **Commit Terakhir**: `de3d7d79ec5b8e0435fcfd5201b8edcc26ceb2b8`

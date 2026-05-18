@@ -36,13 +36,13 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 30.1**: Portable Project Instructions, History Docs, Verification Workflow, dan Rak Berita Skeleton — **Selesai**.
 - **Batch 30.2**: Lock Expert-Scale Book/Chapter Expansion Rules — **Selesai**.
 - **Batch 30.3**: Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab — **Selesai**.
+- **Batch 31**: Gap Matrix Struktur Expert-Scale — **Selesai**.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
-Fase selanjutnya memerlukan keputusan resmi dari **Room Chat 00 / User**:
+Fase selanjutnya adalah melaksanakan prioritas pengembangan jangka menengah yang telah diidentifikasi dalam [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md):
 
-*   **Rekomendasi Utama — Room Chat 01 Analisa Saja**: Meminta Room Chat 01 melakukan **Audit Kelengkapan Buku dan Bab Materi PostgreSQL Expert-Scale** untuk mengidentifikasi celah materi, kelayakan pemecahan bab, rak yang perlu ditambah, dan sub-bab yang layak naik kelas sebelum melanjutkan drafting.
-
-*   **Opsi A — Lanjut drafting materi berikutnya**: Melanjutkan penulisan draf materi baru untuk bab-bab Level 4-5 yang masih kosong pada Rak 01-08 (seperti dasar constraint lanjutan, data type lanjutan, indexing lanjutan ringan, transaksi lanjutan ringan, atau administrasi dasar lain).
-*   **Opsi B — Mulai official docs verification**: Menggunakan browser/web access (jika diizinkan oleh user) untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+*   **Rekomendasi Utama — Batch 32: Sync README Rak/Buku Aktif**: Penyelarasan seluruh README/index lokal pada Rak 01 s/d Rak 08 agar mencerminkan daftar rak aktif yang mutakhir, integrasi pranala ke dokumen kebijakan *expert-scale*, dan penulisan lembar referensi cepat (*cheatsheet*) awal pada Rak 15.
+*   **Opsi A — Lanjut drafting materi Rak 02**: Mulai mengaktifkan Batch 33 dengan menulis draf SQL Core tingkat lanjut (Subquery, CTE, Window Functions).
+*   **Opsi B — Mulai official docs verification**: Mulai melakukan verifikasi draf 49 bab aktif terhadap dokumentasi resmi menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
