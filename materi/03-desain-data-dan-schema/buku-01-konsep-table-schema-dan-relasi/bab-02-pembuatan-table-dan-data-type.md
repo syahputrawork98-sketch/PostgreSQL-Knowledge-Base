@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami konsep namespace logis dan search path skema di PostgreSQL (baca: [Mengenal Schema PostgreSQL](./bab-01-mengenal-schema-postgresql.md)).
-- Mengetahui bahwa tabel terhubung satu sama lain melalui relasi logis (baca: [Konsep Relasi Antar Tabel](../../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)).
+- Mengetahui bahwa tabel terhubung satu sama lain melalui relasi logis (baca: [Konsep Relasi Antar Tabel](../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)).
 
 ## 3. Ringkasan Cepat
 Membuat tabel adalah langkah pertama dalam merealisasikan cetak biru desain sistem informasi menjadi struktur penyimpanan fisik nyata di dalam media harddisk server. Melalui perintah `CREATE TABLE`, kita menetapkan nama tabel, kolom-kolom atribut, tipe data, serta aturan batasan nilainya (*constraints*). Pemilihan tipe data yang presisi (seperti menggunakan `NUMERIC` untuk uang, `VARCHAR` untuk teks dinamis, dan `UUID` untuk keamanan identitas global) sangat menentukan efisiensi ruang penyimpanan harddisk dan kecepatan performa kueri sistem Anda.

@@ -228,7 +228,7 @@ Error: connect ECONNREFUSED 127.0.0.1:5432
 - [Apa Itu Database Migration](../buku-03-migration-seed-dan-versioning-schema/bab-01-apa-itu-database-migration.md) (Menghubungkan kelayakan koneksi database untuk proses migrasi otomatis struktur skema)
 
 ### Materi Terkait
-- [Dampak Desain pada Performa](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md) (Mengetahui pengaruh kelebihan beban koneksi terhadap kelelahan CPU database)
+- [Dampak Desain pada Performa](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md) (Mengetahui pengaruh kelebihan beban koneksi terhadap kelelahan CPU database)
 
 ### Istilah Terkait
 - Troubleshooting, Connection Refused, Socket Error, Network Diagnostics, Netcat, Telnet, pg_hba, pg_stat_activity, Connection Pool, Max Connections.

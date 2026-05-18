@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami cara kerja `INNER JOIN` dan klausa `ON` (baca: [INNER JOIN](./bab-02-inner-join.md)).
-- Mengetahui konsep dasar nilai kosong (`NULL`) di database (baca: [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)).
+- Mengetahui konsep dasar nilai kosong (`NULL`) di database (baca: [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)).
 
 ## 3. Ringkasan Cepat
 `LEFT JOIN` dan `RIGHT JOIN` (dikelompokkan sebagai Outer Joins) digunakan untuk menampilkan seluruh data dari satu tabel (tabel kiri atau tabel kanan) beserta data yang cocok dari tabel pasangannya. Jika ada baris data di tabel prioritas utama yang tidak memiliki pasangan di tabel tujuan, kueri akan tetap menampilkan baris data utama tersebut, sementara kolom-kolom milik tabel pasangan akan otomatis diisi dengan nilai `NULL`. Di industri pemrograman, `LEFT JOIN` jauh lebih disukai karena arah pembacaan kueri mengalir secara alami dari kiri ke kanan.
@@ -209,10 +209,10 @@ ORDER BY c.nama_kategori ASC;
 - [INNER JOIN](./bab-02-inner-join.md)
 
 ### Materi Berikutnya
-- [Pembuatan Table dan Data Type](../../../03-desain-data-dan-schema/buku-01-konsep-table-schema-dan-relasi/bab-02-pembuatan-table-dan-data-type.md)
+- [Pembuatan Table dan Data Type](../../03-desain-data-dan-schema/buku-01-konsep-table-schema-dan-relasi/bab-02-pembuatan-table-dan-data-type.md)
 
 ### Materi Terkait
-- [Normalisasi Form 1-2-3](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-01-normal-form-1-2-3.md) (Membahas pemecahan tabel terstruktur)
+- [Normalisasi Form 1-2-3](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-01-normal-form-1-2-3.md) (Membahas pemecahan tabel terstruktur)
 
 ### Istilah Terkait
 - Outer Join, Left Join, Right Join, Null Value, Intersection, Result Set, Column Ambiguity.

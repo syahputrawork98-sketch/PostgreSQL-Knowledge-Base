@@ -199,7 +199,7 @@ WHERE tanggal_transaksi = '2026-05-18';
 - [Mengelompokkan Data dengan GROUP BY](./bab-02-mengelompokkan-data-dengan-group-by.md)
 
 ### Materi Terkait
-- [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
+- [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
 
 ### Istilah Terkait
 - Aggregate Function, Count Star, Count Column, Summation, Average, Min Max, Null Handling, Coalesce.

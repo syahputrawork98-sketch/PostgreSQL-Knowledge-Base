@@ -220,7 +220,7 @@ Aplikasi backend menggunakan identitas server terverifikasi (*IAM Role*) untuk m
 - [Troubleshooting Koneksi Aplikasi](./bab-03-troubleshooting-koneksi-aplikasi.md)
 
 ### Materi Terkait
-- [Dampak Desain pada Performa](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md) (Mengetahui batas arsitektur keamanan skema sebelum diintegrasikan)
+- [Dampak Desain pada Performa](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md) (Mengetahui batas arsitektur keamanan skema sebelum diintegrasikan)
 
 ### Istilah Terkait
 - Secrets Management, Credentials Leak, Git Filter Repo, Gitignore Patterns, Key Rotation, IAM Roles, Encryption at Rest, Ephemeral Credentials.

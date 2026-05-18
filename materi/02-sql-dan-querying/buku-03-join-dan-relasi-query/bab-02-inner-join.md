@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami konsep relasi tabel menggunakan Primary Key dan Foreign Key (baca: [Konsep Relasi Antar Tabel](./bab-01-konsep-relasi-antar-tabel.md)).
-- Mengetahui cara memberikan alias pada tabel di SQL (baca: [Alias Kolom dan Tabel](../../buku-01-dasar-sql-dan-query-select/bab-03-alias-kolom-dan-tabel.md)).
+- Mengetahui cara memberikan alias pada tabel di SQL (baca: [Alias Kolom dan Tabel](../buku-01-dasar-sql-dan-query-select/bab-03-alias-kolom-dan-tabel.md)).
 
 ## 3. Ringkasan Cepat
 Klausa `INNER JOIN` adalah metode yang paling sering digunakan untuk menyatukan baris data dari dua tabel atau lebih di dalam SQL. Operasi ini bekerja dengan cara membandingkan setiap baris dari tabel pertama dengan setiap baris dari tabel kedua berdasarkan kriteria kecocokan kolom kunci yang kita deklarasikan di dalam klausa `ON`. Kunci utama dari perilaku `INNER JOIN` adalah eksklusivitasnya: **ia hanya akan menampilkan baris data yang memiliki pasangan cocok di kedua belah tabel**. Jika ditemukan data yang tidak memiliki pasangan rujukan di tabel lawan, data tersebut akan langsung disaring keluar dari hasil kueri.
@@ -196,10 +196,10 @@ ORDER BY cat.nama_kategori ASC, prod.nama_produk ASC; -- Sorting hasil join
 - [Konsep Relasi Antar Tabel](./bab-01-konsep-relasi-antar-tabel.md)
 
 ### Materi Berikutnya
-- [LEFT JOIN dan RIGHT JOIN](./bab-03-left-dan-right-join.md) *(Akan dibahas di batch berikutnya)*
+- [LEFT JOIN dan RIGHT JOIN](./bab-03-left-dan-right-join.md)
 
 ### Materi Terkait
-- [Alias Kolom dan Tabel](../../buku-01-dasar-sql-dan-query-select/bab-03-alias-kolom-dan-tabel.md) (Menjadi pilar penulisan alias tabel di JOIN)
+- [Alias Kolom dan Tabel](../buku-01-dasar-sql-dan-query-select/bab-03-alias-kolom-dan-tabel.md) (Menjadi pilar penulisan alias tabel di JOIN)
 
 ### Istilah Terkait
 - Inner Join, Intersection, ON Clause, Join Condition, Cartesian Product, Column Ambiguity.

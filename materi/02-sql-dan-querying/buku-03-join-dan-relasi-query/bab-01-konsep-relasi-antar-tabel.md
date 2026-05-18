@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami dasar filosofi penyimpanan data relasional (baca: [Filosofi Relational Database](../../01-orientasi-sejarah-dan-fondasi-postgresql/buku-03-filosofi-dan-mental-model-postgresql/bab-01-filosofi-relational-database.md)).
-- Mampu melakukan kueri pengurutan data menggunakan klausa ORDER BY (baca: [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)).
+- Mampu melakukan kueri pengurutan data menggunakan klausa ORDER BY (baca: [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)).
 
 ## 3. Ringkasan Cepat
 Di dalam sistem database relasional (RDBMS) seperti PostgreSQL, data tidak disimpan di dalam satu tabel raksasa (mirip seperti file Excel tunggal yang datar). Data dipecah secara logis ke dalam beberapa tabel spesifik (seperti pelanggan, pesanan, dan produk) demi menghindari data kembar yang tidak efisien (redundansi) serta meminimalkan anomali pembaruan data. Penautan data antar tabel dilakukan secara aman menggunakan jembatan **Primary Key** dan **Foreign Key**. Operasi **JOIN** adalah cara kueri SQL menyatukan kembali lembaran-lembaran tabel terpisah tersebut menjadi satu kesatuan laporan informasi yang utuh saat dipanggil oleh aplikasi.
@@ -178,16 +178,16 @@ FROM produk AS p;
 - Buku: [Join dan Relasi Query](../)
 
 ### Prasyarat
-- [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
+- [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
 
 ### Materi Sebelumnya
-- [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
+- [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
 
 ### Materi Berikutnya
 - [INNER JOIN](./bab-02-inner-join.md)
 
 ### Materi Terkait
-- [Primary Key, Foreign Key, dan Constraint](../../../03-desain-data-dan-schema/buku-02-primary-key-foreign-key-dan-constraint/) (Membahas desain skema tingkat mendalam)
+- [Primary Key, Foreign Key, dan Constraint](../../03-desain-data-dan-schema/buku-02-primary-key-foreign-key-dan-constraint/) (Membahas desain skema tingkat mendalam)
 
 ### Istilah Terkait
 - Normalization, Flat Table, Referential Integrity, Cascade Delete, Parent Table, Child Table.

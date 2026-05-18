@@ -219,10 +219,10 @@ ORDER BY total_belanja_akumulatif DESC;
 - [Mengelompokkan Data dengan GROUP BY](./bab-02-mengelompokkan-data-dengan-group-by.md)
 
 ### Materi Berikutnya
-- [Kapan Harus Denormalisasi](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-02-kapan-harus-denormalisasi.md) (Menghubungkan agregasi query laporan dengan keputusan denormalisasi database)
+- [Kapan Harus Denormalisasi](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-02-kapan-harus-denormalisasi.md) (Menghubungkan agregasi query laporan dengan keputusan denormalisasi database)
 
 ### Materi Terkait
-- [Sorting dengan ORDER BY](../../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
+- [Sorting dengan ORDER BY](../buku-02-filtering-sorting-dan-limit/bab-03-sorting-dengan-order-by.md)
 
 ### Istilah Terkait
 - Having Clause, Where Clause, Query Parsing Order, Logical Execution, Group Filter, Performance Optimization.

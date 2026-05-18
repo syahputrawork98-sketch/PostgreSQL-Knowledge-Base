@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami konsep dasar relasi data satu-ke-banyak (*one-to-many*) dan penempatan Foreign Key (baca: [Relasi One-to-One dan One-to-Many](../buku-01-konsep-table-schema-dan-relasi/bab-03-relasi-one-to-one-dan-one-to-many.md)).
-- Mengetahui cara mengambil data relasional menggunakan operasi JOIN (baca: [LEFT dan RIGHT JOIN](../../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-03-left-dan-right-join.md)).
+- Mengetahui cara mengambil data relasional menggunakan operasi JOIN (baca: [LEFT dan RIGHT JOIN](../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-03-left-dan-right-join.md)).
 
 ## 3. Ringkasan Cepat
 Normalisasi adalah metode sistematis untuk menyusun kolom-kolom dan tabel-tabel di database relasional demi meminimalkan redundansi (duplikasi data kembar) dan mencegah risiko anomali operasional. Proses ini diselesaikan secara bertahap: **1NF** (memastikan nilai kolom bersifat tunggal/atomik), **2NF** (menghilangkan ketergantungan parsial pada kunci utama komposit), dan **3NF** (menghilangkan ketergantungan transitif atau hubungan tidak langsung antar kolom biasa). Hasil akhir normalisasi 3NF menjamin database Anda bersih, aman dari inkonsistensi, dan siap dikembangkan dalam skala besar.
@@ -194,16 +194,16 @@ ORDER BY o.pesanan_id DESC;
 - Buku: [Normalisasi dan Denormalisasi](../)
 
 ### Prasyarat
-- [Relasi One-to-One dan One-to-Many](../../buku-01-konsep-table-schema-dan-relasi/bab-03-relasi-one-to-one-dan-one-to-many.md)
+- [Relasi One-to-One dan One-to-Many](../buku-01-konsep-table-schema-dan-relasi/bab-03-relasi-one-to-one-dan-one-to-many.md)
 
 ### Materi Sebelumnya
-- [Relasi One-to-One dan One-to-Many](../../buku-01-konsep-table-schema-dan-relasi/bab-03-relasi-one-to-one-dan-one-to-many.md)
+- [Relasi One-to-One dan One-to-Many](../buku-01-konsep-table-schema-dan-relasi/bab-03-relasi-one-to-one-dan-one-to-many.md)
 
 ### Materi Berikutnya
-- [Kapan Harus Denormalisasi](./bab-02-kapan-harus-denormalisasi.md) *(Planned / Belum dibuat)*
+- [Kapan Harus Denormalisasi](./bab-02-kapan-harus-denormalisasi.md)
 
 ### Materi Terkait
-- [Mengenal Schema PostgreSQL](../../buku-01-konsep-table-schema-dan-relasi/bab-01-mengenal-schema-postgresql.md) (Merapikan penempatan tabel skema)
+- [Mengenal Schema PostgreSQL](../buku-01-konsep-table-schema-dan-relasi/bab-01-mengenal-schema-postgresql.md) (Merapikan penempatan tabel skema)
 
 ### Istilah Terkait
 - Normalization Theory, First Normal Form, Second Normal Form, Third Normal Form, Functional Dependency, Transitive Dependency, Composite Key, Anomaly Prevention.

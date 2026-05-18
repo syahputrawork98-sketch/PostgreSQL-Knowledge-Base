@@ -183,7 +183,7 @@ ORDER BY total_amount DESC, created_at DESC; -- Pengurutan bertingkat
 - [Operator Perbandingan dan Logika](./bab-02-operator-perbandingan-dan-logika.md)
 
 ### Materi Berikutnya
-- [Konsep Relasi Antar Tabel](../../buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)
+- [Konsep Relasi Antar Tabel](../buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)
 
 ### Materi Terkait
 - [Indexing, Query Planner, dan Performance](../../07-indexing-query-planner-dan-performance/) (Membahas optimasi sorting menggunakan B-Tree Index)

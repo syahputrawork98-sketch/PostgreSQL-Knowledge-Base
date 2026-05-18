@@ -204,10 +204,10 @@ FROM produk AS p; -- Menggunakan alias tabel 'p' untuk kesederhanaan
 - [Mengambil Seluruh Kolom](./bab-02-mengambil-seluruh-kolom.md)
 
 ### Materi Berikutnya
-- [Klausa WHERE Dasar](../../buku-02-filtering-sorting-dan-limit/bab-01-klausa-where-dasar.md)
+- [Klausa WHERE Dasar](../buku-02-filtering-sorting-dan-limit/bab-01-klausa-where-dasar.md)
 
 ### Materi Terkait
-- [Inner Join](../../buku-03-join-dan-relasi-query/bab-02-inner-join.md) (Menerapkan alias tabel secara masif)
+- [Inner Join](../buku-03-join-dan-relasi-query/bab-02-inner-join.md) (Menerapkan alias tabel secara masif)
 
 ### Istilah Terkait
 - Column Alias, Table Alias, AS Keyword, Query Execution Order, Syntactic Sugar.

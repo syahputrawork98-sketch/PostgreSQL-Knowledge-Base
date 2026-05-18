@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Mampu membuat tabel dan memahami peruntukan berbagai tipe data di PostgreSQL (baca: [Pembuatan Table dan Data Type](./bab-02-pembuatan-table-dan-data-type.md)).
-- Memahami teori dasar kegunaan Primary Key dan Foreign Key (baca: [Konsep Relasi Antar Tabel](../../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)).
+- Memahami teori dasar kegunaan Primary Key dan Foreign Key (baca: [Konsep Relasi Antar Tabel](../../02-sql-dan-querying/buku-03-join-dan-relasi-query/bab-01-konsep-relasi-antar-tabel.md)).
 
 ## 3. Ringkasan Cepat
 Relasi data mendefinisikan bagaimana tabel-tabel di database saling berhubungan secara logis untuk merepresentasikan relasi objek dunia nyata. Relasi **One-to-One** (satu-ke-satu) menjamin satu baris di Tabel A hanya terhubung dengan maksimal satu baris di Tabel B (dibuat dengan memasang constraint `UNIQUE` pada Foreign Key). Sementara itu, relasi **One-to-Many** (satu-ke-banyak) mengizinkan satu baris di Tabel A terhubung dengan banyak baris di Tabel B (merupakan relasi paling populer di database). Salah menempatkan Foreign Key akan mengacaukan arah logika bisnis aplikasi Anda secara fatal.
@@ -214,7 +214,7 @@ CREATE TABLE pesanan (
 - [Pembuatan Table dan Data Type](./bab-02-pembuatan-table-dan-data-type.md)
 
 ### Materi Berikutnya
-- [Normal Form 1, 2, 3](../../buku-03-normalisasi-dan-denormalisasi/bab-01-normal-form-1-2-3.md)
+- [Normal Form 1, 2, 3](../buku-03-normalisasi-dan-denormalisasi/bab-01-normal-form-1-2-3.md)
 
 ### Materi Terkait
 - [Foreign Key dan Referential Integrity](../buku-02-primary-key-foreign-key-dan-constraint/bab-02-foreign-key-dan-referential-integrity.md) (Membahas integritas kunci tingkat mendalam)

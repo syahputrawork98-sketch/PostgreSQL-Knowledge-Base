@@ -24,7 +24,7 @@ Di akhir bab ini, pembaca diharapkan mampu:
 
 ## 2. Prasyarat
 - Memahami konsep dasar client-server di database relasional.
-- Memahami dampak desain schema (baca: [Dampak Desain pada Performa](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)).
+- Memahami dampak desain schema (baca: [Dampak Desain pada Performa](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)).
 
 ## 3. Ringkasan Cepat
 Koneksi antara kode aplikasi backend (seperti Node.js, Python, Go) dengan PostgreSQL membutuhkan parameter keamanan sensitif seperti host, port, username, password, dan nama database. Praktik terbaik standar industri adalah menyimpan parameter-parameter ini di dalam *Environment Variables* di tingkat Sistem Operasi atau Container, bukan ditulis langsung (*hardcoded*) di dalam kode aplikasi. Hal ini menjaga keamanan sistem, mencegah kebocoran kredensial di repositori Git, dan mempermudah pemindahan aplikasi antar lingkungan server.
@@ -216,16 +216,16 @@ DATABASE_URL=postgresql://your_local_username:your_local_password@localhost:5432
 - Buku: [Koneksi Database dan Environment](../)
 
 ### Prasyarat
-- [Dampak Desain pada Performa](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)
+- [Dampak Desain pada Performa](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)
 
 ### Materi Sebelumnya
-- [Dampak Desain pada Performa](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)
+- [Dampak Desain pada Performa](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-03-dampak-desain-pada-performa.md)
 
 ### Materi Berikutnya
 - [Manajemen Secret Database](./bab-02-manajemen-secret-database.md)
 
 ### Materi Terkait
-- [Kapan Harus Denormalisasi](../../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-02-kapan-harus-denormalisasi.md) (Mengetahui kebutuhan performa skema sebelum dihubungkan ke aplikasi)
+- [Kapan Harus Denormalisasi](../../03-desain-data-dan-schema/buku-03-normalisasi-dan-denormalisasi/bab-02-kapan-harus-denormalisasi.md) (Mengetahui kebutuhan performa skema sebelum dihubungkan ke aplikasi)
 
 ### Istilah Terkait
 - Connection String, Environment Variables, Connection URI, Dotenv, Gitignore, SSL Encryption, Verify Full, Port Mapping.

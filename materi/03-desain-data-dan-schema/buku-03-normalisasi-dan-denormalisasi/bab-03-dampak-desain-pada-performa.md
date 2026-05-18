@@ -221,7 +221,7 @@ Dengan memisahkan data payload raksasa (`JSONB`/`TEXT`) ke tabel detail sekunder
 - [Kapan Harus Denormalisasi](./bab-02-kapan-harus-denormalisasi.md)
 
 ### Materi Berikutnya
-- [Konfigurasi Environment Variable Database](../../../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-01-konfigurasi-env-var-database.md) (Menghubungkan performa skema dengan konfigurasi lingkungan aplikasi backend)
+- [Konfigurasi Environment Variable Database](../../04-postgresql-untuk-aplikasi/buku-02-koneksi-database-dan-environment/bab-01-konfigurasi-env-var-database.md) (Menghubungkan performa skema dengan konfigurasi lingkungan aplikasi backend)
 
 ### Materi Terkait
 - [Fungsi Agregasi COUNT, SUM, AVG](../../02-sql-dan-querying/buku-04-agregasi-grouping-dan-having/bab-01-fungsi-agregasi-count-sum-avg.md) (Agregasi pada skema yang ramping berjalan jauh lebih cepat)
