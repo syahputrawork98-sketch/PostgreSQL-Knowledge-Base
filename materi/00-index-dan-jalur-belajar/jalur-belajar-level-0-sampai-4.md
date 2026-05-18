@@ -192,13 +192,14 @@ Berikut adalah urutan belajar yang sangat direkomendasikan untuk menguasai fonda
 
 ## Transisi ke Jalur Belajar Level 5 - 9 (Advanced ke Expert)
 
-Dengan diaktifkannya **Rak 05: Fitur PostgreSQL Lanjutan** (17 Bab DRAFT) dan **Rak 06: Transaksi, Concurrency, dan MVCC** (18 Bab DRAFT), kurikulum pembelajaran secara resmi bergeser dari Level 4 ke **Level 5 (Intermediate Advanced)** dan **Level 6 (Advanced)**.
+Dengan diaktifkannya **Rak 05: Fitur PostgreSQL Lanjutan** (17 Bab DRAFT), **Rak 06: Transaksi, Concurrency, dan MVCC** (18 Bab DRAFT), dan perluasan **Rak 07: Indexing, Query Planner, dan Performance** (22 Bab DRAFT Lanjutan), kurikulum pembelajaran secara resmi bergeser dari Level 4 ke **Level 5 (Intermediate Advanced)** dan **Level 6 (Advanced / Expert)**.
 
 Topik-topik yang telah diaktifkan meliputi:
 - **Rak 05**: Pemrosesan JSONB & semi-structured data, pencarian teks modern (Full Text Search), standard & materialized views (refresh concurrently), pemrograman prosedural database (SQL/PLpgSQL functions & stored procedures transaksional), serta extensions modular (citext, pg_trgm, uuid-ossp, pgcrypto, pg_stat_statements).
 - **Rak 06**: Batas transaksi konseptual & prinsip ACID, 3 tingkat isolasi transaksi aktif & mitigasi anomali konkurensi (dirty read, fuzzy read, phantom read, write skew), sistem penguncian native (row-level locks, table-level locks, advisory locks), deteksi & pencegahan deadlock, teori internal MVCC & visibilitas snapshot (xmin/xmax & row versioning), serta concurrency pattern aplikasi (OCC vs PCC & retry loop yang idempotent).
+- **Rak 07 (Buku 02-06)**: Traversal B-Tree internal, composite index, partial index, expression index, covering index & Index-Only Scan, EXPLAIN ANALYZE online (ROLLBACK), buffers & memori cache I/O, plan scan nodes & join/sort nodes, matematika selektivitas/kardinalitas CBO, utilitas ANALYZE & pg_stats, extended statistics, SOP diagnosis kueri lambat, mitigasi index ignore, refaktor anti-pattern, pagination/sorting LIMIT, N+1 query ORM, write amplification, index bloat, dan REINDEX CONCURRENTLY.
 
-Untuk menjaga integritas peta kurikulum dasar Level 0 - 4 tetap bersih dan fokus pada fondasi utama pengembang backend, seluruh detail urutan dan deskripsi tahapan belajar untuk **Level 5 s/d Level 9 (Advanced, Expert, DBA & Architecture)** — termasuk pemetaan komprehensif Rak 05, Rak 06, Rak 07 (Advanced Indexing & Planner), dan Rak 08 (Advanced Operational/DBA) — akan distrukturkan, dirapikan, dan diregistrasikan secara formal pada **Jalur Belajar Level 5-9** dalam **Batch 40**.
+Untuk menjaga integritas peta kurikulum dasar Level 0 - 4 tetap bersih dan fokus pada fondasi utama pengembang backend, seluruh detail urutan dan deskripsi tahapan belajar untuk **Level 5 s/d Level 9 (Advanced, Expert, DBA & Architecture)** — termasuk pemetaan komprehensif Rak 05, Rak 06, Rak 07, dan Rak 08 (Advanced Operational/DBA) — akan distrukturkan, dirapikan, dan diregistrasikan secara formal pada **Jalur Belajar Level 5-9** dalam **Batch 40**.
 
 ---
 *Catatan: Selesaikan rak secara berurutan untuk hasil belajar yang optimal. Status materi di atas adalah DRAFT dan sedang berada dalam tahap REVIEW verifikasi dokumentasi resmi.*

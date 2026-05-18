@@ -1,13 +1,14 @@
 # Status Saat Ini
 
-- **Fase**: Batch 37 - Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC
+- **Fase**: Batch 38 - Expand Struktur Rak 07 Indexing, Query Planner, dan Performance
 - **Kondisi**:
-  - **Batch 37**: Telah diselesaikan dengan sukses sebagai aktivasi struktur kurikulum Transaksi, Konkurensi, dan MVCC di Rak 06.
-    - Pembuatan 5 folder buku baru di Rak 06 (Buku 01, Buku 02, Buku 03, Buku 04, Buku 05) beserta 5 README.md buku baru.
-    - Pembuatan 18 bab skeleton DRAFT ringan baru untuk memetakan batas transaksi, prinsip ACID (Atomicity, Consistency, Isolation, Durability), kontrol native BEGIN/COMMIT/ROLLBACK/SAVEPOINT, 3 active isolation levels, anomali dirty read/fuzzy read/phantom read/write skew, serialization failure (SQL State 40001) & retry, row-level locks (FOR UPDATE/SHARE/NOWAIT/SKIP LOCKED), table locks, deadlock detection & prevention, parameter lock_timeout, teori MVCC non-blocking, snapshot visibility rules, metadata tersembunyi xmin/xmax, row versioning, dead tuples & VACUUM, Lost Update on Read-Modify-Write, Optimistic Concurrency Control (OCC), Pessimistic Concurrency Control (PCC), and idempotent retry loop.
-    - Total materi utama berkembang dari **106 Bab DRAFT** menjadi **124 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 06 agar mengindeks seluruh 5 buku dan 18 bab aktif.
+  - **Batch 38**: Telah diselesaikan dengan sukses sebagai ekspansi struktur kurikulum Indexing, Query Planner, dan Performa di Rak 07.
+    - Pembuatan 5 folder buku baru di Rak 07 (Buku 02, Buku 03, Buku 04, Buku 05, Buku 06) beserta 5 README.md buku baru.
+    - Pembuatan 22 bab skeleton DRAFT ringan baru untuk memetakan internal B-Tree, composite index & urutan kolom, partial index bersyarat, expression index berbasis fungsi, covering index & Index-Only Scan, EXPLAIN ANALYZE secara aman (ROLLBACK), parameter cost/rows/actual time/loops, buffers & memori cache I/O, plan scan nodes (Seq/Index/Bitmap Scan), plan join & sort nodes, matematika selektivitas/kardinalitas CBO, utilitas ANALYZE & pg_stats, extended statistics, SOP diagnosis kueri lambat, mitigasi index ignore, refaktor anti-pattern, pagination/sorting LIMIT, N+1 query ORM, write amplification, index bloat, dan REINDEX CONCURRENTLY.
+    - Total materi utama berkembang dari **124 Bab DRAFT** menjadi **146 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 07 agar mengindeks seluruh 6 buku dan 26 bab aktif (termasuk Buku 01).
     - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang akan dirapikan di Batch 40.
+  - **Batch 37**: Telah diselesaikan sebelumnya (Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC).
   - **Batch 36**: Telah diselesaikan sebelumnya (Activate Struktur Rak 05 Advanced PostgreSQL Features).
   - **Batch 35**: Telah diselesaikan sebelumnya (Expand Struktur Rak 04 PostgreSQL untuk Aplikasi).
   - **Batch 34**: Telah diselesaikan sebelumnya (Expand Struktur Rak 03 Schema & Data Modeling).
@@ -22,12 +23,11 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Aktivasi struktur Transaksi, Konkurensi, dan MVCC di Rak 06.
+  - Ekspansi struktur Indexing, Query Planner, dan Performa di Rak 07.
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 38: Expand Rak 07 Indexing, Query Planner, dan Performance** untuk merancang draf jenis index lanjutan, pembacaan plan kompleks, dan teknik tuning query.
+  - **Rekomendasi Utama**: **Batch 39: Expand Rak 08 Administrasi, DBA, dan Operasional** untuk merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
   - **Opsi Lain**:
-    - **Opsi A — Batch 39: Expand Rak 08 Administrasi, DBA, dan Operasional**: Merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
-    - **Opsi B — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
+    - **Opsi A — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `f2bf1eab91ee59f270c60cb8a1d54de3dec02153`
+- **Commit Terakhir**: `6f55a0ce4d2f9efdd10e3f0f019d64c800d1747a`
