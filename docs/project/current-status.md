@@ -1,13 +1,14 @@
 # Status Saat Ini
 
-- **Fase**: Batch 38 - Expand Struktur Rak 07 Indexing, Query Planner, dan Performance
+- **Fase**: Batch 39 - Expand Struktur Rak 08 Administrasi, DBA, dan Operasional
 - **Kondisi**:
-  - **Batch 38**: Telah diselesaikan dengan sukses sebagai ekspansi struktur kurikulum Indexing, Query Planner, dan Performa di Rak 07.
-    - Pembuatan 5 folder buku baru di Rak 07 (Buku 02, Buku 03, Buku 04, Buku 05, Buku 06) beserta 5 README.md buku baru.
-    - Pembuatan 22 bab skeleton DRAFT ringan baru untuk memetakan internal B-Tree, composite index & urutan kolom, partial index bersyarat, expression index berbasis fungsi, covering index & Index-Only Scan, EXPLAIN ANALYZE secara aman (ROLLBACK), parameter cost/rows/actual time/loops, buffers & memori cache I/O, plan scan nodes (Seq/Index/Bitmap Scan), plan join & sort nodes, matematika selektivitas/kardinalitas CBO, utilitas ANALYZE & pg_stats, extended statistics, SOP diagnosis kueri lambat, mitigasi index ignore, refaktor anti-pattern, pagination/sorting LIMIT, N+1 query ORM, write amplification, index bloat, dan REINDEX CONCURRENTLY.
-    - Total materi utama berkembang dari **124 Bab DRAFT** menjadi **146 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 07 agar mengindeks seluruh 6 buku dan 26 bab aktif (termasuk Buku 01).
-    - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang akan dirapikan di Batch 40.
+  - **Batch 39**: Telah diselesaikan dengan sukses sebagai ekspansi struktur kurikulum Administrasi, DBA, dan Operasional di Rak 08.
+    - Pembuatan 6 folder buku baru di Rak 08 (Buku 02, Buku 03, Buku 04, Buku 05, Buku 06, Buku 07) beserta 6 README.md buku baru.
+    - Pembuatan 26 bab skeleton DRAFT ringan baru untuk memetakan terminal native psql, meta-commands psql, inspeksi visual objek skema, Copy-Export-Import CSV/TXT, model otorisasi Role (LOGIN/Group), GRANT/REVOKE, keamanan skema & search_path, prinsip Least Privilege koneksi backend, edit postgresql.conf & pg_hba.conf, parameter memori shared_buffers & work_mem, batas max_connections, rotasi log kueri lambat, MVCC dead tuples, VACUUM biasa vs FULL, autovacuum daemon tuning, table/index bloat fisik, Transaction ID Wraparound, logical dump/restore, basebackup biner fisik, WAL Archiving, Point-in-Time Recovery (PITR), RPO/RTO bisnis, catalog view pg_stat_activity, Buffer Cache Hit Ratio, pg_stat_user_tables, dan saturasi CPU/RAM/Disk.
+    - Total materi utama berkembang dari **146 Bab DRAFT** menjadi **172 Bab DRAFT** tanpa merusak bab lama.
+    - Sinkronisasi penuh README Rak 08 agar mengindeks seluruh 7 buku dan 28 bab aktif (termasuk Buku 01).
+    - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang mencakup Buku 02-07 Rak 08.
+  - **Batch 38**: Telah diselesaikan sebelumnya (Expand Struktur Rak 07 Indexing, Query Planner, dan Performance).
   - **Batch 37**: Telah diselesaikan sebelumnya (Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC).
   - **Batch 36**: Telah diselesaikan sebelumnya (Activate Struktur Rak 05 Advanced PostgreSQL Features).
   - **Batch 35**: Telah diselesaikan sebelumnya (Expand Struktur Rak 04 PostgreSQL untuk Aplikasi).
@@ -23,11 +24,11 @@
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Ekspansi struktur Indexing, Query Planner, dan Performa di Rak 07.
+  - Ekspanasi struktur Administrasi, DBA, dan Operasional di Rak 08.
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 39: Expand Rak 08 Administrasi, DBA, dan Operasional** untuk merancang draf arsitektur backup/restore lanjutan, Point-in-Time Recovery (PITR), dan tata kelola failover database.
+  - **Rekomendasi Utama**: **Batch 40: Formalize Central Curriculum Map (Level 5-9)** untuk merapikan dan meregistrasikan secara formal seluruh tahapan belajar Level 5 s/d Level 9 (Rak 05, Rak 06, Rak 07, Rak 08) secara komprehensif pada Jalur Belajar Level 5-9.
   - **Opsi Lain**:
     - **Opsi A — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `6f55a0ce4d2f9efdd10e3f0f019d64c800d1747a`
+- **Commit Terakhir**: `053cde95cf8f54462d5f25a7dbae7b20282165bf`
