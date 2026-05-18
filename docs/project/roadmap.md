@@ -45,11 +45,12 @@ Rencana pengembangan PostgreSQL Knowledge Base dalam 30 batch awal dan arah fase
 - **Batch 37**: Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC — **Selesai**.
 - **Batch 38**: Expand Struktur Rak 07 Indexing, Query Planner, dan Performance — **Selesai**.
 - **Batch 39**: Expand Struktur Rak 08 Administrasi, DBA, dan Operasional — **Selesai**.
+- **Batch 40**: Formalize Central Curriculum Map Level 5-9 + Docs Sync — **Selesai**.
 
 ---
 
 ### Arah Langkah Berikutnya (Rencana Fase Selanjutnya)
 Fase selanjutnya adalah melaksanakan prioritas pengembangan jangka menengah yang telah diidentifikasi dalam [Gap Matrix Struktur Expert-Scale](./materi-expert-scale-gap-matrix.md):
 
-*   **Rekomendasi Utama — Batch 40: Formalize Central Curriculum Map (Level 5-9)**: Merapikan dan meregistrasikan secara formal seluruh tahapan belajar Level 5 s/d Level 9 (Rak 05, Rak 06, Rak 07, Rak 08) secara komprehensif pada Jalur Belajar Level 5-9.
+*   **Rekomendasi Utama — Batch 41: Evaluate Level 9 / Rak 09-17 Structure**: Mulai mengevaluasi, memverifikasi, atau mendefinisikan detail roadmap Level 9 (Rak 09 s/d Rak 17) sebagai landasan ekspansi jangka panjang.
 *   **Opsi A — Mulai official docs verification**: Mulai melakukan verifikasi draf 172 bab aktif terhadap dokumentasi resmi menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.

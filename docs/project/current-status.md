@@ -1,34 +1,34 @@
 # Status Saat Ini
 
-- **Fase**: Batch 39 - Expand Struktur Rak 08 Administrasi, DBA, dan Operasional
+- **Fase**: Batch 40 - Formalize Central Curriculum Map Level 5-9 + Docs Sync
 - **Kondisi**:
-  - **Batch 39**: Telah diselesaikan dengan sukses sebagai ekspansi struktur kurikulum Administrasi, DBA, dan Operasional di Rak 08.
-    - Pembuatan 6 folder buku baru di Rak 08 (Buku 02, Buku 03, Buku 04, Buku 05, Buku 06, Buku 07) beserta 6 README.md buku baru.
-    - Pembuatan 26 bab skeleton DRAFT ringan baru untuk memetakan terminal native psql, meta-commands psql, inspeksi visual objek skema, Copy-Export-Import CSV/TXT, model otorisasi Role (LOGIN/Group), GRANT/REVOKE, keamanan skema & search_path, prinsip Least Privilege koneksi backend, edit postgresql.conf & pg_hba.conf, parameter memori shared_buffers & work_mem, batas max_connections, rotasi log kueri lambat, MVCC dead tuples, VACUUM biasa vs FULL, autovacuum daemon tuning, table/index bloat fisik, Transaction ID Wraparound, logical dump/restore, basebackup biner fisik, WAL Archiving, Point-in-Time Recovery (PITR), RPO/RTO bisnis, catalog view pg_stat_activity, Buffer Cache Hit Ratio, pg_stat_user_tables, dan saturasi CPU/RAM/Disk.
-    - Total materi utama berkembang dari **146 Bab DRAFT** menjadi **172 Bab DRAFT** tanpa merusak bab lama.
-    - Sinkronisasi penuh README Rak 08 agar mengindeks seluruh 7 buku dan 28 bab aktif (termasuk Buku 01).
-    - Penambahan catatan transisi sentral kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) mengenai kurikulum Level 5-9 yang mencakup Buku 02-07 Rak 08.
-  - **Batch 38**: Telah diselesaikan sebelumnya (Expand Struktur Rak 07 Indexing, Query Planner, dan Performance).
-  - **Batch 37**: Telah diselesaikan sebelumnya (Activate Struktur Rak 06 Transactions, Concurrency, dan MVCC).
-  - **Batch 36**: Telah diselesaikan sebelumnya (Activate Struktur Rak 05 Advanced PostgreSQL Features).
-  - **Batch 35**: Telah diselesaikan sebelumnya (Expand Struktur Rak 04 PostgreSQL untuk Aplikasi).
-  - **Batch 34**: Telah diselesaikan sebelumnya (Expand Struktur Rak 03 Schema & Data Modeling).
-  - **Batch 33**: Telah diselesaikan sebelumnya (Expand Struktur Rak 02 SQL Core).
+  - **Batch 40**: Telah diselesaikan dengan sukses sebagai checkpoint sinkronisasi kurikulum tingkat tinggi (Level 5-9) dan penyelarasan seluruh riwayat dokumen Batch 31-40.
+    - Pembuatan berkas kurikulum resmi [jalur-belajar-level-5-sampai-9.md](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-5-sampai-9.md) yang memetakan secara rapi 89 bab DRAFT aktif di Rak 05, 06, 07, dan 08.
+    - Sinkronisasi transisi kurikulum [Jalur Belajar Level 0-4](../../materi/00-index-dan-jalur-belajar/jalur-belajar-level-0-sampai-4.md) untuk secara langsung merujuk berkas jalur belajar Level 5-9.
+    - Penyusunan ringkasan komprehensif perjalanan Batch 31 s/d 40 di berkas [batch-31-sampai-40.md](../../docs/history/batch-31-sampai-40.md).
+    - Total materi utama tetap dikunci pada **172 Bab DRAFT** (49 bab dasar lama + 123 bab lanjutan baru hasil Batch 33-39).
+  - **Batch 39**: Telah diselesaikan sebelumnya (Expand Rak 08 Administrasi, DBA, dan Operasional - 26 Bab).
+  - **Batch 38**: Telah diselesaikan sebelumnya (Expand Rak 07 Indexing, Query Planner, dan Performance - 22 Bab).
+  - **Batch 37**: Telah diselesaikan sebelumnya (Activate Rak 06 Transactions, Concurrency, dan MVCC - 18 Bab).
+  - **Batch 36**: Telah diselesaikan sebelumnya (Activate Rak 05 Advanced PostgreSQL Features - 17 Bab).
+  - **Batch 35**: Telah diselesaikan sebelumnya (Expand Rak 04 PostgreSQL untuk Aplikasi - 13 Bab).
+  - **Batch 34**: Telah diselesaikan sebelumnya (Expand Rak 03 Schema & Data Modeling - 14 Bab).
+  - **Batch 33**: Telah diselesaikan sebelumnya (Expand Rak 02 SQL Core - 13 Bab).
   - **Batch 32**: Telah diselesaikan sebelumnya (Sync README Rak/Buku Aktif).
   - **Batch 31**: Telah diselesaikan sebelumnya (Gap Matrix Struktur Expert-Scale).
   - **Batch 30.3**: Telah diselesaikan sebelumnya (Lock No Fixed Limit for Rak, Buku, Bab, dan Sub-bab).
   - **Batch 30.2**: Telah diselesaikan sebelumnya (Lock Expert-Scale Book/Chapter Expansion Rules).
   - **Batch 30.1**: Telah diselesaikan sebelumnya (Instruksi portabel, Alur Verifikasi, Riwayat Batch, & Skeleton Berita Rak 17).
-  - Sesuai kebijakan keamanan, semua materi baru berstatus Status: DRAFT dan Status Verifikasi Sumber: REVIEW (belum live-verified ke official docs).
+  - Sesuai kebijakan keamanan, semua materi baru berstatus `Status: DRAFT` dan `Status Verifikasi Sumber: REVIEW` (belum live-verified ke official docs).
   - Browser/web access belum digunakan.
   - Official docs verification belum dilakukan.
 - **Executor Aktif**: Gemini 3 Flash di Antigravity.
 - **Fokus Utama**:
-  - Ekspanasi struktur Administrasi, DBA, dan Operasional di Rak 08.
+  - Sinkronisasi kurikulum sentral dan penutupan siklus Batch 31-40.
 - **Next Step**:
-  - **Rekomendasi Utama**: **Batch 40: Formalize Central Curriculum Map (Level 5-9)** untuk merapikan dan meregistrasikan secara formal seluruh tahapan belajar Level 5 s/d Level 9 (Rak 05, Rak 06, Rak 07, Rak 08) secara komprehensif pada Jalur Belajar Level 5-9.
+  - **Rekomendasi Utama**: **Batch 41: Evaluate Level 9 / Rak 09-17 Structure** untuk mulai mengevaluasi, memverifikasi, atau mendefinisikan detail roadmap Level 9 (Rak 09 s/d Rak 17) sebagai landasan ekspansi jangka panjang.
   - **Opsi Lain**:
     - **Opsi A — Mulai official docs verification**: Mengaktifkan akses browser/web untuk mulai memverifikasi materi secara bertahap menggunakan [Verification Workflow](./verification-workflow.md) resmi dan menaikkan status dari REVIEW menjadi `VERIFIED`.
 - **Client/Server**: Tetap **HOLD** (semua aktivitas pengembangan program ditangguhkan hingga materi stabil).
 - **Source of Truth**: GitHub (setelah commit/push oleh user).
-- **Commit Terakhir**: `053cde95cf8f54462d5f25a7dbae7b20282165bf`
+- **Commit Terakhir**: `263a958076ec4fcfe5faa69aae5f630ed98600dc`
